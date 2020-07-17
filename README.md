@@ -1,2 +1,2 @@
 # COVID19HACKATHON(HARYANA)
- Android application built for covid-19 hackathon 2020
+ Android Application built for covid-19 hackathon (variation-1)
