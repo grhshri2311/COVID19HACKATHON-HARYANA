@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AssignWork">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#218FE6"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_baseline_close_24" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:background="#218FE6"
+                android:text="@string/work" />
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:background="#2279BD"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:text="@string/stop_work"
+                android:src="@drawable/ic_baseline_check_24" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:scrollbars="none"
+        android:orientation="vertical"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/worktitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/work_details"
+                android:background="#DDEDFA"
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B1A6A6"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@id/worktitle" />
+
+            <LinearLayout
+                android:layout_below="@id/worktitle"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/title">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:enabled="true"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_baseline_title_24"
+                        android:drawablePadding="16dp"
+                        android:drawableTint="#000"
+                        android:inputType="textAutoComplete" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/description">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_baseline_description_24"
+                        android:drawablePadding="16dp"
+                        android:enabled="true"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:drawableTint="#000"
+                        android:inputType="textMultiLine" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:enabled="true"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:id="@+id/radio">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/priority"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/normal"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/high_priority"
+                            android:textSize="18sp" />
+
+                    </RadioGroup>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/startdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/start_date"
+                    android:layout_marginTop="10dp"
+                    android:focusableInTouchMode="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:focusableInTouchMode="true"
+                        android:enabled="true"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:inputType="date"
+                        android:drawableTint="#000"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_baseline_date_range_24" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/duedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/due_date"
+                    android:layout_marginTop="10dp"
+                    android:focusableInTouchMode="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:focusableInTouchMode="true"
+                        android:inputType="date"
+                        android:drawableTint="#000"
+                        android:enabled="true"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:drawablePadding="20dp"
+                        android:drawableLeft="@drawable/ic_baseline_date_range_24" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/contact_details">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                        android:drawablePadding="16dp"
+                        android:enabled="true"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:drawableTint="#000"
+                        android:inputType="phone" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/place_of_work"
+                    android:drawableLeft="@drawable/ic_place_black_24dp"
+                    android:drawablePadding="16dp"
+                    android:drawableTint="#000"
+                    android:background="#ECEAEA" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/comments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/comments">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/commenticon"
+                        android:drawablePadding="16dp"
+                        android:enabled="true"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:drawableTint="#000"
+                        android:inputType="textMultiLine" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/team_details"
+                android:background="#DDEDFA"
+                android:layout_below="@id/layout"
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leader"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="5dp"
+                android:layout_below="@id/layout"
+                android:layout_toRightOf="@id/title1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout"
+                android:layout_toRightOf="@id/title2"
+                android:padding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B1A6A6"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@id/title1" />
+
+            <ListView
+                android:id="@+id/memberlist"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:scrollbars="none"
+                android:layout_below="@id/title1" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

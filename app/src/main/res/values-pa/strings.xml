@@ -1,0 +1,495 @@
+<resources xmlns:ns0="http://schemas.android.com/tools">
+    <string name="app_name">Covid19Relief</string>
+    <string name="title_activity_maps">ਨਕਸ਼ਾ</string>
+    <string name="sign_in_to_continue">ਜਾਰੀ ਰੱਖਣ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ</string>
+    <string name="password">ਪਾਸਵਰਡ</string>
+    <string name="forget_password_reset_password">ਪਾਸਵਰਡ / ਰੀਸੈਟ ਪਾਸਵਰਡ ਭੁੱਲ ਜਾਓ?</string>
+    <string name="go">ਜਾਣਾ</string>
+    <string name="new_user_sign_up">ਨਵਾਂ ਉਪਭੋਗਤਾ? ਸਾਇਨ ਅਪ</string>
+    <string name="sign_up_to_start_your_journey">ਆਪਣੀ ਯਾਤਰਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸਾਈਨ ਅਪ ਕਰੋ</string>
+    <string name="mobile">ਮੋਬਾਈਲ</string>
+    <string name="full_name">ਪੂਰਾ ਨਾਂਮ</string>
+    <string name="select_your_role">ਆਪਣੀ ਭੂਮਿਕਾ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="aldready_have_an_account_login">ਪਹਿਲਾਂ ਤੋਂ ਹੀ ਕੋਈ ਖਾਤਾ ਹੈ? ਲਾਗਿਨ</string>
+    <string name="monitors">ਮਾਨੀਟਰ</string>
+    <string name="volunteers">ਵਾਲੰਟੀਅਰ</string>
+    <string name="covid19_relief">ਕੋਵਿਡ 19 ਰਾਹਤ</string>
+    <string name="stay_home_stay_safe" translatable="false" ns0:ignore="ExtraTranslation">Haryana</string>
+    <string name="my_status">ਮੇਰੀ ਸਥਿਤੀ</string>
+    <string name="share">ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="logout">ਲਾੱਗ ਆਊਟ, ਬਾਹਰ ਆਉਣਾ</string>
+    <string name="setting">ਸੈਟਿੰਗਜ਼</string>
+
+    <string name="current_status">ਮੌਜੂਦਾ ਸਥਿਤੀ</string>
+    <string name="forgot_password">ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ?</string>
+    <string name="reset_your_password">ਆਪਣਾ ਪਾਸਵਰਡ ਰੀਸੈਟ ਕਰੋ</string>
+    <string name="new_password">ਨਵਾਂ ਪਾਸਵਰਡ</string>
+    <string name="confirm_password">ਪਾਸਵਰਡ ਪੱਕਾ ਕਰੋ</string>
+    <string name="enter_mobile_no">ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ</string>
+    <string name="reset">ਰੀਸੈੱਟ</string>
+    <string name="updates">ਕੋਵਿਡ ਅਪਡੇਟਸ</string>
+    <string name="cases_report">ਕੇਸਾਂ ਦੀ ਰਿਪੋਰਟ</string>
+    <string name="profile">ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="mapping">ਮੈਪਿੰਗ</string>
+    <string name="labour">ਕਿਰਤ</string>
+    <string name="healthworker">ਸਿਹਤ ਕਰਮਚਾਰੀ</string>
+    <string name="workers">ਸੈਕਟਰ ਕਾਮੇ</string>
+    <string name="donate">ਦਾਨ ਕਰੋ</string>
+    <string name="helpline">ਹੈਲਪਲਾਈਨ</string>
+    <string name="notification">ਸੂਚਨਾ</string>
+    <string name="view_in_map">ਨਕਸ਼ੇ ਵਿੱਚ ਵੇਖੋ</string>
+    <string name="to_do">ਕਰਨਾ</string>
+    <string name="scan">ਜੀਓ ਕੰਡਿਆਲੀ ਤਾਰ</string>
+    <string name="intro1">ਸਾਡੇ ਵਿਚੋਂ ਹਰੇਕ ਵਿਚ ਸ਼ਕਤੀ ਹੈ ਕਿ ਉਹ ਭਾਰਤ ਵਿਚ ਕੋਰੋਨਾ ਵਿਸ਼ਾਣੂ ਦੇ ਮਹਾਂਮਾਰੀ ਦੇ ਫੈਲਣ ਨੂੰ ਰੋਕਣ ਵਿਚ ਸਹਾਇਤਾ ਕਰੇ \ N ਕੀ ਤੁਸੀਂ ਦੱਸਣਾ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਜੇ ਤੁਸੀਂ ਕੋਵੀਡ -19 ਨੂੰ ਸਕਾਰਾਤਮਕ ਟੈਸਟ ਕਰਨ ਵਾਲੇ ਕਿਸੇ ਨਾਲ ਰਸਤੇ ਪਾਰ ਕਰ ਲਏ ਹਨ?</string>
+    <string name="intro2">Covid-19 Relief ਇੱਕ ਬਲਿUetoothਟੁੱਥ ਅਤੇ ਟਿਕਾਣੇ ਦੁਆਰਾ ਬਣਾਏ ਗਏ ਸਮਾਜਿਕ ਗ੍ਰਾਫ ਨੂੰ ਟਰੈਕ ਕਰਦਾ ਹੈ, ਤੁਹਾਡੀ ਕਿਸੇ ਅਜਿਹੇ ਵਿਅਕਤੀ ਨਾਲ ਗੱਲਬਾਤ ਜਿਹੜੀ Covid-19 ਦਾ ਸ਼ਿਕਾਰ ਹੋ ਸਕਦੀ ਸੀ. \ N</string>
+    <string name="intro3">ਐਪ ਵਿੱਚ ਸਕੈਨ ਵਿਕਲਪ ਦੀ ਵਰਤੋਂ ਚੇਤਾਵਨੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ ਜੇ ਕੋਈ ਵਿਅਕਤੀ ਜਿਸ ਦੇ ਨੇੜੇ ਆ ਗਿਆ ਹੈ, ਇੱਥੋਂ ਤਕ ਕਿ ਅਣਜਾਣੇ ਵਿੱਚ, Covid-19 ਦਾ ਸ਼ਿਕਾਰ ਹੋਇਆ ਹੈ</string>
+    <string name="intro4">Covid-19-Relief ਇੱਕ ਮੋਬਾਈਲ ਐਪਲੀਕੇਸ਼ਨ ਹੈ ਜੋ ਕੋਵੀਡ -19 ਦੇ ਵਿਰੁੱਧ ਲੜਨ ਲਈ ਭਾਰਤ ਦੇ ਲੋਕਾਂ ਨਾਲ ਜ਼ਰੂਰੀ ਸਿਹਤ ਅਤੇ ਕਈ ਸੇਵਾਵਾਂ ਨੂੰ ਜੋੜਨ ਅਤੇ ਤਾਲਮੇਲ ਕਰਨ ਲਈ ਵਿਕਸਤ ਕੀਤੀ ਗਈ ਹੈ. ਐਪ ਦਾ ਉਦੇਸ਼ ਵੱਖ ਵੱਖ ਸੇਵਾਵਾਂ ਅਤੇ ਸੈਕਟਰਾਂ, ਖਾਸ ਕਰਕੇ ਸਿਹਤ ਵਿਭਾਗ, ਦੀ ਸਹਾਇਤਾ ਅਤੇ ਕੋਵਿਡ -19 ਦੇ ਜੋਖਮਾਂ, ਸਰਬੋਤਮ ਅਭਿਆਸਾਂ ਅਤੇ Updatesੁਕਵੇਂ ਅਪਡੇਟਾਂ ਦੇ ਬਾਰੇ ਵਿੱਚ ਉਪਯੋਗਕਰਤਾਵਾਂ ਨੂੰ ਸੂਚਿਤ ਕਰਨ ਅਤੇ ਉਹਨਾਂ ਨੂੰ ਸੂਚਿਤ ਕਰਨ ਵਿੱਚ ਸਹਾਇਤਾ ਅਤੇ ਕਮਿInateਨਿਟੀ ਕਰਨ ਲਈ ਇੱਕ ਕਮਿ .ਨਿਟੀ ਦਾ ਨਿਰਮਾਣ ਕਰਨਾ ਹੈ.</string>
+    <string name="medical_shops">ਮੈਡੀਕਲ ਦੁਕਾਨਾਂ</string>
+    <string name="epass">Epass ਅਤੇ ਸਰਕਾਰੀ ਸੇਵਾ</string>
+    <string name="stranded_migrant">ਫਸੇ ਪ੍ਰਵਾਸੀ</string>
+
+
+    <string name="pay_using_upi">ਯੂ ਪੀ ਆਈ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਭੁਗਤਾਨ ਕਰੋ</string>
+    <string name="hospital_appointment">ਹਸਪਤਾਲ ਦੀ ਨਿਯੁਕਤੀ</string>
+    <string name="lab_test">ਲੈਬ ਟੈਸਟ</string>
+    <string name="order_medicine">ਆਰਡਰ ਦਵਾਈ</string>
+    <string name="quora">ਕੋਰਾ</string>
+    <string name="notify">ਸੂਚਨਾ</string>
+    <string name="select_catagory">ਸ਼੍ਰੇਣੀ ਚੁਣੋ</string>
+    <string name="assign">ਨਿਰਧਾਰਤ ਕਰੋ</string>
+    <string name="please_turn_on_internet_to_stay_updated">ਤਾਜ਼ਾ ਰਹਿਣ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਇੰਟਰਨੈਟ ਚਾਲੂ ਕਰੋ</string>
+    <string name="go_back_and_pull_down_to_refresh">ਵਾਪਸ ਜਾਓ ਅਤੇ ਤਾਜ਼ਗੀ ਲਈ ਹੇਠਾਂ ਖਿੱਚੋ</string>
+    <string name="close">ਬੰਦ ਕਰੋ</string>
+    <string name="alert">ਚੇਤਾਵਨੀ!</string>
+    <string name="found_new_victim_in_your_surrounding">ਤੁਹਾਡੇ ਆਸ ਪਾਸ ਨਵਾਂ ਸ਼ਿਕਾਰ ਮਿਲਿਆ</string>
+    <string name="stay_away_from_the_place">ਜਗ੍ਹਾ ਤੋਂ ਦੂਰ ਰਹੋ!</string>
+    <string name="alarm_manager">ਅਲਾਰਮ ਮੈਨੇਜਰ</string>
+    <string name="hospital_nlab_test_nmedicine">ਨਿਯੁਕਤੀਆਂ / ਦਾਖਲੇ</string>
+    <string name="first_responder">ਪਹਿਲਾ ਜਵਾਬ ਦੇਣ ਵਾਲਾ</string>
+    <string name="be_ready_to_contribute">ਤੁਰੰਤ ਸਹਾਇਤਾ ਪ੍ਰਾਪਤ ਕਰੋ</string>
+    <string name="be_the_first_responder">ਪਹਿਲੇ ਜਵਾਬ ਬਣੋ</string>
+    <string name="alert_nearby">ਚੇਤਾਵਨੀ ਨੇੜਲੇ</string>
+    <string name="dial_108">ਡਾਇਲ 108</string>
+    <string name="dial_100">ਡਾਇਲ 100</string>
+    <string name="dial_101">101 ਡਾਇਲ ਕਰੋ</string>
+    <string name="nearby_hospitals">ਨੇੜਲੇ ਹਸਪਤਾਲ</string>
+    <string name="first_aid_guidance">ਫਸਟ ਏਡ ਗਾਈਡੈਂਸ</string>
+
+    <string name="share_with">ਨਾਲ ਸਾਂਝਾ ਕਰੋ</string>
+
+    <string name="translate">ਅਨੁਵਾਦ</string>
+    <string name="assistant">ਸਹਾਇਕ</string>
+    <string name="support">ਸਹਾਇਤਾ ਸਹਾਇਕ</string>
+    <string name="chatbotintro">ਸਹਾਇਤਾ ਸਹਾਇਕ ਵੌਇਸ ਕਮਾਂਡਾਂ ਜਾਂ ਟੈਕਸਟ ਚੈਟਾਂ ਜਾਂ ਦੋਵਾਂ ਦੁਆਰਾ ਮਨੁੱਖੀ ਗੱਲਬਾਤ ਦੀ ਨਕਲ ਕਰਦਾ ਹੈ. ਇਹ ਨੈਵੀਗੇਸ਼ਨ ਦੁਆਰਾ ਅਤੇ ਤੁਹਾਡੀਆਂ ਪ੍ਰਸ਼ਨਾਂ ਦਾ ਜਵਾਬ ਦੇ ਕੇ ਤੁਹਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ</string>
+    <string name="whatsapp_queries">ਵਟਸਐਪ ਦੇ ਸਵਾਲ</string>
+    <string name="join_in_our_communtiy">ਸਾਡੀ ਕਮਿ Communityਨਿਟੀ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ</string>
+    <string name="labs_for_test">ਟੈਸਟ ਲਈ ਲੈਬ</string>
+    <string name="action_on_covid_19_relief_for_msme_sector">ਐਮਐਸਐਮਈ ਸੈਕਟਰ ਲਈ ਕੋਵਿਡ -19 ਰਾਹਤ \'ਤੇ ਕਾਰਵਾਈ</string>
+    <string name="looking_for_products_and_service_to_sell_on_gem_sign_up_now">ਜੀ.ਐੱਮ. ਤੇ ਵੇਚਣ ਲਈ ਉਤਪਾਦਾਂ ਅਤੇ ਸੇਵਾਵਾਂ ਦੀ ਭਾਲ ਕਰ ਰਹੇ ਹੋ, ਹੁਣੇ ਸਾਈਨ ਅਪ ਕਰੋ!</string>
+    <string name="hospital_near_me">ਮੇਰੇ ਨੇੜੇ ਦਾ ਹਸਪਤਾਲ</string>
+    <string name="alarm">ਅਲਾਰਮ</string>
+    <string name="select_volunteer">ਵਾਲੰਟੀਅਰ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="active">ਕਿਰਿਆਸ਼ੀਲ</string>
+    <string name="confirmed">ਪੱਕਾ</string>
+    <string name="death">ਮੌਤ</string>
+    <string name="recovered">ਬਰਾਮਦ</string>
+    <string name="visualise">ਵੇਖੋ</string>
+    <string name="got_help">ਮਦਦ ਮਿਲੀ!</string>
+    <string name="need_help">ਮਦਦ ਦੀ ਲੋੜ ਹੈ !</string>
+    <string name="respond">ਜਵਾਬ</string>
+    <string name="stay_home_save_lives_help_stop_coronavirus_stay_home_keep_safe_distance_wash_hands_often_cover_your_cough_sick_call_the_helpline">ਘਰ ਰਹੋ. ਕੋਰੋਨਵਾਇਰਸ ਨੂੰ ਰੋਕਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰੋ ਘਰ ਰੁਕੋ ਸੁਰੱਖਿਅਤ ਦੂਰੀ ਧੋਵੋ ਹੱਥ ਹਮੇਸ਼ਾ ਤੁਹਾਡੀ ਖੰਘ ਦੀ ਬਿਮਾਰੀ ਨੂੰ ਪੂਰਾ ਕਰਦੇ ਹਨ? ਹੈਲਪਲਾਈਨ ਨੂੰ ਕਾਲ ਕਰੋ</string>
+    <string name="msme_covid_19_related_products">ਐਮਐਸਐਮਈ ਕੋਵੀਡ 19 ਸਬੰਧਤ ਉਤਪਾਦ</string>
+    <string name="stay_protected">ਸੁਰੱਖਿਅਤ ਰਹੋ</string>
+    <string name="you_will_be_alerted_when_you_getting_closer_to_covid_victim_even_when_the_app_is_minimised">ਤੁਹਾਨੂੰ ਚੇਤਾਵਨੀ ਦਿੱਤੀ ਜਾਏਗੀ ਜਦੋਂ ਤੁਸੀਂ ਕੋਵਡ ਪੀੜਤ ਦੇ ਨੇੜੇ ਹੁੰਦੇ ਹੋ ਤਾਂ ਵੀ ਜਦੋਂ ਐਪ ਘੱਟੋ ਘੱਟ ਹੋਵੇ</string>
+    <string name="starting_scan">ਸਕੈਨ ਅਰੰਭ ਕਰ ਰਿਹਾ ਹੈ ...</string>
+    <string name="stop">ਰੂਕੋ</string>
+    <string name="post_your_queries_here">ਆਪਣੀਆਂ ਪੁੱਛਗਿੱਛ ਇੱਥੇ ਪੋਸਟ ਕਰੋ</string>
+    <string name="post">ਪੋਸਟ ਕਰੋ</string>
+    <string name="register_course">ਕੋਰਸ ਰਜਿਸਟਰ ਕਰੋ</string>
+    <string name="publiccare">ਜਨਤਕ ਸਿਹਤ ਦੇਖਭਾਲ ਦੀ ਜਗ੍ਹਾ</string>
+    <string name="msme_products">MSME ਉਤਪਾਦ</string>
+    <string name="sectorworkers">ਸੰਗਠਿਤ ਸੈਕਟਰ ਦੇ ਕਰਮਚਾਰੀ</string>
+    <string name="course">Cਨਲਾਈਨ ਕੋਰਸ</string>
+    <string name="email_optional">ਈਮੇਲ (ਵਿਕਲਪਿਕ)</string>
+    <string name="title_activity_settings">ਸੈਟਿੰਗਜ਼ ਗਤੀਵਿਧੀ</string>
+
+    <string name="important_links">ਮਹੱਤਵਪੂਰਨ ਲਿੰਕ</string>
+    <string name="biometric">ਬਾਇਓਮੈਟ੍ਰਿਕ</string>
+    <string name="verifyfail">ਕੂਡ ਨਹੀਂ ਹੈ ਤਸਦੀਕ ਪੜਤਾਲ ਕਰੋ, ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="verifysuccess">ਪ੍ਰਮਾਣਿਤ</string>
+    <string name="or">ਜਾਂ</string>
+    <string name="scan_below_qr_to_share">ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਕਿ Qਆਰ ਤੋਂ ਹੇਠਾਂ ਸਕੈਨ ਕਰੋ</string>
+    <string name="use_password">ਪਾਸਵਰਡ ਵਰਤੋ</string>
+    <string name="touch_sensor">ਟੱਚ ਸੈਂਸਰ</string>
+    <string name="verify_your_identity">ਆਪਣੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>
+    <string name="confirm_your_fingerprint_so_covid_19_relief_can_verify_it_s_you">ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ ਤਾਂ ਜੋ ਕੋਵਿਡ -19 ਰਾਇਲਫ ਇਸ ਦੀ ਤਸਦੀਕ ਕਰ ਸਕੇ.</string>
+    <string name="it_has_not_been_generated_by_covid_19_relief">ਇਹ Covid-19 Relief ਦੁਆਰਾ ਤਿਆਰ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ</string>
+    <string name="invalid_qr_code">ਅਵੈਧ QR ਕੋਡ</string>
+    <string name="generate_qr_code">QR ਕੋਡ ਤਿਆਰ ਕਰੋ</string>
+    <string name="scan_qr_code">ਸਕੈਨ QR ਕੋਡ</string>
+    <string name="generate_scan_qr">QR ਤਿਆਰ / ਬਣਾਓ</string>
+    <string name="a_lot_of_features_like_voice_assistant_qr_scanner_reader_settings_can_be_found_here">ਵਾਇਸ ਅਸਿਸਟੈਂਟ, ਕਿ Qਆਰ ਸਕੈਨਰ / ਰੀਡਰ, ਸੈਟਿੰਗਜ਼ ਵਰਗੀਆਂ ਬਹੁਤ ਸਾਰੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਇੱਥੇ ਮਿਲੀਆਂ ਹਨ</string>
+    <string name="sign_in_sign_up">ਸਾਈਨ ਇਨ / ਸਾਈਨ ਯੂ ਪੀ</string>
+    <string name="reject">ਰੱਦ ਕਰੋ</string>
+    <string name="verify_your_mobile">ਆਪਣੇ ਮੋਬਾਈਲ ਦੀ ਤਸਦੀਕ ਕਰੋ</string>
+    <string name="title_activity_work_assign_home">ਵਰਕਆਸਾਈਨਹੋਮ</string>
+    <string name="to_160_160_do">ਕਰਨਾ</string>
+    <string name="done">ਹੋ ਗਿਆ</string>
+    <string name="title_activity_to_do_home">ਟੋਡੋ ਤਾਰੀਫ</string>
+    <string name="address">ਪਤਾ</string>
+    <string name="male">ਮਰਦ</string>
+    <string name="gender">ਲਿੰਗ</string>
+    <string name="female">Femaleਰਤ</string>
+    <string name="add_alarm">ਅਲਾਰਮ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="click_to_turn_off">ਬੰਦ ਕਰਨ ਲਈ ਵਾਲੀਅਮ ਬਟਨ ਨੂੰ ਦਬਾਓ</string>
+    <string name="submit">ਜਮ੍ਹਾਂ ਕਰੋ</string>
+    <string name="orphan">ਅਨਾਥ</string>
+    <string name="counsellor">ਸਲਾਹਕਾਰ</string>
+    <string name="date_of_birth">ਜਨਮ ਤਾਰੀਖ</string>
+    <string name="email">ਈ - ਮੇਲ</string>
+    <string name="apply_here">ਇੱਥੇ ਲਾਗੂ ਕਰੋ</string>
+    <string name="try_again">ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="submit_your_proof_of_identity_for_verification_before_you_start_your_service">ਆਪਣੀ ਸੇਵਾ ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਤਸਦੀਕ ਲਈ ਆਪਣੀ ਪਛਾਣ ਦਾ ਪ੍ਰਮਾਣ ਜਮ੍ਹਾਂ ਕਰੋ</string>
+    <string name="your_form_is_under_processing">ਤੁਹਾਡਾ ਫਾਰਮ ਪ੍ਰੋਸੈਸਿੰਗ ਅਧੀਨ ਹੈ!</string>
+    <string name="please_wait">ਕ੍ਰਿਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ</string>
+    <string name="your_identity_is_verified_nyou_can_start_providing_your_services">ਤੁਹਾਡੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਕੀਤੀ ਗਈ ਹੈ! \ N ਤੁਸੀਂ ਆਪਣੀਆਂ ਸੇਵਾਵਾਂ ਦੇਣਾ ਸ਼ੁਰੂ ਕਰ ਸਕਦੇ ਹੋ!</string>
+    <string name="verification">ਤਸਦੀਕ</string>
+    <string name="details">ਵੇਰਵਾ</string>
+    <string name="approve">ਮਨਜ਼ੂਰ</string>
+    <string name="requests">ਬੇਨਤੀ</string>
+    <string name="welcome_back_nstay_safe_from_covid_19">ਜੀ ਆਇਆਂ ਨੂੰ \ Ncvid-19 ਤੋਂ ਸੁਰੱਖਿਅਤ ਰੱਖੋ</string>
+    <string name="change_number">ਨੰਬਰ ਬਦਲੋ</string>
+    <string name="proof_of_identity">ਪਛਾਣ ਦਾ ਸਬੂਤ:</string>
+    <string name="yes">ਹਾਂ</string>
+    <string name="no">ਨਹੀਂ</string>
+    <string name="selfassess1">ਜੇ ਤੁਹਾਨੂੰ ਸਾਹ ਲੈਣ ਜਾਂ ਹੋਰ ਗੰਭੀਰ ਲੱਛਣਾਂ ਦਾ ਸਾਹਮਣਾ ਕਰਨ ਵਿੱਚ ਮੁਸ਼ਕਲ ਆ ਰਹੀ ਹੈ, ਤਾਂ 011-23978046 ਜਾਂ 1075 ਤੇ ਕਾਲ ਕਰੋ</string>
+    <string name="selfassess2">ਕੀ ਤੁਸੀਂ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕੋਈ ਲੱਛਣ ਅਨੁਭਵ ਕਰ ਰਹੇ ਹੋ?
+1) ਸਾਹ ਲੈਣ ਵਿਚ ਭਾਰੀ ਮੁਸ਼ਕਲ (ਉਦਾਹਰਣ ਲਈ, ਹਰੇਕ ਸਾਹ ਲਈ ਸੰਘਰਸ਼ ਕਰਨਾ, ਇਕੋ ਸ਼ਬਦਾਂ ਵਿਚ ਬੋਲਣਾ)
+2) ਛਾਤੀ ਦੇ ਗੰਭੀਰ ਦਰਦ
+3) ਜਾਗਣਾ ਬਹੁਤ Hardਖਾ ਸਮਾਂ ਰਿਹਾ
+4) ਉਲਝਣ ਮਹਿਸੂਸ
+5) ਹੋਸ਼ ਖਤਮ ਹੋ ਗਈ</string>
+    <string name="selfassess3">ਸਵੈ-ਮੁਲਾਂਕਣ ਦਾ ਨਤੀਜਾ
+ਕਿਰਪਾ ਕਰਕੇ 1075, + 91-11-23978046 \'ਤੇ ਕਾਲ ਕਰੋ ਜਾਂ Ncov2019@Gmail.Com\' ਤੇ ਈਮੇਲ ਕਰੋ ਜਾਂ ਆਪਣੇ ਨੇੜੇ ਦੇ ਐਮਰਜੈਂਸੀ ਵਿਭਾਗ ਵਿੱਚ ਸਿੱਧੇ ਜਾਓ.</string>
+    <string name="selfassess4">ਕੀ ਤੁਸੀਂ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕੋਈ ਲੱਛਣ (ਜਾਂ ਇਹਨਾਂ ਲੱਛਣਾਂ ਦਾ ਸੁਮੇਲ) ਅਨੁਭਵ ਕਰ ਰਹੇ ਹੋ?
+1) ਮਾਸਪੇਸ਼ੀ ਦੇ ਦਰਦ
+2) ਥਕਾਵਟ
+3) ਸਿਰ ਦਰਦ
+4) ਗਲੇ ਵਿਚ ਖਰਾਸ਼
+5) ਵਗਦਾ ਨੱਕ
+ਛੋਟੇ ਬੱਚਿਆਂ ਵਿੱਚ ਲੱਛਣ ਗੈਰ-ਖਾਸ ਵੀ ਹੋ ਸਕਦੇ ਹਨ (ਉਦਾਹਰਣ ਵਜੋਂ, ਸੁਸਤ, ਘੱਟ ਖੁਰਾਕ).</string>
+    <string name="selfassess5">ਕੀ ਤੁਸੀਂ ਪਿਛਲੇ 14 ਦਿਨਾਂ ਵਿੱਚ ਭਾਰਤ ਤੋਂ ਬਾਹਰ ਯਾਤਰਾ ਕੀਤੀ ਹੈ?</string>
+    <string name="selfassess6">ਅਭਿਆਸ Covid-19 ਸੰਚਾਰਣ ਦੇ ਜੋਖਮ ਨੂੰ ਘਟਾਉਣ ਲਈ ਇੱਕ ਨਵੀਂ ਵਿੰਡੋਸੋਸੀਅਲ ਦੂਰੀ \'ਤੇ ਖੁੱਲ੍ਹਦਾ ਹੈ.
+
+ਤੁਹਾਨੂੰ ਵੀ ਇੱਕ ਨਵੀਂ ਵਿੰਡੋ ਸੈੱਲ-ਓਪਲੇਟ ਵਿੱਚ ਖੋਲ੍ਹਣਾ ਚਾਹੀਦਾ ਹੈ ਜੇ ਤੁਸੀਂ:
+
+* 70 ਤੋਂ ਵੱਧ ਹਨ
+* ਇਮਯੂਨਕੋਮਪ੍ਰਾਈਮਾਈਜ਼ਡ ਹਨ (ਉਦਾਹਰਣ ਵਜੋਂ ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਐੱਚਆਈਵੀ / ਏਡਜ਼ ਹੈ, ਪ੍ਰਾਪਤ ਕਰ ਰਹੇ ਹੋ
+* ਇਮਿOsਨੋਸਪ੍ਰੇਸ਼ਨ ਥੈਰੇਪੀ ਜਾਂ ਕੈਂਸਰ ਦਾ ਇਲਾਜ ਜਾਂ ਟ੍ਰਾਂਸਪਲਾਂਟ ਹੋਇਆ ਹੈ)
+* ਪਿਛਲੇ 14 ਦਿਨਾਂ ਵਿਚ ਯਾਤਰਾ ਕਰਕੇ ਭਾਰਤ ਵਾਪਸ ਆਇਆ ਹੈ
+* ਸਾਹ ਦੇ ਲੱਛਣਾਂ ਵਾਲੇ ਕਿਸੇ ਨਾਲ ਸੰਪਰਕ ਵਿਚ ਆਇਆ ਹੈ</string>
+    <string name="selfassess7">ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ:
+
+* ਜ਼ਰੂਰੀ ਕਾਰਨਾਂ ਕਰਕੇ ਸਿਰਫ ਆਪਣਾ ਘਰ ਛੱਡੋ ਜਾਂ ਦੂਜੇ ਲੋਕਾਂ ਨੂੰ ਦੇਖੋ, ਅਤੇ ਜਿੱਥੇ ਸੰਭਵ ਹੋਵੇ ਤਾਂ ਫੋਨ ਤੇ ਜਾਂ Onlineਨਲਾਈਨ ਸੇਵਾਵਾਂ ਭਾਲੋ ਜਾਂ ਦੋਸਤਾਂ, ਪਰਿਵਾਰ ਜਾਂ ਗੁਆਂ Neighborsੀਆਂ ਤੋਂ ਮਦਦ ਮੰਗੋ. ਇਕ ਨਵੀਂ ਵਿੰਡੋ-ਸੈੱਲ-ਅਲੱਗ ਵਿਚ ਓਪਨਜ਼ ਬਾਰੇ ਵਧੇਰੇ ਜਾਣੋ.
+* ਆਪਣੇ ਲੱਛਣਾਂ ਦੇ ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਬਾਅਦ ਆਪਣੀ ਸਿਹਤ ਦੀ ਨਿਗਰਾਨੀ ਕਰਨਾ ਜਾਰੀ ਰੱਖੋ. ਨਵੀਂ ਵਿੰਡੋ-ਸੈਲਫੀ-ਮਾਨੀਟਰਿੰਗ ਵਿਚ ਓਪਨਜ਼ ਬਾਰੇ ਹੋਰ ਜਾਣੋ.
+* ਆਪਣੇ ਮੁ Primaryਲੇ ਦੇਖਭਾਲ ਪ੍ਰਦਾਤਾ ਨੂੰ ਕਾਲ ਨਾ ਕਰੋ.</string>
+    <string name="selfassess8">ਕਿਸੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ:
+
+ਵਰਚੁਅਲ ਮੁਲਾਂਕਣ ਲਈ ਤੁਹਾਡਾ ਪ੍ਰਾਇਮਰੀ ਕੇਅਰ ਪ੍ਰਦਾਤਾ (ਉਦਾਹਰਣ ਲਈ ਫੈਮਲੀ ਡਾਕਟਰ)
+ਕਿਰਪਾ ਕਰਕੇ ਟੋਲ ਫ੍ਰੀ ਤੇ ਕਾਲ ਕਰੋ: 1075 ਜਾਂ + 91-11-23978046 ਅਤੇ ਇਕ ਕੋਵਿਡ -19 ਐਮਰਜੈਂਸੀ ਹੈਲਪਲਾਈਨ ਨਾਲ ਗੱਲ ਕਰਨ ਲਈ
+ਤੁਹਾਨੂੰ ਚਾਹੀਦਾ ਹੈ:
+
+ਸਿਰਫ ਆਪਣਾ ਘਰ ਛੱਡੋ ਜਾਂ ਦੂਜੇ ਲੋਕਾਂ ਨੂੰ ਜਰੂਰੀ ਕਾਰਨਾਂ ਕਰਕੇ ਵੇਖੋ, ਅਤੇ ਜਿਥੇ ਸੰਭਵ ਹੋ ਸਕੇ ਫੋਨ \'ਤੇ ਜਾਂ Onlineਨਲਾਈਨ ਸੇਵਾਵਾਂ ਭਾਲੋ ਜਾਂ ਦੋਸਤਾਂ, ਪਰਿਵਾਰ ਜਾਂ ਗੁਆਂ .ੀਆਂ ਤੋਂ ਮਦਦ ਮੰਗੋ. ਇਕ ਨਵੀਂ ਵਿੰਡੋ-ਸੈੱਲ-ਅਲੱਗ ਵਿਚ ਓਪਨਜ਼ ਬਾਰੇ ਵਧੇਰੇ ਜਾਣੋ.</string>
+    <string name="selfassess9">ਕੀ ਤੁਸੀਂ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕੋਈ ਲੱਛਣ (ਜਾਂ ਇਹਨਾਂ ਲੱਛਣਾਂ ਦਾ ਸੁਮੇਲ) ਅਨੁਭਵ ਕਰ ਰਹੇ ਹੋ?
+1) ਬੁਖਾਰ
+2) ਨਵੀਂ ਖੰਘ
+3) ਸਾਹ ਲੈਣ ਵਿੱਚ ਮੁਸ਼ਕਲ (ਉਦਾਹਰਣ ਲਈ, ਹਰੇਕ ਸਾਹ ਲਈ ਸੰਘਰਸ਼ ਕਰਨਾ, 10 ਸਕਿੰਟ ਤੋਂ ਵੱਧ ਲਈ ਸਾਹ ਨਹੀਂ ਰੱਖ ਸਕਦਾ)</string>
+    <string name="selfassess10">ਸਵੈ-ਮੁਲਾਂਕਣ ਦਾ ਨਤੀਜਾ:
+ਇਹ ਸੰਭਾਵਨਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਕੋਵਿਡ -19 ਹੈ.</string>
+    <string name="selfassess11">ਕੀ ਕਿਸੇ ਨਾਲ ਜਿਸ ਦੇ ਨੇੜੇ ਤੁਸੀਂ ਸੰਪਰਕ ਕਰ ਰਹੇ ਹੋ ਉਸ ਕੋਲ ਕੋਵਿਡ -19 ਹੈ (ਉਦਾਹਰਣ ਵਜੋਂ, ਤੁਹਾਡੇ ਘਰ ਜਾਂ ਕੰਮ ਦੇ ਸਥਾਨ ਵਿੱਚ ਕੋਈ)?</string>
+    <string name="selfassess12">ਸਵੈ-ਮੁਲਾਂਕਣ ਦਾ ਨਤੀਜਾ
+ਕਿਰਪਾ ਕਰਕੇ ਫੋਨ ਤੇ Covid-19 ਲਈ ਕਲੀਨਿਕਲ ਮੁਲਾਂਕਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ.</string>
+    <string name="selfassess13">ਕੀ ਤੁਸੀਂ ਕਿਸੇ ਅਜਿਹੇ ਵਿਅਕਤੀ ਨਾਲ ਨੇੜਲੇ ਸੰਪਰਕ ਵਿੱਚ ਹੋ ਜੋ ਸਾਹ ਦੇ ਲੱਛਣਾਂ ਨਾਲ ਬਿਮਾਰ ਹੈ (ਉਦਾਹਰਨ ਲਈ ਬੁਖਾਰ, ਖੰਘ ਜਾਂ ਸਾਹ ਲੈਣ ਵਿੱਚ ਮੁਸ਼ਕਲ) ਜੋ ਹਾਲ ਹੀ ਵਿੱਚ ਭਾਰਤ ਤੋਂ ਬਾਹਰ ਯਾਤਰਾ ਕੀਤੀ ਸੀ?</string>
+    <string name="selfassess14">ਸਵੈ-ਮੁਲਾਂਕਣ ਦਾ ਨਤੀਜਾ
+ਇਹ ਸੰਭਾਵਨਾ ਨਹੀਂ ਹੈ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਕੋਵੀਡ -19 ਹੈ ਪਰ ਤੁਹਾਨੂੰ ਉਦੋਂ ਤੱਕ ਘਰ ਵਿਚ ਅਲੱਗ ਰਹਿਣਾ ਚਾਹੀਦਾ ਹੈ ਜਦੋਂ ਤਕ ਤੁਸੀਂ ਲੱਛਣ ਮੁਕਤ ਨਹੀਂ ਹੁੰਦੇ.</string>
+    <string name="identity_verification">ਪਛਾਣ ਤਸਦੀਕ</string>
+    <string name="passport_size_photo">ਪਾਸਪੋਰਟ ਅਕਾਰ ਦੀ ਫੋਟੋ</string>
+    <string name="upload_photo">ਫੋਟੋ ਅਪਲੋਡ ਕਰੋ</string>
+    <string name="available_date_and_time">ਉਪਲਬਧ ਮਿਤੀ ਅਤੇ ਸਮਾਂ</string>
+    <string name="select_your_location">ਆਪਣਾ ਟਿਕਾਣਾ ਚੁਣੋ</string>
+    <string name="upload_photo_of_material">ਸਮੱਗਰੀ ਦੀ ਫੋਟੋ ਨੂੰ ਅਪਲੋਡ ਕਰੋ</string>
+    <string name="select">ਚੁਣੋ</string>
+    <string name="in_distribution">ਵੰਡ ਵਿਚ</string>
+    <string name="stop_distribution">ਵੰਡ ਰੋਕੋ</string>
+    <string name="enter_type_of_material">ਕਿਸਮ ਦੀ ਸਮੱਗਰੀ ਦਾਖਲ ਕਰੋ</string>
+    <string name="other">ਹੋਰ</string>
+    <string name="orphanmodel1">ਕੋਵੀਡ -19 ਅਕਸਰ 60 + ਸਾਲ ਦੇ ਲੋਕਾਂ ਵਿਚ ਜਾਂ ਸਿਹਤ ਦੀਆਂ ਸਥਿਤੀਆਂ ਜਿਵੇਂ ਫੇਫੜਿਆਂ ਜਾਂ ਦਿਲ ਦੀ ਬਿਮਾਰੀ, ਸ਼ੂਗਰ ਜਾਂ ਉਨ੍ਹਾਂ ਦੀਆਂ ਇਮਿ Withਨ ਸਿਸਟਮ ਨੂੰ ਪ੍ਰਭਾਵਤ ਕਰਨ ਵਾਲੀਆਂ ਸਥਿਤੀਆਂ ਦੇ ਨਾਲ ਗੰਭੀਰ ਹੁੰਦਾ ਹੈ.</string>
+    <string name="orphanmodel2">ਕੀ ਤੁਹਾਨੂੰ ਗੰਭੀਰ Covid-19 ਦਾ ਉੱਚ ਜੋਖਮ ਹੈ?</string>
+    <string name="orphanmodel3">ਜੇ ਤੁਸੀਂ ਕੋਈ ਅਜਿਹਾ ਵਿਅਕਤੀ ਹੋ ਜੋ ਤੁਹਾਡੀ ਉਮਰ ਜਾਂ ਅੰਤਰੀਵ ਸਿਹਤ ਸਥਿਤੀ ਦੇ ਕਾਰਨ ਗੰਭੀਰ Covid-19 ਦੇ ਉੱਚ ਜੋਖਮ ਵਿੱਚ ਹੈ, ਤਾਂ ਆਪਣੇ ਆਪ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨਾ ਬਹੁਤ ਮਹੱਤਵਪੂਰਨ ਹੈ.</string>
+    <string name="orphanmodel4">ਜੇ ਤੁਹਾਨੂੰ ਗੰਭੀਰ Covid-19 ਦਾ ਜੋਖਮ ਹੈ:</string>
+    <string name="covid_19_vulnerable_and_high_risk_groups">ਕੋਵਿਡ -19: ਕਮਜ਼ੋਰ ਅਤੇ ਉੱਚ ਜੋਖਮ ਵਾਲੇ ਸਮੂਹ</string>
+    <string name="covid_19_is_often_more_severe_in_people_who_are_older_than_60_years_or_who_have_health_conditions_like_lung_or_heart_disease_diabetes_or_conditions_that_affect_their_immune_system_nif_you_re_at_high_risk_know_what_to_do_and_take_the_right_actions_now_to_protect_yourself_nif_you_re_not_at_high_risk_do_your_part_to_prevent_the_spread_of_coronavirus_to_those_who_are">ਕੋਵੀਡ -19 ਅਕਸਰ ਉਹਨਾਂ ਲੋਕਾਂ ਵਿੱਚ ਵਧੇਰੇ ਗੰਭੀਰ ਹੁੰਦਾ ਹੈ ਜਿਨ੍ਹਾਂ ਦੀ ਉਮਰ 60 ਸਾਲ ਤੋਂ ਵੱਧ ਹੈ ਜਾਂ ਜਿਨ੍ਹਾਂ ਦੀ ਸਿਹਤ ਦੀਆਂ ਸਥਿਤੀਆਂ ਹਨ ਜਿਵੇਂ ਫੇਫੜੇ ਜਾਂ ਦਿਲ ਦੀ ਬਿਮਾਰੀ, ਸ਼ੂਗਰ ਜਾਂ ਅਜਿਹੀਆਂ ਸਥਿਤੀਆਂ ਜਿਹੜੀਆਂ ਉਨ੍ਹਾਂ ਦੇ ਇਮਿ Systemਨ ਸਿਸਟਮ ਨੂੰ ਪ੍ਰਭਾਵਤ ਕਰਦੀਆਂ ਹਨ. \ N ਜੇ ਤੁਹਾਨੂੰ ਉੱਚ ਜੋਖਮ ਹੈ, ਤਾਂ ਜਾਣੋ ਕਿ ਕੀ ਕਰਨਾ ਹੈ, ਅਤੇ ਆਪਣੇ ਆਪ ਨੂੰ ਬਚਾਉਣ ਲਈ ਹੁਣੇ ਸਹੀ ਕਾਰਜ ਕਰੋ. You\'Re N ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਉੱਚ ਜੋਖਮ ਨਹੀਂ ਹੈ, ਤਾਂ ਕੋਰੋਨਵਾਇਰਸ ਦੇ ਫੈਲਣ ਨੂੰ ਰੋਕਣ ਲਈ ਆਪਣਾ ਹਿੱਸਾ ਪਾਓ.</string>
+    <string name="actions_you_can_take_based_on_your_conditions_and_other_risk_factors">ਉਹ ਕਾਰਵਾਈਆਂ ਜੋ ਤੁਸੀਂ ਆਪਣੀਆਂ ਸ਼ਰਤਾਂ ਅਤੇ ਜੋਖਮ ਦੇ ਹੋਰ ਕਾਰਕਾਂ ਦੇ ਅਧਾਰ ਤੇ ਲੈ ਸਕਦੇ ਹੋ</string>
+    <string name="asthma">ਦਮਾ</string>
+    <string name="dialisis">ਡਾਇਿਲਿਸਸ ਦੁਆਰਾ ਗੰਭੀਰ ਗੁਰਦੇ ਦੀ ਬਿਮਾਰੀ ਦਾ ਇਲਾਜ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
+    <string name="lungdisease">ਫੇਫੜੇ ਦੀ ਬਿਮਾਰੀ</string>
+    <string name="diabetes">ਸ਼ੂਗਰ</string>
+    <string name="haemeoglobindisease">ਹੀਮੋਗਲੋਬਿਨ ਵਿਕਾਰ</string>
+    <string name="Immunocompromised">ਇਮਿOcਨਕੋਮਪ੍ਰੋਮਾਈਜ਼ਡ</string>
+    <string name="liverdisease">ਜਿਗਰ ਦੀ ਬਿਮਾਰੀ</string>
+    <string name="olderpeople">65 ਸਾਲ ਜਾਂ ਇਸ ਤੋਂ ਵੱਧ ਉਮਰ ਦੇ ਲੋਕ</string>
+    <string name="nursinghom">ਨਰਸਿੰਗ ਹੋਮਜ਼ ਜਾਂ ਲੰਬੇ ਸਮੇਂ ਦੀ ਦੇਖਭਾਲ ਦੀਆਂ ਸਹੂਲਤਾਂ ਵਾਲੇ ਲੋਕ</string>
+    <string name="heartcondition">ਗੰਭੀਰ ਦਿਲ ਦੀ ਸਥਿਤੀ</string>
+    <string name="obesity">ਗੰਭੀਰ ਮੋਟਾਪਾ</string>
+    <string name="orphanspinner1">ਦਰਮਿਆਨੀ ਤੋਂ ਗੰਭੀਰ ਦਮਾ ਲੋਕਾਂ ਨੂੰ Covid-19 ਤੋਂ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਵੱਧ ਜੋਖਮ ਵਿੱਚ ਪਾ ਸਕਦਾ ਹੈ. \ N
+ਲੈਣ ਦੀਆਂ ਕਾਰਵਾਈਆਂ \ N
+ਆਪਣੀ ਦਮਾ ਕਾਰਜ ਯੋਜਨਾ ਦਾ ਪਾਲਣ ਕਰੋ.. N
+ਆਪਣੀ ਦਮਾ ਨੂੰ ਨਿਯੰਤਰਣ ਵਿੱਚ ਰੱਖੋ.. N
+ਆਪਣੀਆਂ ਮੌਜੂਦਾ ਦਵਾਈਆਂ ਜਾਰੀ ਰੱਖੋ, ਉਹਨਾਂ ਵਿਚ ਸਟੀਰੌਇਡ ਵਾਲੇ ਕਿਸੇ ਵੀ ਇਨਹੇਲਰ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ (\"ਸਟੀਰੌਇਡਜ਼" ਕੋਰਟੀਕੋਸਟੀਰਾਇਡਜ਼ ਲਈ ਇਕ ਹੋਰ ਸ਼ਬਦ ਹੈ.) \ N
+ਜਾਣੋ ਕਿ ਆਪਣੇ ਇਨਹੈਲਰ ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰੀਏ. \ N
+ਆਪਣੇ ਦਮਾ ਦੇ ਟਰਿੱਗਰਾਂ ਤੋਂ ਬਚੋ.. N
+ਜੇ ਸੰਭਵ ਹੋਵੇ, ਤਾਂ ਤੁਹਾਡੇ ਘਰ ਦੇ ਕਿਸੇ ਹੋਰ ਮੈਂਬਰ ਨੂੰ ਲਓ ਜਿਸਨੂੰ ਦਮਾ ਨਹੀਂ ਹੈ ਅਤੇ ਤੁਹਾਡੇ ਲਈ ਤੁਹਾਡੇ ਘਰ ਨੂੰ ਕੀਟਾਣੂਕੋਸ਼ ਕਰਦਾ ਹੈ. ਜਦੋਂ ਉਹ ਸਫਾਈ ਅਤੇ ਕੀਟਾਣੂਨਾਸ਼ਕ ਉਤਪਾਦਾਂ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਨ, ਉਨ੍ਹਾਂ ਨੂੰ ਰੱਖੋ: \ N
+ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਦਮਾ ਵਾਲੇ ਲੋਕ ਕਮਰੇ ਵਿੱਚ ਨਹੀਂ ਹਨ.. N
+ਕੀਟਾਣੂਨਾਸ਼ਕ ਦੀ ਵਰਤੋਂ ਘੱਟੋ ਘੱਟ ਕਰੋ ਜੋ ਦਮੇ ਦੇ ਦੌਰੇ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦੀ ਹੈ.. N
+ਖਿੜਕੀਆਂ ਜਾਂ ਦਰਵਾਜ਼ੇ ਖੋਲ੍ਹੋ ਅਤੇ ਪੱਖੇ ਦੀ ਵਰਤੋਂ ਕਰੋ ਜੋ ਬਾਹਰੋਂ ਹਵਾ ਵਗਦੀ ਹੈ. \ N
+ਉਤਪਾਦ ਲੇਬਲ \'ਤੇ ਹਦਾਇਤਾਂ ਦੀ ਹਮੇਸ਼ਾ ਪਾਲਣਾ ਕਰੋ.. N
+ਸਪਰੇਅ ਉਤਪਾਦਾਂ ਨੂੰ ਸਾਫ ਸਫਾਈ ਵਾਲੇ ਕੱਪੜੇ ਜਾਂ ਕਾਗਜ਼ ਦੇ ਤੌਲੀਏ \'ਤੇ ਸਿੱਧੇ ਸਾਫ਼ ਕਰਨ ਵਾਲੀ ਥਾਂ\' ਤੇ ਸਪਰੇਅ ਕਰਨ ਦੀ ਬਜਾਏ ਸਪਰੇਅ ਕਰੋ ਜਾਂ ਡੋਲ੍ਹ ਦਿਓ (ਜੇ ਉਤਪਾਦ ਦਾ ਲੇਬਲ ਆਗਿਆ ਦਿੰਦਾ ਹੈ) \ N
+ਤੁਹਾਨੂੰ ਵਧੇਰੇ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ \ N
+Covid-19 ਤੁਹਾਡੇ ਸਾਹ ਦੀ ਨਾਲੀ (ਨੱਕ, ਗਲਾ, ਫੇਫੜੇ) ਨੂੰ ਪ੍ਰਭਾਵਤ ਕਰ ਸਕਦਾ ਹੈ, ਦਮਾ ਦੇ ਦੌਰੇ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦਾ ਹੈ, ਅਤੇ ਸੰਭਾਵਤ ਤੌਰ \'ਤੇ ਨਮੂਨੀਆ ਅਤੇ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦਾ ਹੈ.</string>
+    <string name="orphanspinner2">ਡਾਇਿਲਸਿਸ ਦੁਆਰਾ ਲੰਬੇ ਸਮੇਂ ਲਈ ਗੁਰਦੇ ਦੀ ਬਿਮਾਰੀ ਦਾ ਇਲਾਜ ਕਰਨਾ ਕੋਵੀਡ -19 ਤੋਂ ਕਿਸੇ ਵਿਅਕਤੀ ਦੇ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਜੋਖਮ ਨੂੰ ਵਧਾ ਸਕਦਾ ਹੈ.
+. N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+. N ਜੇ ਤੁਸੀਂ ਡਾਇਿਲਸਿਸ \'ਤੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਆਪਣੇ ਉਪਚਾਰਾਂ ਤੋਂ ਖੁੰਝਣਾ ਨਹੀਂ ਚਾਹੀਦਾ.
+You N ਜੇ ਤੁਸੀਂ ਬਿਮਾਰ ਮਹਿਸੂਸ ਕਰਦੇ ਹੋ ਜਾਂ ਕੋਈ ਚਿੰਤਾਵਾਂ ਹਨ ਤਾਂ ਆਪਣੇ ਡਾਇਲਸਿਸ ਕਲੀਨਿਕ ਅਤੇ ਆਪਣੇ ਸਿਹਤ ਸੰਭਾਲ ਪ੍ਰਦਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ.
+Lan N ਕੇਸੀਈਆਰ 3-ਦਿਨਾ ਐਮਰਜੈਂਸੀ ਡਾਈਟ ਪਲਾਨ ਦੀ ਪਾਲਣਾ ਕਰਨ ਲਈ ਹੱਥਾਂ ਤੇ ਲੋੜੀਂਦਾ ਖਾਣਾ ਬਣਾਉਣ ਦੀ ਯੋਜਨਾ ਪੀਡੀਐਫ ਆਈਕਨ ਪੀਡੀਐਫ ਆਈਕਾਨ [ਪੀਡੀਐਫ - 8 ਪੰਨੇ] ਜੇ ਤੁਸੀਂ ਆਪਣੇ ਆਮ ਇਲਾਜ ਦੇ ਕਾਰਜਕ੍ਰਮ ਨੂੰ ਬਣਾਈ ਰੱਖਣ ਵਿਚ ਅਸਮਰੱਥ ਹੋ ਤਾਂ ਡਾਇਲਸਿਸ ਮਰੀਜ਼ਾਂ ਲਈ ਬਾਹਰੀ ਆਈਕੋਨੈਕਸਟਰਲ ਆਈਕਨ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+; N ਇਮਿYsisਨ ਸਿਸਟਮ ਕਮਜ਼ੋਰ ਹੋਣ ਕਾਰਨ ਡਾਇਲਾਈਸਿਸ ਮਰੀਜ਼ ਸੰਕਰਮਣ ਅਤੇ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਜ਼ਿਆਦਾ ਸੰਭਾਵਤ ਹੁੰਦੇ ਹਨ; ਗੁਰਦੇ ਫੇਲ੍ਹ ਹੋਣ ਦੇ ਪ੍ਰਬੰਧਨ ਲਈ ਇਲਾਜ ਅਤੇ ਪ੍ਰਕਿਰਿਆਵਾਂ; ਅਤੇ ਸਹਿ ਅਵਸਥਾਵਾਂ ਜਿਵੇਂ ਕਿ ਸ਼ੂਗਰ.</string>
+    <string name="orphanspinner3">ਪੁਰਾਣੀ ਫੇਫੜੇ ਦੀਆਂ ਬਿਮਾਰੀਆਂ, ਜਿਵੇਂ ਕਿ ਪੁਰਾਣੀ ਰੁਕਾਵਟ ਪਲਮਨਰੀ ਬਿਮਾਰੀ (ਸੀਓਪੀਡੀ) (ਐਂਫਿਸੀਮਾ ਅਤੇ ਕ੍ਰੌਨਿਕ ਬ੍ਰੌਨਕਾਈਟਸ ਵੀ ਸ਼ਾਮਲ ਹੈ), ਇਡੀਓਪੈਥਿਕ ਪਲਮਨਰੀ ਫਾਈਬਰੋਸਿਸ ਅਤੇ ਸੀਸਟਿਕ ਫਾਈਬਰੋਸਿਸ, ਲੋਕਾਂ ਨੂੰ ਸੀਓਵੀਆਈਡੀ -19 ਤੋਂ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਵੱਧ ਜੋਖਮ ਵਿੱਚ ਪਾ ਸਕਦੇ ਹਨ.
+. N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+. N ਆਪਣੀ ਮੌਜੂਦਾ ਦਵਾਈਆਂ ਲੈਂਦੇ ਰਹੋ, ਜਿਸ ਵਿਚ ਉਨ੍ਹਾਂ ਵਿਚ ਸਟੀਰੌਇਡਜ਼ ਵੀ ਸ਼ਾਮਲ ਹਨ ("ਸਟੀਰੌਇਡਜ਼" ਕੋਰਟੀਕੋਸਟੀਰਾਇਡਜ਼ ਲਈ ਇਕ ਹੋਰ ਸ਼ਬਦ ਹੈ).
+Trig N ਚਾਲ ਚਲਦੀ ਹੈ ਜੋ ਤੁਹਾਡੇ ਲੱਛਣਾਂ ਨੂੰ ਹੋਰ ਵਿਗਾੜਦੀਆਂ ਹਨ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+Viral N ਹੋਰ ਵਾਇਰਲ ਸਾਹ ਦੀਆਂ ਲਾਗਾਂ ਦੇ ਅੰਕੜਿਆਂ ਦੇ ਅਧਾਰ ਤੇ, ਕੋਵਿਡ -19 ਫੇਫੜੇ ਦੇ ਗੰਭੀਰ ਰੋਗਾਂ ਦਾ ਭੜਕਾਓ ਕਾਰਨ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦੀ ਹੈ.</string>
+    <string name="orphanspinner4">ਟਾਈਪ 1, ਟਾਈਪ 2, ਜਾਂ ਗਰਭ ਅਵਸਥਾ ਸਮੇਤ ਸ਼ੂਗਰ ਰੋਗ, ਲੋਕਾਂ ਨੂੰ ਸੀਓਵੀਆਈਡੀ -19 ਤੋਂ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਵੱਧ ਜੋਖਮ ਵਿੱਚ ਪਾ ਸਕਦਾ ਹੈ.
+. N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+Diabetes N ਆਪਣੀ ਡਾਇਬਟੀਜ਼ ਦੀਆਂ ਗੋਲੀਆਂ ਅਤੇ ਇਨਸੁਲਿਨ ਨੂੰ ਆਮ ਵਾਂਗ ਲੈਣਾ ਜਾਰੀ ਰੱਖੋ.
+Four N ਆਪਣੀ ਬਲੱਡ ਸ਼ੂਗਰ ਨੂੰ ਹਰ ਚਾਰ ਘੰਟਿਆਂ ਬਾਅਦ ਜਾਂਚੋ ਅਤੇ ਨਤੀਜਿਆਂ \'ਤੇ ਨਜ਼ਰ ਰੱਖੋ.
+. N ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਤੁਹਾਨੂੰ ਆਪਣੀ ਸ਼ੂਗਰ ਦੀਆਂ ਗੋਲੀਆਂ ਅਤੇ ਇਨਸੁਲਿਨ ਦੀ ਘੱਟੋ ਘੱਟ ਦੋ ਹਫਤਿਆਂ ਦੀ ਸਪਲਾਈ ਹੈ.
+. N ਸ਼ੂਗਰ ਵਾਲੇ ਲੋਕਾਂ ਲਈ ਬਿਮਾਰ ਦਿਸ਼ਾ ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+Diabetes N ਸ਼ੂਗਰ ਵਾਲੇ ਲੋਕ ਜਿਨ੍ਹਾਂ ਦੇ ਬਲੱਡ ਸ਼ੂਗਰ ਦਾ ਪੱਧਰ ਅਕਸਰ ਉਨ੍ਹਾਂ ਦੇ ਟੀਚੇ ਨਾਲੋਂ ਵੱਧ ਹੁੰਦਾ ਹੈ, ਉਨ੍ਹਾਂ ਨੂੰ ਸ਼ੂਗਰ ਨਾਲ ਸਬੰਧਤ ਸਿਹਤ ਸਮੱਸਿਆਵਾਂ ਹੋਣ ਦੀ ਜ਼ਿਆਦਾ ਸੰਭਾਵਨਾ ਹੁੰਦੀ ਹੈ. ਉਹ ਸਿਹਤ ਸਮੱਸਿਆਵਾਂ Covid-19 ਨੂੰ ਦੂਰ ਕਰਨਾ ਮੁਸ਼ਕਲ ਬਣਾ ਸਕਦੇ ਹਨ.</string>
+    <string name="orphanspinner5">ਹੀਮੋਗਲੋਬਿਨ ਵਿਕਾਰ ਜਿਵੇਂ ਕਿ ਸਿਕਲ ਸੈੱਲ ਬਿਮਾਰੀ (ਐਸਸੀਡੀ) ਅਤੇ ਥੈਲੇਸੀਮੀਆ ਲੋਕਾਂ ਨੂੰ ਕੋਵਿਡ -19 ਤੋਂ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਵੱਧ ਜੋਖਮ ਵਿੱਚ ਪਾ ਸਕਦੇ ਹਨ.
+. N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+Health N ਆਪਣੇ ਸਿਹਤ ਦੇਖਭਾਲ ਪ੍ਰਦਾਤਾ ਨੂੰ ਟੈਲੀਮੀਡੀਸਾਈਨ ਜਾਂ ਰਿਮੋਟ ਹੈਲਥਕੇਅਰ ਮੁਲਾਕਾਤਾਂ ਬਾਰੇ ਪੁੱਛੋ ਅਤੇ ਜਾਣੋ ਕਿ ਐਮਰਜੈਂਸੀ ਵਿਭਾਗ ਵਿਚ ਕਦੋਂ ਜਾਣਾ ਹੈ.
+Disorder N ਆਪਣੇ ਸਿਹਤ-ਸੰਭਾਲ ਪ੍ਰਦਾਤਾ ਨਾਲ ਆਪਣੇ ਵਿਕਾਰ ਲਈ ਦਵਾਈਆਂ ਅਤੇ ਉਪਚਾਰਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਲਈ ਕੰਮ ਕਰੋ (ਹਾਈਡ੍ਰੋਕਸਿUreਰੀਆ, ਚੇਲੇਸ਼ਨ ਥੈਰੇਪੀ, ਖੂਨ ਚੜ੍ਹਾਉਣ, ਅਤੇ ਦਰਦ ਪ੍ਰਬੰਧਨ ਲਈ ਤਜਵੀਜ਼ਾਂ ਸਮੇਤ) ਅਤੇ ਕੋਈ ਹੋਰ ਸਿਹਤ ਸਥਿਤੀ ਜੋ ਤੁਸੀਂ ਹੋ ਸਕਦੇ ਹੋ (ਜਿਵੇਂ ਕਿ ਸ਼ੂਗਰ, ਹਾਈ ਬਲੱਡ ਪ੍ਰੈਸ਼ਰ ਅਤੇ ਗਠੀਏ) .
+. N ਸੰਭਾਵਤ ਟਰਿੱਗਰਾਂ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰਕੇ ਵਾਸੋ-ਅਵੱਲਪੀਸਨ ਐਪੀਸੋਡ ਜਾਂ ਦਰਦ ਸੰਕਟ ਨੂੰ ਰੋਕਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ.
+Healthy N ਸਿਹਤਮੰਦ ਰਹਿਣ ਲਈ ਸੁਝਾਵਾਂ ਲਈ ਐਸਸੀਡੀ ਗਾਈਡ ਜਾਂ ਥੈਲੇਸੀਮੀਆ ਗਾਈਡ ਨਾਲ ਸਾਡੀ ਸਿਹਤਮੰਦ ਜ਼ਿੰਦਗੀ ਜੀਓ.
+Care N ਐਸ ਸੀ ਡੀ ਅਤੇ ਥੈਲੇਸੀਮੀਆ ਦੀ ਦੇਖਭਾਲ ਅਤੇ ਗਿਆਨ ਅਤੇ ਜਾਗਰੂਕਤਾ ਵਧਾਉਣ ਲਈ ਸਹਾਇਤਾ ਲਈ ਐਸ ਸੀ ਡੀ ਸਰੋਤ ਅਤੇ ਥੈਲੇਸੀਮੀਆ ਸਰੋਤ ਲੱਭੋ.
+L N ਆਪਣੇ ਦੋਸਤਾਂ ਅਤੇ ਪਰਿਵਾਰ ਨੂੰ ਸਿਹਤਮੰਦ ਖੂਨਦਾਨ ਕਰਨ ਵਾਲਿਆਂ ਦੀ ਜ਼ਰੂਰਤ ਬਾਰੇ ਜਾਣੋ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+M N ਹੀਮੋਗਲੋਬਿਨ ਵਿਕਾਰ ਨਾਲ ਜਿਣਾ ਗੰਭੀਰ ਬਹੁ-ਅੰਗ ਦੀਆਂ ਪੇਚੀਦਗੀਆਂ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦਾ ਹੈ, ਅਤੇ ਅੰਤਰੀਵ ਡਾਕਟਰੀ ਸਥਿਤੀਆਂ (ਜਿਵੇਂ ਕਿ ਦਿਲ ਦੀ ਬਿਮਾਰੀ, ਜਿਗਰ ਦੀ ਬਿਮਾਰੀ, ਸ਼ੂਗਰ, ਲੋਹੇ ਦਾ ਭਾਰ, ਗੁਰਦੇ ਦੀ ਬਿਮਾਰੀ, ਵਾਇਰਸ ਦੀ ਲਾਗ, ਜਾਂ ਇਮਿ Systemਨ ਕਮਜ਼ੋਰ ਸਿਸਟਮ) ਗੰਭੀਰਤਾ ਦੇ ਜੋਖਮ ਨੂੰ ਵਧਾ ਸਕਦੀ ਹੈ ਕੋਵਿਡ -19 ਤੋਂ ਬਿਮਾਰੀ.</string>
+    <string name="orphanspinner6">ਬਹੁਤ ਸਾਰੀਆਂ ਸਥਿਤੀਆਂ ਅਤੇ ਇਲਾਜ਼ ਇਕ ਵਿਅਕਤੀ ਨੂੰ ਕਮਜ਼ੋਰ ਇਮਿUneਨ ਸਿਸਟਮ (ਇਮਿOcਨਕੋਮਪ੍ਰੋਮਾਈਜ਼ਡ) ਦਾ ਕਾਰਨ ਬਣ ਸਕਦੇ ਹਨ, ਜਿਸ ਵਿਚ ਕੈਂਸਰ ਦਾ ਇਲਾਜ, ਬੋਨ ਮੈਰੋ ਜਾਂ ਅੰਗ ਟ੍ਰਾਂਸਪਲਾਂਟੇਸ਼ਨ, ਇਮਿUneਨ ਦੀ ਘਾਟ, ਐਚਆਈਵੀ ਦੀ ਘੱਟ ਸੀਡੀ 4 ਸੈੱਲ ਦੀ ਗਿਣਤੀ ਹੁੰਦੀ ਹੈ ਜਾਂ ਐੱਚਆਈਵੀ ਦੇ ਇਲਾਜ ਤੇ ਨਹੀਂ, ਅਤੇ ਕੋਰਟੀਕੋਸਟ੍ਰੋਇਡਜ਼ ਦੀ ਲੰਮੀ ਵਰਤੋਂ. ਹੋਰ ਇਮਿ Immਨ ਕਮਜ਼ੋਰ ਦਵਾਈਆਂ. ਉਹ ਲੋਕ ਜੋ ਇਮਿOcਨਕੋਮਪ੍ਰੋਮਾਈਜ਼ਡ ਹਨ
+. N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+. N ਜੇ ਤੁਸੀਂ ਇਮਿOcਨੋਕੌਮਪ੍ਰੋਮਾਈਜ਼ਡ ਹੋ, ਤਾਂ ਕਿਸੇ ਸਿਫਾਰਸ਼ ਕੀਤੀਆਂ ਦਵਾਈਆਂ ਜਾਂ ਇਲਾਜਾਂ ਨੂੰ ਜਾਰੀ ਰੱਖੋ ਅਤੇ ਆਪਣੇ ਸਿਹਤ ਸੰਭਾਲ ਪ੍ਰਦਾਤਾ ਦੀ ਸਲਾਹ ਦੀ ਪਾਲਣਾ ਕਰੋ.
+. N ਜੇ ਤੁਹਾਨੂੰ ਆਪਣੀ ਸਥਿਤੀ ਬਾਰੇ ਚਿੰਤਾ ਹੈ ਜਾਂ ਤੁਸੀਂ ਬਿਮਾਰ ਮਹਿਸੂਸ ਕਰਦੇ ਹੋ ਤਾਂ ਆਪਣੇ ਸਿਹਤ ਸੰਭਾਲ ਪ੍ਰਦਾਤਾ ਨੂੰ ਕਾਲ ਕਰੋ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+. N ਕਮਜ਼ੋਰ ਪ੍ਰਤੀਰੋਧੀ ਪ੍ਰਣਾਲੀ ਵਾਲੇ ਲੋਕਾਂ ਨੇ ਛੂਤ ਦੀਆਂ ਬਿਮਾਰੀਆਂ ਨਾਲ ਲੜਨ ਦੀ ਯੋਗਤਾ ਨੂੰ ਘਟਾ ਦਿੱਤਾ ਹੈ, ਜਿਸ ਵਿੱਚ Covid-19 ਵਰਗੇ ਵਿਸ਼ਾਣੂ ਸ਼ਾਮਲ ਹਨ. ਗਿਆਨ ਉਸ ਵਾਇਰਸ ਦੇ ਬਾਰੇ ਸੀਮਿਤ ਹੈ ਜੋ ਸੀਓਵੀਆਈਡੀ -19 ਦਾ ਕਾਰਨ ਬਣਦਾ ਹੈ, ਪਰ ਇਸੇ ਤਰ੍ਹਾਂ ਦੇ ਵਾਇਰਸਾਂ ਦੇ ਅਧਾਰ ਤੇ, ਇਹ ਚਿੰਤਾ ਹੈ ਕਿ ਇਮਿOcਨੋਕੋਮਪ੍ਰਾਈਜ਼ਡ ਮਰੀਜ਼ ਹੋਰ ਸੀਓਵੀਆਈਡੀ -19 ਮਰੀਜ਼ਾਂ ਨਾਲੋਂ ਜ਼ਿਆਦਾ ਸਮੇਂ ਲਈ ਛੂਤ ਰਹਿ ਸਕਦੇ ਹਨ.</string>
+    <string name="orphanspinner7">ਗੰਭੀਰ ਜਿਗਰ ਦੀ ਬਿਮਾਰੀ, ਜਿਸ ਵਿੱਚ ਸਿਰੋਸਿਸ ਸ਼ਾਮਲ ਹੈ, ਸੀਓਵੀਆਈਡੀ -19 ਤੋਂ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਜੋਖਮ ਨੂੰ ਵਧਾ ਸਕਦਾ ਹੈ.
+. N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+Medic N ਆਪਣੀਆਂ ਦਵਾਈਆਂ ਬਿਲਕੁਲ ਉਸੇ ਤਰ੍ਹਾਂ ਲਓ ਜਿਵੇਂ ਨਿਰਧਾਰਤ ਕੀਤਾ ਗਿਆ ਹੈ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+. N Covid-19 ਦੇ ਕਾਰਨ ਹੋਣ ਵਾਲੀ ਗੰਭੀਰ ਬਿਮਾਰੀ ਅਤੇ Covid-19 ਦੇ ਕੁਝ ਗੰਭੀਰ ਨਤੀਜਿਆਂ ਦਾ ਇਲਾਜ ਕਰਨ ਲਈ ਵਰਤੀਆਂ ਜਾਂਦੀਆਂ ਦਵਾਈਆਂ ਜਿਗਰ \'ਤੇ ਖਿਚਾਅ ਦਾ ਕਾਰਨ ਬਣ ਸਕਦੀਆਂ ਹਨ, ਖ਼ਾਸਕਰ ਉਨ੍ਹਾਂ ਲਈ ਜਿਗਰ ਦੀਆਂ ਅੰਡਰਲਾਈੰਗ ਸਮੱਸਿਆਵਾਂ. ਗੰਭੀਰ ਜਿਗਰ ਦੀ ਬਿਮਾਰੀ ਨਾਲ ਜਿ Peopleਣ ਵਾਲੇ ਵਿਅਕਤੀਆਂ ਵਿੱਚ ਕਮਜ਼ੋਰ ਪ੍ਰਤੀਰੋਧੀ ਪ੍ਰਣਾਲੀ ਹੋ ਸਕਦੀ ਹੈ, ਜਿਸ ਨਾਲ ਸਰੀਰ Covid-19 ਨਾਲ ਲੜਨ ਦੇ ਯੋਗ ਨਹੀਂ ਹੁੰਦਾ.</string>
+    <string name="orphanspinner8">65 ਸਾਲ ਜਾਂ ਇਸ ਤੋਂ ਵੱਧ ਉਮਰ ਦੇ ਬਜ਼ੁਰਗ, ਕੋਵੀਡ -19 ਤੋਂ ਗੰਭੀਰ ਬਿਮਾਰੀ ਅਤੇ ਮੌਤ ਦੇ ਵੱਧ ਜੋਖਮ ਵਿੱਚ ਹਨ.
+. N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+Medic N ਸਿਹਤ ਦੇ ਕਿਸੇ ਵੀ ਅੰਤਰੀਵ ਹਾਲਤਾਂ ਲਈ ਆਪਣੀਆਂ ਦਵਾਈਆਂ ਲਓ.
+. N ਆਪਣੇ ਸਿਹਤ ਸੰਭਾਲ ਪ੍ਰਦਾਤਾ ਦੀ ਸਲਾਹ ਨੂੰ ਮੰਨੋ.
+Care N ਇੱਕ ਦੇਖਭਾਲ ਯੋਜਨਾ ਦਾ ਵਿਕਾਸ ਕਰੋ ਜੋ ਤੁਹਾਡੀ ਸਿਹਤ ਦੀਆਂ ਸਥਿਤੀਆਂ ਅਤੇ ਮੌਜੂਦਾ ਇਲਾਜਾਂ ਦਾ ਸਾਰ ਦਿੰਦਾ ਹੈ.
+Check N ਇਸ ਚੈਕਲਿਸਟ ਦੀ ਵਰਤੋਂ ਕਰਦਿਆਂ ਲੰਬੇ ਸਮੇਂ ਲਈ ਘਰ ਰਹਿਣ ਲਈ ਆਪਣੇ ਆਪ ਨੂੰ ਤਿਆਰ ਕਰੋ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+. N ਹਾਲਾਂਕਿ ਕੋਵੀਡ -19 ਕਿਸੇ ਵੀ ਸਮੂਹ ਨੂੰ ਪ੍ਰਭਾਵਤ ਕਰ ਸਕਦੀ ਹੈ, ਜਿੰਨੇ ਤੁਸੀਂ ਹੋ, ਗੰਭੀਰ ਬਿਮਾਰੀ ਦਾ ਜੋਖਮ ਉਨਾ ਜ਼ਿਆਦਾ ਹੋਵੇਗਾ. ਸੰਯੁਕਤ ਰਾਜ ਵਿਚ ਰਿਪੋਰਟ ਕੀਤੇ 10 ਮੌਤਾਂ ਵਿਚੋਂ ਅੱਠ ਬਾਲਗਾਂ ਵਿਚ 65 ਸਾਲ ਜਾਂ ਇਸ ਤੋਂ ਵੱਧ ਉਮਰ ਦੇ ਹੋਏ ਹਨ; ਉਨ੍ਹਾਂ 85 ਸਾਲਾਂ ਜਾਂ ਇਸਤੋਂ ਵੱਧ ਉਮਰ ਵਾਲਿਆਂ ਵਿੱਚ ਮੌਤ ਦਾ ਜੋਖਮ ਸਭ ਤੋਂ ਵੱਧ ਹੁੰਦਾ ਹੈ. ਵੱਡੀ ਉਮਰ ਦੇ ਬਾਲਗਾਂ ਦੇ ਇਮਿ .ਨ ਸਿਸਟਮ ਉਮਰ ਦੇ ਨਾਲ ਕਮਜ਼ੋਰ ਹੋ ਜਾਂਦੇ ਹਨ, ਅਤੇ ਲਾਗਾਂ ਤੋਂ ਲੜਨਾ ਮੁਸ਼ਕਲ ਬਣਾਉਂਦਾ ਹੈ. ਨਾਲ ਹੀ, ਬਜ਼ੁਰਗ ਬਾਲਗਾਂ ਵਿੱਚ ਆਮ ਤੌਰ ਤੇ ਪੁਰਾਣੀ ਬਿਮਾਰੀਆਂ ਹੁੰਦੀਆਂ ਹਨ ਜਿਹੜੀਆਂ ਸੀਓਵੀਆਈਡੀ -19 ਤੋਂ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਜੋਖਮ ਨੂੰ ਵਧਾ ਸਕਦੀਆਂ ਹਨ.</string>
+    <string name="orphanspinner9">ਸੰਯੁਕਤ ਰਾਜ ਅਮਰੀਕਾ ਵਿਚ ਕੋਵਿਡ -19 ਦੇ ਬਹੁਤ ਸਾਰੇ ਕੇਸ ਨਰਸਿੰਗ ਹੋਮਜ਼ ਵਿਚ ਰਹਿ ਰਹੇ ਬਜ਼ੁਰਗਾਂ ਜਾਂ ਲੰਮੇ ਸਮੇਂ ਦੀ ਦੇਖਭਾਲ ਦੀਆਂ ਸਹੂਲਤਾਂ ਵਿਚ ਹੋਏ ਹਨ.
+. N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+. N ਲਾਗ ਦੀ ਰੋਕਥਾਮ ਲਈ ਆਪਣੀ ਸਹੂਲਤ ਦੇ ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਸਾਵਧਾਨੀ ਨਾਲ ਪਾਲਣਾ ਕਰੋ.
+You N ਜੇ ਤੁਸੀਂ ਬਿਮਾਰ ਮਹਿਸੂਸ ਕਰਦੇ ਹੋ ਤਾਂ ਤੁਰੰਤ ਸਟਾਫ ਨੂੰ ਦੱਸੋ.
+And N ਆਪਣੇ ਦੇਖਭਾਲ ਕਰਨ ਵਾਲਿਆਂ ਨੂੰ ਉਹ ਕਿਰਿਆਵਾਂ ਬਾਰੇ ਪੁੱਛੋ ਜੋ ਤੁਹਾਡੇ ਅਤੇ ਤੁਹਾਡੇ ਅਜ਼ੀਜ਼ਾਂ ਦੀ ਰੱਖਿਆ ਕਰਨ ਲਈ ਤੁਹਾਡੇ ਨਰਸਿੰਗ ਹੋਮ ਜਾਂ ਲੰਮੇ ਸਮੇਂ ਦੀ ਦੇਖਭਾਲ ਦੀ ਸਹੂਲਤ ਵਿਚ ਹੋ ਰਹੀਆਂ ਹਨ, ਇਸ ਵਿਚ ਇਹ ਵੀ ਸ਼ਾਮਲ ਹੈ ਕਿ ਕੀ ਅਤੇ ਕਿਵੇਂ ਉਹ ਮਹਿਮਾਨਾਂ ਨੂੰ ਸੀਮਤ ਕਰ ਰਹੇ ਹਨ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+. N ਨਰਸਿੰਗ ਹੋਮਜ਼ ਅਤੇ ਲੰਬੇ ਸਮੇਂ ਦੀ ਦੇਖਭਾਲ ਦੀਆਂ ਸਹੂਲਤਾਂ, ਅਤੇ ਆਬਾਦੀ (ਆਮ ਤੌਰ \'ਤੇ ਬੁੱ Adultsੇ ਬਾਲਗ ਅਕਸਰ ਅੰਤਰੀਵ ਡਾਕਟਰੀ ਸਥਿਤੀਆਂ ਵਾਲੇ ਹੁੰਦੇ ਹਨ) ਦੀ ਕਮਿAlਨਿਟੀ ਸੁਭਾਅ, ਨਰਸਿੰਗ ਹੋਮਜ਼ ਵਿਚ ਰਹਿਣ ਵਾਲੇ ਲੋਕਾਂ ਨੂੰ ਲਾਗ ਦੇ ਜ਼ਿਆਦਾ ਜੋਖਮ ਅਤੇ ਸੀਓਵੀਆਈਡੀ -19 ਤੋਂ ਗੰਭੀਰ ਬਿਮਾਰੀ ਵਿਚ ਪਾ ਦਿੰਦੇ ਹਨ.</string>
+    <string name="orphanspinner10">ਦਿਲ ਦੀਆਂ ਗੰਭੀਰ ਸਥਿਤੀਆਂ, ਦਿਲ ਦੀ ਅਸਫਲਤਾ, ਕੋਰੋਨਰੀ ਆਰਟਰੀ ਬਿਮਾਰੀ, ਜਮਾਂਦਰੂ ਦਿਲ ਦੀ ਬਿਮਾਰੀ, ਦਿਲ ਦੀ ਬਿਮਾਰੀ, ਅਤੇ ਪਲਮਨਰੀ ਹਾਈਪਰਟੈਨਸ਼ਨ ਸਮੇਤ, ਸੀਓਵੀਆਈਡੀ -19 ਤੋਂ ਲੋਕਾਂ ਨੂੰ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਵੱਧ ਜੋਖਮ ਵਿਚ ਪਾ ਸਕਦੀ ਹੈ.
+. N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+Medication N ਆਪਣੀ ਦਵਾਈ ਬਿਲਕੁਲ ਉਸੇ ਤਰ੍ਹਾਂ ਲਓ ਜਿਵੇਂ ਨਿਰਧਾਰਤ ਕੀਤੀ ਜਾਂਦੀ ਹੈ. ਦਿਲ ਦੀ ਅਸਫਲਤਾ ਜਾਂ ਹਾਈ ਬਲੱਡ ਪ੍ਰੈਸ਼ਰ ਵਰਗੇ ਸੰਕੇਤਾਂ ਲਈ ਤੁਹਾਡੇ ਸਿਹਤ-ਸੰਭਾਲ ਪ੍ਰਦਾਤਾ ਦੁਆਰਾ ਦੱਸੇ ਗਏ ਐਂਜੀਓਟੈਂਸਿਨ ਨੂੰ ਕਨਵਰਟਿਵ ਐਂਜ਼ਾਈਮ ਇਨਿਹਿਬਟਰਜ਼ (Ace-I) ਜਾਂ ਐਂਜੀਓਟੈਨਸਿਨ -2 ਰੀਸੈਪਟਰ ਬਲੌਕਰਸ (ਏ.ਆਰ.ਬੀ.) ਜਾਰੀ ਰੱਖੋ. ਮੌਜੂਦਾ ਕਲੀਨਿਕਲ ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ਾਂ ਦੁਆਰਾ ਇਸ ਦੀ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ.
+. N ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਤੁਹਾਨੂੰ ਦਿਲ ਦੀ ਬਿਮਾਰੀ ਦੀਆਂ ਦਵਾਈਆਂ ਦੀ ਘੱਟੋ ਘੱਟ ਦੋ ਹਫਤਿਆਂ ਦੀ ਸਪਲਾਈ ਹੈ (ਜਿਵੇਂ ਕਿ ਉੱਚ ਕੋਲੇਸਟ੍ਰੋਲ ਅਤੇ ਹਾਈ ਬਲੱਡ ਪ੍ਰੈਸ਼ਰ ਦਾ ਇਲਾਜ ਕਰਨਾ).
+Er N ਹਾਈ ਬਲੱਡ ਪ੍ਰੈਸ਼ਰ ਵਾਲੇ ਲੋਕਾਂ ਨੂੰ ਆਪਣੇ ਬਲੱਡ ਪ੍ਰੈਸ਼ਰ ਦਾ ਪ੍ਰਬੰਧਨ ਅਤੇ ਨਿਯੰਤਰਣ ਕਰਨਾ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਨਿਰਦੇਸ਼ ਦਿੱਤੇ ਅਨੁਸਾਰ ਉਨ੍ਹਾਂ ਦੀ ਦਵਾਈ ਲੈਣੀ ਚਾਹੀਦੀ ਹੈ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+Covid-19, ਜਿਵੇਂ ਕਿ ਫਲੂ ਵਰਗੀਆਂ ਹੋਰ ਵਾਇਰਲ ਬਿਮਾਰੀਆਂ, ਸਾਹ ਪ੍ਰਣਾਲੀ ਨੂੰ ਨੁਕਸਾਨ ਪਹੁੰਚਾ ਸਕਦੀਆਂ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਦਿਲ ਨੂੰ ਕੰਮ ਕਰਨਾ ਮੁਸ਼ਕਲ ਬਣਾ ਸਕਦੀਆਂ ਹਨ. ਦਿਲ ਦੀ ਅਸਫਲਤਾ ਅਤੇ ਦਿਲ ਦੀਆਂ ਹੋਰ ਗੰਭੀਰ ਸਥਿਤੀਆਂ ਵਾਲੇ ਲੋਕਾਂ ਲਈ ਇਹ Covid-19 ਦੇ ਲੱਛਣਾਂ ਦਾ ਵਿਗੜ ਸਕਦਾ ਹੈ.</string>
+    <string name="orphanspinner11">ਗੰਭੀਰ ਮੋਟਾਪਾ, 40 ਜਾਂ ਇਸਤੋਂ ਵੱਧ ਦੇ ਬਾਡੀ ਮਾਸ ਇੰਡੈਕਸ (Bmi) ਦੇ ਤੌਰ ਤੇ ਪਰਿਭਾਸ਼ਿਤ, ਲੋਕਾਂ ਨੂੰ Covid-19 ਦੀਆਂ ਪੇਚੀਦਗੀਆਂ ਦੇ ਵੱਧ ਜੋਖਮ ਵਿੱਚ ਪਾਉਂਦਾ ਹੈ.
+ . N ਕਾਰਵਾਈਆਂ ਕਰਨ ਲਈ
+Medic N ਸਿਹਤ ਦੇ ਕਿਸੇ ਵੀ ਅੰਤਰੀਵ ਹਾਲਤਾਂ ਲਈ ਆਪਣੀਆਂ ਦਵਾਈਆਂ ਲਓ.
+. N ਤੁਹਾਨੂੰ ਜ਼ਿਆਦਾ ਜੋਖਮ ਕਿਉਂ ਹੋ ਸਕਦਾ ਹੈ
+. N ਕਈ ਵਾਰ ਮੋਟਾਪਾ ਗੰਭੀਰ ਸਾਹ ਲੈਣ ਵਾਲੀ ਗੰਭੀਰ ਸਮੱਸਿਆ ਦੇ ਜੋਖਮ ਨੂੰ ਵਧਾਉਂਦਾ ਹੈ ਜਿਸ ਨੂੰ ਐਕਟਿ Respਟ ਸਾਹ ਦੀ ਪ੍ਰੇਸ਼ਾਨੀ ਸਿੰਡਰੋਮ (ਏਆਰਡੀਐਸ) ਕਿਹਾ ਜਾਂਦਾ ਹੈ, ਜੋ ਕਿ ਕੋਵੀਡ -19 ਦੀ ਇੱਕ ਵੱਡੀ ਪੇਚੀਦਗੀ ਹੈ ਅਤੇ ਗੰਭੀਰ ਬਿਮਾਰੀਆਂ ਵਾਲੇ ਮਰੀਜ਼ਾਂ ਲਈ ਸਾਹ ਦੀ ਸਹਾਇਤਾ ਪ੍ਰਦਾਨ ਕਰਨ ਦੀ ਡਾਕਟਰ ਦੀ ਯੋਗਤਾ ਨਾਲ ਮੁਸ਼ਕਲ ਪੈਦਾ ਕਰ ਸਕਦੀ ਹੈ. ਗੰਭੀਰ ਮੋਟਾਪੇ ਨਾਲ ਜੀਅ ਰਹੇ ਲੋਕਾਂ ਨੂੰ ਕਈ ਗੰਭੀਰ ਭਿਆਨਕ ਬਿਮਾਰੀਆਂ ਹੋ ਸਕਦੀਆਂ ਹਨ ਅਤੇ ਸਿਹਤ ਸੰਬੰਧੀ ਸਥਿਤੀਆਂ ਸਹਿਜੇ ਹੀ ਕੋਵੀਡ -19 ਤੋਂ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦੇ ਜੋਖਮ ਨੂੰ ਵਧਾ ਸਕਦੀਆਂ ਹਨ.</string>
+    <string name="view_more">ਹੋਰ ਵੇਖੋ&gt;</string>
+    <string name="what_you_can_do">ਤੁਸੀਂ ਕੀ ਕਰ ਸਕਦੇ ਹੋ</string>
+    <string name="stay_home_and_avoid_close_contact_especially_if_you_are_at_higher_risk_of_severe_illness_or_if_you_may_have_issues_getting_assistance_if_you_get_sick">ਘਰ ਰਹੋ ਅਤੇ ਨੇੜਲੇ ਸੰਪਰਕ ਤੋਂ ਪਰਹੇਜ਼ ਕਰੋ, ਖ਼ਾਸਕਰ ਜੇ ਤੁਹਾਨੂੰ ਗੰਭੀਰ ਬਿਮਾਰੀ ਦਾ ਜ਼ਿਆਦਾ ਖ਼ਤਰਾ ਹੈ ਜਾਂ ਜੇ ਤੁਹਾਨੂੰ ਬਿਮਾਰ ਹੋਣ \'ਤੇ ਸਹਾਇਤਾ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿਚ ਮੁਸ਼ਕਲ ਆ ਸਕਦੀ ਹੈ.</string>
+    <string name="do_160_160_help">ਮਦਦ ਕਰੋ</string>
+    <string name="need_160_160_help">ਮਦਦ ਦੀ ਲੋੜ ਹੈ</string>
+    <string name="type_of_help">ਮਦਦ ਦੀ ਕਿਸਮ</string>
+    <string name="cash">ਨਕਦ</string>
+    <string name="enter_type_of_help">ਮਦਦ ਦੀ ਕਿਸਮ ਦਰਜ ਕਰੋ</string>
+    <string name="date_and_time">ਤਾਰੀਖ ਅਤੇ ਸਮਾਂ</string>
+    <string name="click_to_call">(ਕਾਲ ਕਰਨ ਲਈ ਕਲਿਕ ਕਰੋ)</string>
+    <string name="helprequest">ਸਹਾਇਤਾ ਬੇਨਤੀ ਹਟਾਓ</string>
+    <string name="add_160_160_help_160_160_request">ਸਹਾਇਤਾ ਦੀ ਬੇਨਤੀ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="supply_material">ਸਪਲਾਈ ਸਮੱਗਰੀ</string>
+    <string name="material_request">ਸਮੱਗਰੀ ਦੀ ਸਪਲਾਈ ਲਈ ਬੇਨਤੀ ਕਰੋ</string>
+    <string name="material_supply_request">ਸਮੱਗਰੀ ਦੀ ਸਪਲਾਈ ਲਈ ਬੇਨਤੀ</string>
+    <string name="foodsupply">ਕੋਵੀਡ -19 ਇਕ ਨਵੀਂ ਬਿਮਾਰੀ ਹੈ ਜੋ ਤੁਹਾਡੇ ਫੇਫੜਿਆਂ ਅਤੇ ਹਵਾਈ ਮਾਰਗਾਂ ਨੂੰ ਪ੍ਰਭਾਵਤ ਕਰ ਸਕਦੀ ਹੈ. ਇਹ ਕੋਰੋਨਵਾਇਰਸ ਨਾਮਕ ਵਾਇਰਸ ਕਾਰਨ ਹੋਇਆ ਹੈ.
+If N ਜੇ ਤੁਹਾਨੂੰ ਜਾਂ ਤੁਹਾਡੇ ਪਰਿਵਾਰ ਵਿਚ ਕਿਸੇ ਨੂੰ ਕੋਰੋਨਾਵਾਇਰਸ ਦੇ ਲੱਛਣ ਹੋਣ ਤਾਂ ਤੁਹਾਨੂੰ ਆਪਣੇ ਆਪ ਨੂੰ ਵੱਖ ਕਰਨਾ ਪਵੇਗਾ:
+Temperature ਨਾ ਦਾ ਤਾਪਮਾਨ 37.8C (100F) ਤੋਂ ਵੱਧ
+Or ਨੌਰ, ਇੱਕ ਨਵੀਂ ਅਤੇ ਸਥਿਰ ਖੰਘ -ਇਸ ਦਾ ਅਰਥ ਹੈ ਇੱਕ ਘੰਟੇ ਤੋਂ ਵੱਧ ਸਮੇਂ ਲਈ ਬਹੁਤ ਜ਼ਿਆਦਾ ਖੰਘ, ਜਾਂ 24 ਘੰਟਿਆਂ ਵਿੱਚ 3 ਜਾਂ ਵਧੇਰੇ ਖੰਘ ਦੇ ਐਪੀਸੋਡ (ਜੇ ਤੁਹਾਨੂੰ ਆਮ ਤੌਰ \'ਤੇ ਖੰਘ ਹੁੰਦੀ ਹੈ, ਇਹ ਆਮ ਨਾਲੋਂ ਵੀ ਭੈੜੀ ਹੋ ਸਕਦੀ ਹੈ)
+Os ਹੋਰ, ਅਨੋਸਮੀਆ - ਇਹ ਗੰਧ ਦੀ ਤੁਹਾਡੀ ਆਮ ਭਾਵਨਾ ਦਾ ਨੁਕਸਾਨ ਜਾਂ ਤਬਦੀਲੀ ਹੈ. ਇਹ ਤੁਹਾਡੇ ਸਵਾਦ ਦੀ ਭਾਵਨਾ ਨੂੰ ਵੀ ਪ੍ਰਭਾਵਤ ਕਰ ਸਕਦਾ ਹੈ ਕਿਉਂਕਿ ਦੋਵੇਂ ਆਪਸ ਵਿੱਚ ਜੁੜੇ ਹੋਏ ਹਨ</string>
+    <string name="home_isolation_of_very_mild_pre_symptomatic_covid_19_cases">ਬਹੁਤ ਹੀ ਹਲਕੇ / ਪ੍ਰੀ-ਲੱਛਣ Covid-19 ਮਾਮਲਿਆਂ ਦਾ ਘਰ ਇਕੱਲਤਾ</string>
+    <string name="revised_guidelines_for_home_isolation_of_very_mild_pre_symptomatic_covid_19_cases">ਬਹੁਤ ਹੀ ਹਲਕੇ / ਪੂਰਵ-ਲੱਛਣ ਵਾਲੇ Covid-19 ਮਾਮਲਿਆਂ ਦੀ ਹੋਮ ਇਕੱਲਤਾ ਲਈ ਸੁਧਾਰੀ ਦਿਸ਼ਾ ਨਿਰਦੇਸ਼</string>
+    <string name="counselling">ਕਾਉਂਸਲਿੰਗ</string>
+    <string name="material_collection">ਸਮੱਗਰੀ ਭੰਡਾਰ</string>
+    <string name="isolationfoodsupply">ਇਕੱਲੇ ਭੋਜਨ ਦੀ ਸਪਲਾਈ</string>
+    <string name="orphans_and_vulnerable">ਅਨਾਥ ਅਤੇ ਕਮਜ਼ੋਰ</string>
+    <string name="general">ਜਨਰਲ</string>
+    <string name="_10_tips_to_help_if_you_are_worried_about_coronavirus">ਜੇ ਤੁਸੀਂ ਕੋਰੋਨਵਾਇਰਸ ਬਾਰੇ ਚਿੰਤਤ ਹੋ ਤਾਂ ਮਦਦ ਕਰਨ ਲਈ 10 ਸੁਝਾਅ</string>
+    <string name="apply_for_counselling">ਕਾਉਂਸਲਿੰਗ ਲਈ ਅਰਜ਼ੀ ਦਿਓ</string>
+    <string name="minding_our_minds_during_the_covid_19">ਕੋਵਿਡ -19 ਦੌਰਾਨ ਸਾਡੇ ਦਿਮਾਗਾਂ ਨੂੰ ਮਿਲਾਉਣਾ</string>
+    <string name="nav_header_desc">ਨੇਵੀਗੇਸ਼ਨ ਸਿਰਲੇਖ</string>
+    <string name="listview">ਸੂਚੀ ਵੇਖਣ</string>
+    <string name="locate">ਲੱਭੋ</string>
+    <string name="distributed">ਵੰਡੇ ਗਏ</string>
+    <string name="add">ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="scheduled">ਤਹਿ</string>
+    <string name="phone">ਫੋਨ</string>
+    <string name="food">ਭੋਜਨ</string>
+    <string name="relief_material">ਰਾਹਤ ਸਮੱਗਰੀ</string>
+    <string name="type_of_material">ਸਮੱਗਰੀ ਦੀ ਕਿਸਮ</string>
+    <string name="schedule">ਸਮਾਸੂਚੀ, ਕਾਰਜ - ਕ੍ਰਮ</string>
+    <string name="enter_date_and_time">ਮਿਤੀ ਅਤੇ ਸਮਾਂ ਦਰਜ ਕਰੋ</string>
+    <string name="application">ਐਪਲੀਕੇਸ਼ਨ</string>
+    <string name="start_counselling">ਕਾਉਂਸਲਿੰਗ ਸ਼ੁਰੂ ਕਰੋ</string>
+    <string name="applications">ਕਾਰਜ</string>
+    <string name="tap_to_refresh_list">ਸੂਚੀ ਨੂੰ ਤਾਜ਼ਾ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <string name="voice_call">ਵੌਇਸ ਕਾਲ</string>
+    <string name="vedio_call">ਵੀਡੀਓ ਕਾਲ</string>
+    <string name="info">ਜਾਣਕਾਰੀ</string>
+    <string name="i_am_seeking_mental_health_support_offered_by_covid_19_relief">ਮੈਂ Covid-19 Relief ਦੁਆਰਾ ਪੇਸ਼ਕਸ਼ ਕੀਤੀ ਮਾਨਸਿਕ ਸਿਹਤ ਸਹਾਇਤਾ ਦੀ ਭਾਲ ਕਰ ਰਿਹਾ ਹਾਂ</string>
+    <string name="type_your_message_here">ਆਪਣਾ ਸੁਨੇਹਾ ਇਥੇ ਲਿਖੋ</string>
+    <string name="ongoing">ਚਲ ਰਿਹਾ ਹੈ</string>
+    <string name="start_date">ਤਾਰੀਖ ਸ਼ੁਰੂ</string>
+    <string name="due_date">ਅਦਾਇਗੀ ਤਾਰੀਖ</string>
+    <string name="work_details">ਕੰਮ ਦੇ ਵੇਰਵੇ</string>
+    <string name="title">ਸਿਰਲੇਖ</string>
+    <string name="description">ਵੇਰਵਾ</string>
+    <string name="priority">ਤਰਜੀਹ</string>
+    <string name="normal">ਸਧਾਰਣ</string>
+    <string name="high_priority">ਉੱਚ ਤਰਜੀਹ</string>
+    <string name="contact_details">ਸੰਪਰਕ ਵੇਰਵੇ</string>
+    <string name="place_of_work">ਕੰਮ ਦੀ ਜਗ੍ਹਾ</string>
+    <string name="team_details">ਟੀਮ ਦੇ ਵੇਰਵੇ</string>
+    <string name="role">ਭੂਮਿਕਾ</string>
+    <string name="add_member">ਸਦੱਸ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="leader">ਲੀਡਰ</string>
+    <string name="stop_work">ਕੰਮ ਰੋਕੋ</string>
+    <string name="work">ਕੰਮ</string>
+    <string name="comments">ਟਿਪਣੀਆਂ</string>
+    <string name="search_place">ਖੋਜ ਸਥਾਨ</string>
+    <string name="indian_helpline">ਭਾਰਤੀ ਹੈਲਪਲਾਈਨ:</string>
+    <string name="indian_government_and_ministry_of_health_amp_family_welfare_has_provided_the_following_helpline_numbers_of_states">ਭਾਰਤ ਸਰਕਾਰ ਅਤੇ ਸਿਹਤ ਅਤੇ ਪਰਿਵਾਰ ਭਲਾਈ ਮੰਤਰਾਲੇ ਨੇ ਹੇਠ ਲਿਖਿਆਂ ਹੈਲਪਲਾਈਨ ਨੰਬਰ ਰਾਜਾਂ ਨੂੰ ਪ੍ਰਦਾਨ ਕੀਤੇ ਹਨ.</string>
+    <string name="national_helpline_number">ਰਾਸ਼ਟਰੀ ਹੈਲਪਲਾਈਨ ਨੰਬਰ:</string>
+    <string name="central_helpline_number">ਕੇਂਦਰੀ ਹੈਲਪਲਾਈਨ ਨੰਬਰ:</string>
+    <string name="central_helpline_email">ਕੇਂਦਰੀ ਹੈਲਪਲਾਈਨ ਈਮੇਲ:</string>
+    <string name="mygov_whatsapp_number">ਮਾਈਗੋਵ ਵਟਸਐਪ ਨੰਬਰ:</string>
+    <string name="states_helpline_number">ਸਟੇਟਸ ਹੈਲਪਲਾਈਨ ਨੰਬਰ</string>
+    <string name="andhrapradesh">ਆਂਧਰਾ ਪ੍ਰਦੇਸ਼</string>
+    <string name="arunachalpradesh">ਅਰੁਣਾਚਲ ਪ੍ਰਦੇਸ਼</string>
+    <string name="assam">ਅਸਾਮ</string>
+    <string name="Bihar">ਬਸੰਤ</string>
+    <string name="Chhattisgarh">ਛੱਤੀਸਗੜ</string>
+    <string name="Goa">ਗੋਆ</string>
+    <string name="Gujarat">ਗੁਜਰਾਤ</string>
+    <string name="Haryana">ਹਰਿਆਣੇ</string>
+    <string name="Himachalpradesh">ਹਿਮਾਚਲ ਪ੍ਰਦੇਸ਼</string>
+    <string name="Jharkhand">ਝਾਰਖੰਡ</string>
+    <string name="Karnataka">ਕਰਨਾਟਕ</string>
+    <string name="Kerala">ਕੇਰਲ</string>
+    <string name="Madhyapradesh">ਮੱਧ ਪ੍ਰਦੇਸ਼</string>
+    <string name="Maharashtra">ਮਹਾਰਾਸ਼ਟਰ</string>
+    <string name="Manipur">ਮਨੀਪੁਰ</string>
+    <string name="Meghalaya">ਮੇਘਾਲਿਆ</string>
+    <string name="Mizoram">ਮਿਜ਼ੋਰਮ</string>
+    <string name="Nagaland">ਨਾਗਾਲੈਂਡ</string>
+    <string name="Odisha">ਓਡੀਸ਼ਾ</string>
+    <string name="Punjab">ਪੰਜਾਬ</string>
+    <string name="Rajasthan">ਰਾਜਸਥਾਨ</string>
+    <string name="Sikkim">ਸਿੱਕਮ</string>
+    <string name="Tamilnadu">ਤਾਮਿਲਨਾਡੂ</string>
+    <string name="Telangana">ਤੇਲੰਗਾਨਾ</string>
+    <string name="Tripura">ਤ੍ਰਿਪੁਰਾ</string>
+    <string name="Uttarpradesh">ਉੱਤਰ ਪ੍ਰਦੇਸ਼</string>
+    <string name="Uttarakhand">ਉਤਰਾਖੰਡ</string>
+    <string name="Westbengal">ਪੱਛਮੀ ਬੰਗਾਲ</string>
+    <string name="AndamanandNicobarIsland">ਅੰਡੇਮਾਨ ਅਤੇ ਨਿਕੋਬਾਰ ਆਈਲੈਂਡ</string>
+    <string name="Chandigarh">ਚੰਡੀਗੜ੍ਹ</string>
+    <string name="DadraNagarHaveliDamanandDiu">ਦਾਦਰਾ ਨਗਰ ਹਵੇਲੀ, ਦਮਨ ਅਤੇ ਦਿਉ</string>
+    <string name="Delhi">ਦਿੱਲੀ</string>
+    <string name="JammuandKashmir">ਜੰਮੂ ਅਤੇ ਕਸ਼ਮੀਰ</string>
+    <string name="Ladakh">ਲੱਦਾਖ</string>
+    <string name="Lakshadweep">ਲਕਸ਼ਦਵੀਪ</string>
+    <string name="Puducherry">ਪੁਡੂਚੇਰੀ</string>
+    <string name="map_view">ਨਕਸ਼ਾ ਦ੍ਰਿਸ਼</string>
+    <string name="health_care">ਸਿਹਤ ਸੰਭਾਲ</string>
+    <string name="no_new_notifications">ਕੋਈ ਨਵੀਂ ਸੂਚਨਾਵਾਂ ਨਹੀਂ!</string>
+    <string name="you_will_be_notified_with_alerts_and_latest_updates_over_here">ਤੁਹਾਨੂੰ ਇੱਥੇ ਚੇਤਾਵਨੀ ਅਤੇ ਤਾਜ਼ਾ ਅਪਡੇਟਾਂ ਬਾਰੇ ਸੂਚਿਤ ਕੀਤਾ ਜਾਵੇਗਾ</string>
+    <string name="clear_notifications">ਸੂਚਨਾਵਾਂ ਸਾਫ਼ ਕਰੋ</string>
+    <string name="useful_resources">ਉਪਯੋਗੀ ਸਰੋਤ</string>
+    <string name="donate_via_pm_cares_website">PM ਕੇਅਰ ਵੈਬਸਾਈਟ ਦੁਆਰਾ ਦਾਨ ਕਰੋ</string>
+    <string name="see_icmr_approved_labs">ਆਈਸੀਐਮਆਰ ਦੁਆਰਾ ਪ੍ਰਵਾਨਿਤ ਲੈਬਾਂ&gt; ਵੇਖੋ</string>
+    <string name="laboratory_with_covid_19_testing_facilty">Covid-19 ਟੈਸਟਿੰਗ ਸਹੂਲਤ ਵਾਲੀ ਪ੍ਰਯੋਗਸ਼ਾਲਾ</string>
+    <string name="let_s_fight_corona">ਆਓ ਲੜਾਈ ਲਈ ਕੋਰੋਨਾ</string>
+    <string name="wash_your_hands_frequently">ਆਪਣੇ ਹੱਥ ਅਕਸਰ ਧੋਵੋ</string>
+    <string name="maintain_social_distancing">ਸਮਾਜਕ ਦੂਰੀ ਬਣਾਈ ਰੱਖੋ</string>
+    <string name="respiratory_practice">ਸਾਹ ਦੀ ਸਫਾਈ ਦਾ ਅਭਿਆਸ ਕਰੋ</string>
+    <string name="eyes_nose_mouth">ਅੱਖਾਂ, ਨੱਕ ਅਤੇ ਮੂੰਹ ਨੂੰ ਛੂਹਣ ਤੋਂ ਬਚੋ</string>
+    <string name="stay_informed">ਜਾਣਕਾਰੀ ਰੱਖੋ</string>
+    <string name="heed_to_precautionary_measures">ਸਾਵਧਾਨੀ ਦੇ ਉਪਾਵਾਂ ਵੱਲ ਧਿਆਨ ਦੇਣਾ</string>
+    <string name="vedios">ਵੇਦਿਓਸ</string>
+    <string name="symptoms">ਲੱਛਣ</string>
+    <string name="spread_and_preventions">ਫੈਲਣ ਅਤੇ ਰੋਕਥਾਮ</string>
+    <string name="personalhygiene">ਨਿਜੀ ਸਫਾਈ</string>
+    <string name="do_s_and_don_ts">ਕੀ ਕਰੋ ਅਤੇ ਕੀ ਨਾ ਕਰੋ</string>
+    <string name="avoid_spreading">ਫੈਲਣ ਤੋਂ ਪਰਹੇਜ਼ ਕਰੋ</string>
+    <string name="media">ਮੀਡੀਆ</string>
+    <string name="public_advice">ਜਨਤਕ ਸਲਾਹ</string>
+    <string name="adjust_settings_for_covid_19_relief">Covid-19 Relief ਲਈ ਸੈਟਿੰਗਾਂ ਵਿਵਸਥਿਤ ਕਰੋ</string>
+    <string name="type_a_message">ਇੱਕ ਸੁਨੇਹਾ ਟਾਈਪ ਕਰੋ</string>
+    <string name="my_questions">ਮੇਰੇ ਪ੍ਰਸ਼ਨ</string>
+    <string name="leave_your_comment">ਆਪਣੀ ਟਿੱਪਣੀ ਛੱਡੋ ...</string>
+    <string name="menu_home">ਘਰ</string>
+    <string name="education">ਸਿੱਖਿਆ</string>
+    <string name="skills">Skills</string>
+    <string name="disaster_management">ਆਪਦਾ ਪ੍ਰਬੰਧਨ</string>
+    <string name="alarm_label">ਅਲਾਰਮ ਲੇਬਲ</string>
+    <string name="label">ਲੇਬਲ</string>
+    <string name="delete_after_goes_off">ਬੰਦ ਹੋਣ ਤੋਂ ਬਾਅਦ ਮਿਟਾਓ</string>
+    <string name="repeat">ਦੁਹਰਾਓ</string>
+    <string name="no_posts_to_view">ਵੇਖਣ ਲਈ ਕੋਈ ਪੋਸਟਾਂ ਨਹੀਂ</string>
+    <string name="no_alarm_to_view">ਵੇਖਣ ਲਈ ਕੋਈ ਅਲਾਰਮ ਨਹੀਂ</string>
+    <string name="docounselling">ਕਾਉਂਸਲਿੰਗ ਕਰੋ</string>
+    <string name="takecounselling">ਸਲਾਹ ਲਓ</string>
+    <string name="do_verification">ਤਸਦੀਕ ਕਰੋ</string>
+    <string name="allpermissiongranted">ਸਾਰੇ ਅਧਿਕਾਰ ਦਿੱਤੇ ਗਏ ਹਨ.</string>
+    <string name="next">ਅਗਲਾ</string>
+    <string name="skip">ਛੱਡੋ</string>
+    <string name="get_started">ਅਰੰਭ ਕਰੋ</string>
+    <string name="choose_selected">ਚੁਣੇ ਦੀ ਚੋਣ ਕਰੋ</string>
+    <string name="youhavetobesafe">ਤੁਹਾਨੂੰ ਸੁਰੱਖਿਅਤ ਰਹਿਣਾ ਪਏਗਾ !\n</string>
+    <string name="Totalassessed">ੁੱਲ ਮੁਲਾਂਕਣ : </string>
+    <string name="FoundSick">ਮਿਲਿਆ ਬੀਮਾਰ :  </string>
+    <string name="Within1KMradius">\n1 ਕਿਮੀ ਦੇ ਘੇਰੇ ਵਿਚ</string>
+    <string name="youaresafe">ਤੁਸੀਂ ਸੁਰੱਖਿਅਤ ਹੋ !\n</string>
+    <string name="no_requests_to_view">ਵੇਖਣ ਲਈ ਕੋਈ ਬੇਨਤੀ ਨਹੀਂ</string>
+    <string name="permissionsrequired">ਐਪ ਨੂੰ ਸਧਾਰਣ ਤੌਰ ਤੇ ਕੰਮ ਕਰਨ ਲਈ ਸਾਰੀਆਂ ਅਨੁਮਤੀਆਂ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ.</string>
+
+</resources>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mystatus"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/hometoolbar"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:background="#ECAB45"
+                android:minHeight="45dp"
+                android:theme="?attr/actionBarTheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:title="@string/app_name" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:transitionName="currrentstatus"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/current_status"
+                android:textColor="#B475CE"
+                android:textSize="20sp"
+                app:fontFamily="@font/roboto_bold"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hometoolbar" />
+
+            <TextView
+                android:id="@+id/confirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="Covid-19 Relief"
+                android:transitionName="active"
+                android:textColor="#4F0D5E"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/death"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="5dp"
+                android:text="Covid-19 Relief"
+                android:transitionName="death"
+                android:textColor="#4F0D5E"
+                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/confirm" />
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:transitionName="linear1"
+                android:visibility="invisible"
+                android:padding="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <RelativeLayout
+                    android:background="@drawable/customborder_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:clipToPadding="false"
+                        android:foregroundGravity="center"
+                        android:overScrollMode="never" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:transitionName="linear1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/mystatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:padding="10dp"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            app:fontFamily="@font/roboto_medium" />
+
+                        <TextView
+                            android:id="@+id/mystatus1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/mystatus"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textColor="#000000"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/roboto_bold" />
+
+                        <TextView
+                            android:id="@+id/mystatus2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/mystatus1"
+                            android:padding="5dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/roboto_medium" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:transitionName="linear2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/viewmap">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/bus1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/view_in_map"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/roboto_medium" />
+
+                        <ImageView
+                            android:id="@+id/bus1"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="15dp"
+                            app:srcCompat="@drawable/mapicon"
+                            android:contentDescription="TODO" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/notification">
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/train"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/notification"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            app:fontFamily="@font/roboto_medium" />
+
+                        <ImageView
+                            android:id="@+id/train"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="15dp"
+                            app:srcCompat="@drawable/notification"
+                            android:contentDescription="TODO" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:transitionName="linear3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/todo">
+
+                        <TextView
+                            android:id="@+id/todotext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/todoimage"
+                            android:layout_centerHorizontal="true"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/to_do"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            app:fontFamily="@font/roboto_medium" />
+
+                        <ImageView
+                            android:id="@+id/todoimage"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="15dp"
+                            app:srcCompat="@drawable/todo"
+                            android:contentDescription="TODO" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/dashprofile">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/airplane"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/profile"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textSize="15sp"
+                            app:fontFamily="@font/roboto_medium" />
+
+                        <ImageView
+                            android:id="@+id/airplane"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:transitionName="profile"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="15dp"
+                            app:srcCompat="@drawable/statusicon"
+                            android:contentDescription="TODO" />
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:transitionName="icon"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView"
+                app:layout_constraintTop_toBottomOf="@+id/hometoolbar"
+                app:srcCompat="@drawable/collective_intelligence_icon_use"
+                android:contentDescription="TODO" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

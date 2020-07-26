@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/monitors" />
+    <item android:title="@string/volunteers" />
+    <item android:title="@string/workers" />
+    <item android:title="@string/labour" />
+    <item android:title="@string/healthworker" />
+    <item android:title="@string/stranded_migrant" />
+    <item android:title="@string/orphan" />
+    <item android:title="@string/counsellor" />
+    <item android:title="@string/general" />
+
+
+</menu>

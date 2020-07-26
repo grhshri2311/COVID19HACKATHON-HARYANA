@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#fff"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".QRcode">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading QR CODE..."
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_above="@id/qr" />
+
+    <ImageView
+        android:id="@+id/qr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/qricon"
+        android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="#499E4C"
+        android:fontFamily="@font/g_bold"
+        android:background="#00000000"
+        android:textSize="20sp"
+        android:text="@string/scan_qr_code" />
+
+</RelativeLayout>

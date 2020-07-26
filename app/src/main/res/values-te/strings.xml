@@ -1,0 +1,495 @@
+<resources xmlns:ns0="http://schemas.android.com/tools">
+    <string name="app_name">Covid19Relief</string>
+    <string name="title_activity_maps">మ్యాప్</string>
+    <string name="sign_in_to_continue">కొనసాగించడానికి సైన్ ఇన్ చేయండి</string>
+    <string name="password">పాస్వర్డ్</string>
+    <string name="forget_password_reset_password">పాస్వర్డ్ మర్చిపో / పాస్వర్డ్ రీసెట్ చేయాలా?</string>
+    <string name="go">వెళ్ళండి</string>
+    <string name="new_user_sign_up">క్రొత్త వినియోగదారు? చేరడం</string>
+    <string name="sign_up_to_start_your_journey">మీ ప్రయాణాన్ని ప్రారంభించడానికి సైన్ అప్ చేయండి</string>
+    <string name="mobile">మొబైల్</string>
+    <string name="full_name">పూర్తి పేరు</string>
+    <string name="select_your_role">మీ పాత్రను ఎంచుకోండి</string>
+    <string name="aldready_have_an_account_login">ఖాతా కలిగి ఉన్నారా? ప్రవేశించండి</string>
+    <string name="monitors">మానిటర్లు</string>
+    <string name="volunteers">వాలంటీర్లు</string>
+    <string name="covid19_relief">కోవిడ్ 19 రిలీఫ్</string>
+    <string name="stay_home_stay_safe" translatable="false" ns0:ignore="ExtraTranslation">హర్యానా</string>
+    <string name="my_status">నా స్థితి</string>
+    <string name="share">వాటా</string>
+    <string name="logout">లాగౌట్</string>
+    <string name="setting">సెట్టింగులు</string>
+
+    <string name="current_status">ప్రస్తుత స్థితి</string>
+    <string name="forgot_password">పాస్‌వర్డ్ మర్చిపోయారా?</string>
+    <string name="reset_your_password">మీ సాంకేతిక పదము మార్చండి</string>
+    <string name="new_password">కొత్త పాస్వర్డ్</string>
+    <string name="confirm_password">పాస్వర్డ్ను నిర్ధారించండి</string>
+    <string name="enter_mobile_no">మొబైల్ నంబర్‌ను నమోదు చేయండి</string>
+    <string name="reset">రీసెట్</string>
+    <string name="updates">కోవిడ్ నవీకరణలు</string>
+    <string name="cases_report">కేసుల నివేదిక</string>
+    <string name="profile">ప్రొఫైల్</string>
+    <string name="mapping">మ్యాపింగ్</string>
+    <string name="labour">లేబర్</string>
+    <string name="healthworker">ఆరోగ్య కార్య కర్త</string>
+    <string name="workers">సెక్టార్ వర్కర్స్</string>
+    <string name="donate">దానం</string>
+    <string name="helpline">హెల్ప్లైన్</string>
+    <string name="notification">నోటిఫికేషన్</string>
+    <string name="view_in_map">మ్యాప్‌లో చూడండి</string>
+    <string name="to_do">చెయ్యవలసిన</string>
+    <string name="scan">జియో ఫెన్సింగ్</string>
+    <string name="intro1">భారతదేశంలో కరోనా వైరస్ మహమ్మారి వ్యాప్తిని నివారించడంలో మాకు ప్రతి ఒక్కరికి అధికారం ఉంది  మీరు Covid-19 పాజిటివ్‌ను పరీక్షించిన వారితో మార్గాలు దాటితే మీకు సమాచారం ఇవ్వాలనుకుంటున్నారా?</string>
+    <string name="intro2">Covid-19 రిలీఫ్ బ్లూటూత్ ద్వారా ట్రాక్ చేస్తుంది మరియు స్థానం సృష్టించిన సామాజిక గ్రాఫ్, Covid-19 కి బాధితురాలిని కనుగొనగలిగే వారితో మీ పరస్పర చర్య. \ N</string>
+    <string name="intro3">మీరు Covid-19 బాధితురాలిని తెలియకుండానే, మీరు దగ్గరకు వచ్చిన ఎవరైనా హెచ్చరికలను పొందడానికి అనువర్తనంలోని స్కాన్ ఎంపికను ఉపయోగించవచ్చు.</string>
+    <string name="intro4">Covid-19-Relief అనేది Covid-19 కు వ్యతిరేకంగా పోరాడటానికి భారత ప్రజలతో అవసరమైన ఆరోగ్యం మరియు వివిధ సేవలను అనుసంధానించడానికి మరియు సమన్వయం చేయడానికి అభివృద్ధి చేయబడిన మొబైల్ అప్లికేషన్. Covid-19 యొక్క నష్టాలు, ఉత్తమ అభ్యాసాలు మరియు సంబంధిత నవీకరణల గురించి అనువర్తనం యొక్క వినియోగదారులను ముందుగానే చేరుకోవడంలో మరియు తెలియజేయడంలో వివిధ సేవలు మరియు రంగాలకు, ముఖ్యంగా ఆరోగ్య శాఖకు సహాయం చేయడానికి మరియు సమన్వయం చేయడానికి ఒక కమ్యూనిటీని నిర్మించడం ఈ అనువర్తనం లక్ష్యంగా ఉంది.</string>
+    <string name="medical_shops">వైద్య దుకాణాలు</string>
+    <string name="epass">Epass మరియు ప్రభుత్వ సేవ</string>
+    <string name="stranded_migrant">ఒంటరిగా ఉన్న వలసదారు</string>
+
+
+    <string name="pay_using_upi">యుపిఐ ఉపయోగించి చెల్లించండి</string>
+    <string name="hospital_appointment">హాస్పిటల్ నియామకం</string>
+    <string name="lab_test">ల్యాబ్ టెస్ట్</string>
+    <string name="order_medicine">ఆర్డర్ మెడిసిన్</string>
+    <string name="quora">కోరా</string>
+    <string name="notify">నోటిఫికేషన్</string>
+    <string name="select_catagory">వర్గం ఎంచుకోండి</string>
+    <string name="assign">కేటాయించవచ్చు</string>
+    <string name="please_turn_on_internet_to_stay_updated">నవీకరించబడటానికి దయచేసి ఇంటర్నెట్‌ను ఆన్ చేయండి</string>
+    <string name="go_back_and_pull_down_to_refresh">తిరిగి వెళ్లి రిఫ్రెష్ చేయడానికి క్రిందికి లాగండి</string>
+    <string name="close">దగ్గరగా</string>
+    <string name="alert">హెచ్చరిక!</string>
+    <string name="found_new_victim_in_your_surrounding">మీ పరిసరాల్లో కొత్త బాధితుడిని కనుగొన్నారు</string>
+    <string name="stay_away_from_the_place">స్థలం నుండి దూరంగా ఉండండి!</string>
+    <string name="alarm_manager">అలారం మేనేజర్</string>
+    <string name="hospital_nlab_test_nmedicine">నియామకాల / అడ్మిషన్స్</string>
+    <string name="first_responder">మొదటి ప్రతిస్పందన</string>
+    <string name="be_ready_to_contribute">తక్షణమే సహాయం పొందండి</string>
+    <string name="be_the_first_responder">మొదటి ప్రతిస్పందనగా ఉండండి</string>
+    <string name="alert_nearby">సమీపంలో హెచ్చరిక</string>
+    <string name="dial_108">108 డయల్ చేయండి</string>
+    <string name="dial_100">100 డయల్ చేయండి</string>
+    <string name="dial_101">101 డయల్ చేయండి</string>
+    <string name="nearby_hospitals">సమీప ఆసుపత్రులు</string>
+    <string name="first_aid_guidance">ప్రథమ చికిత్స మార్గదర్శకం</string>
+
+    <string name="share_with">తో పంచు</string>
+
+    <string name="translate">అనువదించు</string>
+    <string name="assistant">అసిస్టెంట్</string>
+    <string name="support">సపోర్ట్ అసిస్టెంట్</string>
+    <string name="chatbotintro">సపోర్ట్ అసిస్టెంట్ వాయిస్ కమాండ్లు లేదా టెక్స్ట్ చాట్స్ లేదా రెండింటి ద్వారా మానవ సంభాషణను అనుకరిస్తాడు.ఇది నావిగేషన్ ద్వారా మరియు మీ ప్రశ్నలకు సమాధానం ఇవ్వడం ద్వారా మీకు సహాయపడుతుంది</string>
+    <string name="whatsapp_queries">వాట్సాప్ ప్రశ్నలు</string>
+    <string name="join_in_our_communtiy">మా సంఘంలో చేరండి</string>
+    <string name="labs_for_test">పరీక్ష కోసం ల్యాబ్‌లు</string>
+    <string name="action_on_covid_19_relief_for_msme_sector">MSME రంగానికి Covid-19 ఉపశమనంపై చర్య</string>
+    <string name="looking_for_products_and_service_to_sell_on_gem_sign_up_now">GEM లో విక్రయించడానికి ఉత్పత్తులు మరియు సేవ కోసం చూస్తున్నారా, ఇప్పుడే సైన్ అప్ చేయండి!</string>
+    <string name="hospital_near_me">నా దగ్గర హాస్పిటల్</string>
+    <string name="alarm">అలారం</string>
+    <string name="select_volunteer">వాలంటీర్ ఎంచుకోండి</string>
+    <string name="active">క్రియాశీల</string>
+    <string name="confirmed">ధ్రువీకరించారు</string>
+    <string name="death">డెత్</string>
+    <string name="recovered">కోలుకున్న</string>
+    <string name="visualise">చూడండి</string>
+    <string name="got_help">సహాయం వచ్చింది!</string>
+    <string name="need_help">సహాయం కావాలి !</string>
+    <string name="respond">ఎడాపెడా</string>
+    <string name="stay_home_save_lives_help_stop_coronavirus_stay_home_keep_safe_distance_wash_hands_often_cover_your_cough_sick_call_the_helpline">ఇంటి వద్దే ఉండండి. కరోనావైరస్ ఆపడానికి సహాయపడండి ఇంటికి వెళ్ళండి సురక్షితమైన దూరం చేతులు తరచుగా మీ దగ్గును కప్పిపుచ్చుకోవాలా? హెల్ప్‌లైన్‌కు కాల్ చేయండి</string>
+    <string name="msme_covid_19_related_products">MSME Covid 19 సంబంధిత ఉత్పత్తులు</string>
+    <string name="stay_protected">రక్షణగా ఉండండి</string>
+    <string name="you_will_be_alerted_when_you_getting_closer_to_covid_victim_even_when_the_app_is_minimised">అనువర్తనం కనిష్టీకరించబడినప్పుడు కూడా మీరు Covid బాధితుడికి దగ్గరైనప్పుడు మీరు హెచ్చరించబడతారు</string>
+    <string name="starting_scan">స్కాన్ ప్రారంభిస్తోంది ...</string>
+    <string name="stop">ఆపు</string>
+    <string name="post_your_queries_here">మీ ప్రశ్నలను ఇక్కడ పోస్ట్ చేయండి</string>
+    <string name="post">పోస్ట్</string>
+    <string name="register_course">కోర్సు నమోదు</string>
+    <string name="publiccare">ప్రజారోగ్య సంరక్షణ స్థానం</string>
+    <string name="msme_products">MSME ఉత్పత్తులు</string>
+    <string name="sectorworkers">అసంఘటిత రంగ కార్మికులు</string>
+    <string name="course">ఆన్‌లైన్ కోర్సు</string>
+    <string name="email_optional">ఇమెయిల్ (ఐచ్ఛికం)</string>
+    <string name="title_activity_settings">Settingsactivity</string>
+
+    <string name="important_links">ముఖ్యమైన లింకులు</string>
+    <string name="biometric">బయోమెట్రిక్</string>
+    <string name="verifyfail">ధృవీకరించలేదు, మళ్ళీ ప్రయత్నించండి</string>
+    <string name="verifysuccess">ధృవీకరించబడిన</string>
+    <string name="or">Or</string>
+    <string name="scan_below_qr_to_share">భాగస్వామ్యం చేయడానికి Qr క్రింద స్కాన్ చేయండి</string>
+    <string name="use_password">పాస్వర్డ్ ఉపయోగించండి</string>
+    <string name="touch_sensor">టచ్ సెన్సార్</string>
+    <string name="verify_your_identity">మీ గుర్తింపును ధృవీకరించండి</string>
+    <string name="confirm_your_fingerprint_so_covid_19_relief_can_verify_it_s_you">మీ వేలిముద్రను నిర్ధారించండి, కాబట్టి Covid-19 Relief అది మీరేనని ధృవీకరించగలదు.</string>
+    <string name="it_has_not_been_generated_by_covid_19_relief">ఇది Covid-19 Relief చేత ఉత్పత్తి చేయబడలేదు</string>
+    <string name="invalid_qr_code">చెల్లని Qr కోడ్</string>
+    <string name="generate_qr_code">Qr కోడ్‌ను రూపొందించండి</string>
+    <string name="scan_qr_code">Qr కోడ్‌ను స్కాన్ చేయండి</string>
+    <string name="generate_scan_qr">Qr ను రూపొందించండి / స్కాన్ చేయండి</string>
+    <string name="a_lot_of_features_like_voice_assistant_qr_scanner_reader_settings_can_be_found_here">వాయిస్ అసిస్టెంట్, క్యూఆర్ స్కానర్ / రీడర్, సెట్టింగులు వంటి చాలా ఫీచర్లు ఇక్కడ చూడవచ్చు</string>
+    <string name="sign_in_sign_up">సైన్ ఇన్ / సైన్ అప్ చేయండి</string>
+    <string name="reject">తిరస్కరించు</string>
+    <string name="verify_your_mobile">మీ మొబైల్‌ను ధృవీకరించండి</string>
+    <string name="title_activity_work_assign_home">పని ఇంటికి కేటాయించండి</string>
+    <string name="to_160_160_do">చెయ్యవలసిన</string>
+    <string name="done">పూర్తి</string>
+    <string name="title_activity_to_do_home">స్తోత్రము</string>
+    <string name="address">చిరునామా</string>
+    <string name="male">పురుషుడు</string>
+    <string name="gender">జెండర్</string>
+    <string name="female">స్త్రీ</string>
+    <string name="add_alarm">అలారం జోడించండి</string>
+    <string name="click_to_turn_off">ఆపివేయడానికి వాల్యూమ్ బటన్ నొక్కండి</string>
+    <string name="submit">సమర్పించండి</string>
+    <string name="orphan">అనాధ</string>
+    <string name="counsellor">కౌన్సిలర్</string>
+    <string name="date_of_birth">పుట్టిన తేది</string>
+    <string name="email">ఇమెయిల్</string>
+    <string name="apply_here">ఇక్కడ వర్తించండి</string>
+    <string name="try_again">మళ్ళీ ప్రయత్నించండి</string>
+    <string name="submit_your_proof_of_identity_for_verification_before_you_start_your_service">మీరు మీ సేవను ప్రారంభించడానికి ముందు ధృవీకరణ కోసం మీ గుర్తింపు రుజువును సమర్పించండి</string>
+    <string name="your_form_is_under_processing">మీ ఫారం ప్రాసెసింగ్‌లో ఉంది!</string>
+    <string name="please_wait">దయచేసి వేచి ఉండండి</string>
+    <string name="your_identity_is_verified_nyou_can_start_providing_your_services">మీ గుర్తింపు ధృవీకరించబడింది! Your N మీరు మీ సేవలను అందించడం ప్రారంభించవచ్చు!</string>
+    <string name="verification">ధృవీకరణ</string>
+    <string name="details">వివరాలు</string>
+    <string name="approve">ఆమోదించడానికి</string>
+    <string name="requests">అభ్యర్థనలు</string>
+    <string name="welcome_back_nstay_safe_from_covid_19">తిరిగి స్వాగతం Cov Covid-19 నుండి సురక్షితంగా ఉండండి</string>
+    <string name="change_number">సంఖ్యను మార్చండి</string>
+    <string name="proof_of_identity">గుర్తింపు ధృవీకరణము :</string>
+    <string name="yes">అవును</string>
+    <string name="no">తోబుట్టువుల</string>
+    <string name="selfassess1">మీకు శ్వాస తీసుకోవడంలో లేదా ఇతర తీవ్రమైన లక్షణాలను ఎదుర్కొంటుంటే, 011-23978046 లేదా 1075 కు కాల్ చేయండి</string>
+    <string name="selfassess2">మీరు ఈ క్రింది లక్షణాలను ఎదుర్కొంటున్నారా?
+1) శ్వాస తీసుకోవడంలో తీవ్రమైన ఇబ్బంది (ఉదాహరణకు, ప్రతి శ్వాస కోసం కష్టపడటం, ఒకే మాటలలో మాట్లాడటం)
+2) తీవ్రమైన ఛాతీ నొప్పి
+3) మేల్కొలపడానికి చాలా కష్టపడటం
+4) గందరగోళంగా అనిపిస్తుంది
+5) స్పృహ కోల్పోయింది</string>
+    <string name="selfassess3">స్వీయ-అంచనా ఫలితం
+దయచేసి 1075, + 91-11-23978046 కు కాల్ చేయండి లేదా Ncov2019@Gmail.Com లో ఇమెయిల్ చేయండి లేదా నేరుగా మీ సమీప అత్యవసర విభాగానికి వెళ్లండి.</string>
+    <string name="selfassess4">మీరు ఈ క్రింది లక్షణాలలో ఏదైనా (లేదా ఈ లక్షణాల కలయిక) ఎదుర్కొంటున్నారా?
+1) కండరాల నొప్పులు
+2) అలసట
+3) తలనొప్పి
+4) గొంతు నొప్పి
+5) ముక్కు కారటం
+చిన్న పిల్లలలో లక్షణాలు కూడా నిర్దిష్టంగా ఉండకపోవచ్చు (ఉదాహరణకు, బద్ధకం, పేలవమైన ఆహారం).</string>
+    <string name="selfassess5">గత 14 రోజులలో మీరు భారతదేశం వెలుపల ప్రయాణించారా?</string>
+    <string name="selfassess6">Covid-19 ప్రసార ప్రమాదాన్ని తగ్గించడానికి ప్రాక్టీస్ కొత్త విండోస్ సోషల్ డిస్టాన్సింగ్‌లో తెరుస్తుంది.
+
+మీరు కూడా కొత్త విండోలో తెరుచుకోవాలి-మీరు వేరుచేస్తే:
+
+* 70 కంటే ఎక్కువ
+* రోగనిరోధక శక్తి లేనివి (ఉదాహరణకు మీకు Hiv / Aids ఉంటే, అందుకుంటున్నారు
+* రోగనిరోధక శక్తి చికిత్స లేదా క్యాన్సర్‌కు చికిత్స లేదా మార్పిడి జరిగింది)
+* గత 14 రోజుల్లో ప్రయాణం నుండి భారతదేశానికి తిరిగి వచ్చారు
+* శ్వాసకోశ లక్షణాలతో ఉన్నవారితో పరిచయం ఏర్పడింది</string>
+    <string name="selfassess7">మీరు తప్పక:
+
+* మీ ఇంటిని మాత్రమే వదిలివేయండి లేదా అవసరమైన కారణాల వల్ల ఇతర వ్యక్తులను చూడండి, మరియు ఫోన్ లేదా ఆన్‌లైన్ ద్వారా సేవలను కోరుకునే చోట లేదా స్నేహితులు, కుటుంబం లేదా పొరుగువారి సహాయం కోసం అడగండి. క్రొత్త విండో-ఐసోలేటింగ్‌లో తెరుచుకోవడం గురించి మరింత తెలుసుకోండి.
+* మీ లక్షణాలు ప్రారంభమైన తర్వాత మీ ఆరోగ్యాన్ని పర్యవేక్షించడం కొనసాగించండి. క్రొత్త విండోస్-పర్యవేక్షణలో తెరుచుకోవడం గురించి మరింత తెలుసుకోండి.
+* మీ ప్రాధమిక సంరక్షణ ప్రదాతని పిలవకండి.</string>
+    <string name="selfassess8">గాని సంప్రదించండి:
+
+వర్చువల్ అసెస్‌మెంట్ కోసం మీ ప్రాధమిక సంరక్షణ ప్రదాత (ఉదాహరణకు, కుటుంబ వైద్యుడు)
+దయచేసి టోల్ ఫ్రీ: 1075 లేదా + 91-11-23978046 వద్ద కాల్ చేయండి మరియు Covid-19 అత్యవసర హెల్ప్‌లైన్‌తో మాట్లాడండి
+మీరు తప్పక:
+
+అవసరమైన కారణాల వల్ల మాత్రమే మీ ఇంటిని వదిలివేయండి లేదా ఇతర వ్యక్తులను చూడండి, మరియు సాధ్యమైన చోట ఫోన్ లేదా ఆన్‌లైన్ ద్వారా సేవలను కోరండి లేదా స్నేహితులు, కుటుంబం లేదా పొరుగువారి సహాయం కోసం అడగండి. క్రొత్త విండో-ఐసోలేటింగ్‌లో తెరుచుకోవడం గురించి మరింత తెలుసుకోండి.</string>
+    <string name="selfassess9">మీరు ఈ క్రింది లక్షణాలలో ఏదైనా (లేదా ఈ లక్షణాల కలయిక) ఎదుర్కొంటున్నారా?
+1) జ్వరం
+2) కొత్త దగ్గు
+3) శ్వాస తీసుకోవడంలో ఇబ్బంది (ఉదాహరణకు, ప్రతి శ్వాస కోసం కష్టపడటం, 10 సెకన్ల కన్నా ఎక్కువ శ్వాసను కలిగి ఉండదు)</string>
+    <string name="selfassess10">స్వీయ-అంచనా ఫలితం:
+మీకు Covid-19 ఉండే అవకాశం లేదు.</string>
+    <string name="selfassess11">మీరు సన్నిహితంగా ఉన్నవారికి Covid-19 ఉందా (ఉదాహరణకు, మీ ఇంటిలో లేదా కార్యాలయంలో ఎవరైనా)?</string>
+    <string name="selfassess12">స్వీయ-అంచనా ఫలితం
+దయచేసి ఫోన్ ద్వారా Covid-19 కోసం క్లినికల్ అసెస్‌మెంట్ పొందండి.</string>
+    <string name="selfassess13">ఇటీవల భారతదేశం వెలుపల ప్రయాణించిన శ్వాసకోశ లక్షణాలతో (ఉదాహరణకు, జ్వరం, దగ్గు లేదా శ్వాస తీసుకోవడంలో ఇబ్బంది) ఉన్న వ్యక్తితో మీరు సన్నిహితంగా ఉన్నారా?</string>
+    <string name="selfassess14">స్వీయ-అంచనా ఫలితం
+మీకు Covid-19 ఉండే అవకాశం లేదు, కానీ మీరు లక్షణం లేని వరకు ఇంట్లో స్వీయ-ఒంటరిగా ఉండాలి.</string>
+    <string name="identity_verification">గుర్తింపు ధృవీకరణ</string>
+    <string name="passport_size_photo">పాస్పోర్ట్ పరిమాణం ఫోటో</string>
+    <string name="upload_photo">ఫోటోను అప్‌లోడ్ చేయండి</string>
+    <string name="available_date_and_time">అందుబాటులో ఉన్న తేదీ మరియు సమయం</string>
+    <string name="select_your_location">మీ స్థానాన్ని ఎంచుకోండి</string>
+    <string name="upload_photo_of_material">పదార్థం యొక్క ఫోటోను అప్‌లోడ్ చేయండి</string>
+    <string name="select">ఎంచుకోండి</string>
+    <string name="in_distribution">పంపిణీలో</string>
+    <string name="stop_distribution">పంపిణీని ఆపండి</string>
+    <string name="enter_type_of_material">పదార్థ రకాన్ని నమోదు చేయండి</string>
+    <string name="other">ఇతర</string>
+    <string name="orphanmodel1">Covid-19 తరచుగా 60 + Yrs లేదా Lung పిరితిత్తుల లేదా గుండె జబ్బులు, మధుమేహం లేదా వారి రోగనిరోధక శక్తిని ప్రభావితం చేసే పరిస్థితులు వంటి ఆరోగ్య పరిస్థితులలో ఎక్కువగా ఉంటుంది.</string>
+    <string name="orphanmodel2">మీరు తీవ్రమైన Covid-19 ప్రమాదం ఎక్కువగా ఉన్నారా?</string>
+    <string name="orphanmodel3">మీరు మీ వయస్సు లేదా అంతర్లీన ఆరోగ్య పరిస్థితి కారణంగా తీవ్రమైన Covid-19 ప్రమాదం ఉన్న వ్యక్తి అయితే, మిమ్మల్ని మీరు రక్షించుకోవడం చాలా ముఖ్యం.</string>
+    <string name="orphanmodel4">మీకు తీవ్రమైన Covid-19 ప్రమాదం ఉంటే:</string>
+    <string name="covid_19_vulnerable_and_high_risk_groups">Covid-19: హాని మరియు అధిక ప్రమాద సమూహాలు</string>
+    <string name="covid_19_is_often_more_severe_in_people_who_are_older_than_60_years_or_who_have_health_conditions_like_lung_or_heart_disease_diabetes_or_conditions_that_affect_their_immune_system_nif_you_re_at_high_risk_know_what_to_do_and_take_the_right_actions_now_to_protect_yourself_nif_you_re_not_at_high_risk_do_your_part_to_prevent_the_spread_of_coronavirus_to_those_who_are">Covid-19 తరచుగా 60 సంవత్సరాల కంటే ఎక్కువ వయస్సు ఉన్నవారిలో లేదా Lung పిరితిత్తుల లేదా గుండె జబ్బులు, మధుమేహం లేదా వారి రోగనిరోధక శక్తిని ప్రభావితం చేసే పరిస్థితులు వంటి ఆరోగ్య పరిస్థితులలో ఎక్కువగా ఉంటుంది. You N మీకు అధిక ప్రమాదం ఉంటే, ఏమి చేయాలో తెలుసుకోండి మరియు మిమ్మల్ని మీరు రక్షించుకోవడానికి ఇప్పుడే సరైన చర్యలు తీసుకోండి. You N మీకు ఎక్కువ ప్రమాదం లేకపోతే, ఉన్నవారికి కరోనావైరస్ వ్యాప్తి చెందకుండా నిరోధించడానికి మీ వంతు కృషి చేయండి.</string>
+    <string name="actions_you_can_take_based_on_your_conditions_and_other_risk_factors">మీ పరిస్థితులు మరియు ఇతర ప్రమాద కారకాల ఆధారంగా మీరు తీసుకోగల చర్యలు</string>
+    <string name="asthma">ఆస్తమా</string>
+    <string name="dialisis">దీర్ఘకాలిక మూత్రపిండ వ్యాధి డయాలసిస్‌తో చికిత్స పొందుతోంది</string>
+    <string name="lungdisease">దీర్ఘకాలిక Lung పిరితిత్తుల వ్యాధి</string>
+    <string name="diabetes">డయాబెటిస్</string>
+    <string name="haemeoglobindisease">హిమోగ్లోబిన్ లోపాలు</string>
+    <string name="Immunocompromised">ఇమ్యూనోకాంప్రమైజెడ్</string>
+    <string name="liverdisease">కాలేయ వ్యాధి</string>
+    <string name="olderpeople">65 సంవత్సరాల మరియు అంతకంటే ఎక్కువ వయస్సు ఉన్నవారు</string>
+    <string name="nursinghom">నర్సింగ్ హోమ్స్ లేదా దీర్ఘకాలిక సంరక్షణ సౌకర్యాలలో ఉన్నవారు</string>
+    <string name="heartcondition">తీవ్రమైన గుండె పరిస్థితులు</string>
+    <string name="obesity">తీవ్రమైన Es బకాయం</string>
+    <string name="orphanspinner1">మితమైన నుండి తీవ్రమైన ఉబ్బసం Covid-19 నుండి తీవ్రమైన అనారోగ్యానికి ప్రజలను ఎక్కువ ప్రమాదంలో పడేస్తుంది. \ N.
+తీసుకోవలసిన చర్యలు
+మీ ఆస్తమా కార్యాచరణ ప్రణాళికను అనుసరించండి. \ N.
+మీ ఉబ్బసం నియంత్రణలో ఉంచండి. \ N.
+మీ ప్రస్తుత Ations షధాలను కొనసాగించండి, వాటిలో స్టెరాయిడ్లు ఉన్న ఏదైనా ఇన్హేలర్లతో సహా (“స్టెరాయిడ్స్” అనేది కార్టికోస్టెరాయిడ్స్ యొక్క మరొక పదం). \ N
+మీ ఇన్హేలర్‌ను ఎలా ఉపయోగించాలో తెలుసుకోండి. \ N.
+మీ ఉబ్బసం ట్రిగ్గర్‌లను నివారించండి. \ N.
+వీలైతే, ఉబ్బసం లేని మీ ఇంటిలో మరొక సభ్యుడిని కలిగి ఉండండి మరియు మీ కోసం మీ ఇంటిని క్రిమిసంహారక చేయండి. వారు ఉత్పత్తులను శుభ్రపరచడం మరియు క్రిమిసంహారక చేసేటప్పుడు, వాటిని కలిగి ఉండండి :. N.
+ఉబ్బసం ఉన్నవారు గదిలో లేరని నిర్ధారించుకోండి. \ N.
+ఉబ్బసం దాడికి కారణమయ్యే క్రిమిసంహారక మందుల వాడకాన్ని తగ్గించండి. \ N.
+కిటికీలు లేదా తలుపులు తెరిచి, బయట గాలిని వీచే అభిమానిని ఉపయోగించండి. \ N.
+ఉత్పత్తి లేబుల్‌లోని సూచనలను ఎల్లప్పుడూ అనుసరించండి. \ N.
+ఉత్పత్తిని నేరుగా శుభ్రపరిచే ఉపరితలంపై పిచికారీ చేయడానికి బదులుగా శుభ్రపరిచే వస్త్రం లేదా కాగితపు టవల్‌పై స్ప్రే ఉత్పత్తులను పిచికారీ చేయండి లేదా పోయాలి (ఉత్పత్తి లేబుల్ అనుమతించినట్లయితే). \ N
+మీరు ఎందుకు ఎక్కువ ప్రమాదంలో ఉండవచ్చు \ N
+C Ncovid-19 మీ శ్వాస మార్గము (ముక్కు, గొంతు, S పిరితిత్తులు) ను ప్రభావితం చేస్తుంది, ఉబ్బసం దాడికి కారణమవుతుంది మరియు న్యుమోనియా మరియు తీవ్రమైన అనారోగ్యానికి దారితీస్తుంది.</string>
+    <string name="orphanspinner2">డయాలసిస్‌తో చికిత్స పొందుతున్న దీర్ఘకాలిక మూత్రపిండ వ్యాధి Covid-19 నుండి తీవ్రమైన అనారోగ్యానికి ఒక వ్యక్తి ప్రమాదాన్ని పెంచుతుంది.
+Take N తీసుకోవలసిన చర్యలు
+\ N మీరు డయాలసిస్‌లో ఉంటే, మీరు మీ చికిత్సలను కోల్పోకూడదు.
+అనారోగ్యం లేదా సమస్యలు ఉంటే మీ డయాలసిస్ క్లినిక్ మరియు మీ హెల్త్‌కేర్ ప్రొవైడర్‌ను సంప్రదించండి.
+C N మీ సాధారణ చికిత్స షెడ్యూల్‌ను మీరు నిర్వహించలేకపోతే డయాలసిస్ రోగులకు Kcer 3-రోజుల అత్యవసర డైట్ ప్లాన్ పిడిఎఫ్ ఐకాన్పిడిఎఫ్ ఐకాన్ [పిడిఎఫ్ - 8 పేజీలు] బాహ్య ఐకెన్‌స్టెర్నల్ ఐకాన్ అనుసరించడానికి తగినంత ఆహారం కలిగి ఉండటానికి ప్లాన్ చేయండి.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+రోగనిరోధక వ్యవస్థలు బలహీనపడటం వలన డయాలసిస్ రోగులు సంక్రమణ మరియు తీవ్రమైన అనారోగ్యానికి గురవుతారు; మూత్రపిండాల వైఫల్యాన్ని నిర్వహించడానికి చికిత్సలు మరియు విధానాలు; మరియు డయాబెటిస్ వంటి సహజీవనం.</string>
+    <string name="orphanspinner3">దీర్ఘకాలిక అబ్స్ట్రక్టివ్ పల్మనరీ డిసీజ్ (సిఓపిడి) (ఎంఫిసెమా మరియు క్రానిక్ బ్రోన్కైటిస్తో సహా), ఇడియోపతిక్ పల్మనరీ ఫైబ్రోసిస్ మరియు సిస్టిక్ ఫైబ్రోసిస్ వంటి దీర్ఘకాలిక Lung పిరితిత్తుల వ్యాధులు Covid-19 నుండి తీవ్రమైన అనారోగ్యానికి ఎక్కువ ప్రమాదం కలిగిస్తాయి.
+Take N తీసుకోవలసిన చర్యలు
+Current N మీ ప్రస్తుత Ations షధాలను తీసుకోండి, వాటిలో స్టెరాయిడ్లు ఉన్న వాటితో సహా (“స్టెరాయిడ్స్” అనేది కార్టికోస్టెరాయిడ్స్ యొక్క మరొక పదం).
+Symptoms N మీ లక్షణాలను మరింత దిగజార్చే ట్రిగ్గర్‌లను నివారించండి.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+V N ఇతర వైరల్ రెస్పిరేటరీ ఇన్ఫెక్షన్ల నుండి వచ్చిన డేటా ఆధారంగా, Covid-19 తీవ్రమైన Lung పిరితిత్తుల వ్యాధుల మంటలను తీవ్ర అనారోగ్యానికి దారితీస్తుంది.</string>
+    <string name="orphanspinner4">టైప్ 1, టైప్ 2, లేదా గర్భధారణతో సహా డయాబెటిస్, Covid-19 నుండి తీవ్రమైన అనారోగ్యానికి గురయ్యే ప్రమాదం ఉంది.
+Take N తీసుకోవలసిన చర్యలు
+Dia N మీ డయాబెటిస్ మాత్రలు మరియు ఇన్సులిన్ ఎప్పటిలాగే తీసుకోవడం కొనసాగించండి.
+Four N ప్రతి నాలుగు గంటలకు మీ రక్తంలో చక్కెరను పరీక్షించండి మరియు ఫలితాలను ట్రాక్ చేయండి.
+డయాబెటిస్ మాత్రలు మరియు ఇన్సులిన్ మీకు కనీసం రెండు వారాల సరఫరా ఉందని నిర్ధారించుకోండి.
+Diabetes N డయాబెటిస్ ఉన్నవారికి అనారోగ్య దినోత్సవ మార్గదర్శకాలను అనుసరించండి.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+Target N డయాబెటిస్ ఉన్నవారిలో రక్తంలో చక్కెర స్థాయిలు వారి లక్ష్యం కంటే ఎక్కువగా ఉంటాయి, డయాబెటిస్ సంబంధిత ఆరోగ్య సమస్యలు వచ్చే అవకాశం ఉంది. ఆ ఆరోగ్య సమస్యలు Covid-19 ను అధిగమించడం కష్టతరం చేస్తాయి.</string>
+    <string name="orphanspinner5">సిమోల్ సెల్ డిసీజ్ (ఎస్సిడి) మరియు తలసేమియా వంటి హిమోగ్లోబిన్ రుగ్మతలు Covid-19 నుండి తీవ్రమైన అనారోగ్యానికి గురయ్యే ప్రమాదం ఉంది.
+Take N తీసుకోవలసిన చర్యలు
+Tele N టెలిమెడిసిన్ లేదా రిమోట్ హెల్త్‌కేర్ సందర్శనల గురించి మీ ఆరోగ్య సంరక్షణ ప్రదాతని అడగండి మరియు ఎప్పుడు అత్యవసర విభాగానికి వెళ్ళాలో తెలుసుకోండి.
+Disorder N మీ రుగ్మతకు (హైడ్రాక్సీయూరియా, చెలేషన్ థెరపీ, రక్త మార్పిడి మరియు నొప్పి నిర్వహణ కోసం ప్రిస్క్రిప్షన్లతో సహా) మందులు మరియు చికిత్సలను నిర్వహించడానికి మీ ఆరోగ్య సంరక్షణ ప్రదాతతో కలిసి పనిచేయండి మరియు మీకు ఏవైనా ఇతర ఆరోగ్య పరిస్థితులు (డయాబెటిస్, అధిక రక్తపోటు మరియు ఆర్థరైటిస్ వంటివి) .
+Possible N సాధ్యం ట్రిగ్గర్‌లను నివారించడం ద్వారా వాసో-అన్‌క్లూసివ్ ఎపిసోడ్‌లు లేదా నొప్పి సంక్షోభాలను నివారించడానికి ప్రయత్నించండి.
+Health N మీరు ఆరోగ్యంగా ఉండటానికి సహాయపడే చిట్కాల కోసం Scd గైడ్‌తో లేదా తలసేమియా గైడ్‌తో మా ఆరోగ్యకరమైన జీవితాన్ని సమీక్షించండి.
+Care N సంరక్షణను నావిగేట్ చేయడానికి మరియు Scd మరియు తలసేమియా యొక్క జ్ఞానం మరియు అవగాహన పెంచడానికి Scd వనరులు మరియు తలసేమియా వనరులను కనుగొనండి.
+ఆరోగ్యకరమైన రక్తదాతల ఆవశ్యకత గురించి స్నేహితులు మరియు కుటుంబ సభ్యులకు తెలియజేయండి.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+హిమోగ్లోబిన్ రుగ్మతతో జీవించడం తీవ్రమైన బహుళ అవయవ సమస్యలకు దారితీస్తుంది మరియు అంతర్లీన వైద్య పరిస్థితులు (గుండె జబ్బులు, కాలేయ వ్యాధి, మధుమేహం, ఐరన్ ఓవర్లోడ్, మూత్రపిండాల వ్యాధి, వైరల్ ఇన్ఫెక్షన్లు లేదా బలహీనమైన రోగనిరోధక వ్యవస్థ వంటివి) తీవ్రమైన ప్రమాదాన్ని పెంచుతాయి Covid-19 నుండి అనారోగ్యం.</string>
+    <string name="orphanspinner6">అనేక పరిస్థితులు మరియు చికిత్సలు ఒక వ్యక్తికి బలహీనమైన రోగనిరోధక శక్తిని (ఇమ్యునోకంప్రమైజ్డ్) కలిగిస్తాయి, వీటిలో క్యాన్సర్ చికిత్స, ఎముక మజ్జ లేదా అవయవ మార్పిడి, రోగనిరోధక లోపాలు, తక్కువ సిడి 4 కణాల సంఖ్యతో హెచ్ఐవి లేదా హెచ్ఐవి చికిత్సపై కాదు, మరియు కార్టికోస్టెరాయిడ్స్ యొక్క దీర్ఘకాలిక ఉపయోగం మరియు ఇతర రోగనిరోధక బలహీనపడే మందులు. రోగనిరోధక శక్తి లేని వ్యక్తులు
+Take N తీసుకోవలసిన చర్యలు
+Imm N మీరు రోగనిరోధక శక్తిని కలిగి ఉంటే, సిఫార్సు చేసిన మందులు లేదా చికిత్సలను కొనసాగించండి మరియు మీ ఆరోగ్య సంరక్షణ ప్రదాత సలహాను అనుసరించండి.
+Condition N మీ పరిస్థితి గురించి మీకు ఆందోళన ఉంటే లేదా అనారోగ్యంతో ఉంటే మీ ఆరోగ్య సంరక్షణ ప్రదాతని పిలవండి.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+Ov N బలహీనమైన రోగనిరోధక శక్తి ఉన్న వ్యక్తులు Covid-19 వంటి వైరస్లతో సహా అంటు వ్యాధులతో పోరాడే సామర్థ్యాన్ని తగ్గించారు. Covid-19 కి కారణమయ్యే వైరస్ గురించి జ్ఞానం పరిమితం, కానీ ఇలాంటి వైరస్ల ఆధారంగా, రోగనిరోధక శక్తి లేని రోగులు ఇతర Covid-19 రోగుల కంటే ఎక్కువ కాలం అంటువ్యాధులుగా ఉండవచ్చనే ఆందోళన ఉంది.</string>
+    <string name="orphanspinner7">సిరోసిస్‌తో సహా దీర్ఘకాలిక కాలేయ వ్యాధి, Covid-19 నుండి తీవ్రమైన అనారోగ్యానికి ప్రమాదాన్ని పెంచుతుంది.
+Take N తీసుకోవలసిన చర్యలు
+Your N మీ Ations షధాలను సూచించిన విధంగానే తీసుకోండి.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+ Covid-19 వల్ల కలిగే అనారోగ్యం మరియు Covid-19 యొక్క కొన్ని తీవ్రమైన పరిణామాలకు చికిత్స చేయడానికి ఉపయోగించే మందులు కాలేయంపై ఒత్తిడిని కలిగిస్తాయి, ముఖ్యంగా కాలేయ సమస్యలు ఉన్నవారికి. తీవ్రమైన కాలేయ వ్యాధితో బాధపడుతున్న వ్యక్తులు రోగనిరోధక శక్తిని బలహీనపరుస్తారు, శరీరం Covid-19 తో పోరాడటానికి తక్కువ సామర్థ్యాన్ని కలిగిస్తుంది.</string>
+    <string name="orphanspinner8">Covid-19 నుండి తీవ్రమైన అనారోగ్యం మరియు మరణానికి 65 సంవత్సరాలు మరియు అంతకంటే ఎక్కువ వయస్సు ఉన్న పెద్దలు ఎక్కువగా ఉంటారు.
+Take N తీసుకోవలసిన చర్యలు
+\ N సూచించినట్లుగా ఏదైనా అంతర్లీన ఆరోగ్య పరిస్థితుల కోసం మీ Ations షధాలను తీసుకోండి.
+Health N మీ ఆరోగ్య సంరక్షణ ప్రదాత సలహాను అనుసరించండి.
+Health N మీ ఆరోగ్య పరిస్థితులు మరియు ప్రస్తుత చికిత్సలను సంగ్రహించే సంరక్షణ ప్రణాళికను అభివృద్ధి చేయండి.
+Check N ఈ చెక్‌లిస్ట్‌ను ఉపయోగించి ఎక్కువ కాలం ఇంట్లో ఉండటానికి మిమ్మల్ని మీరు సిద్ధం చేసుకోండి.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+ కోవిడ్ -19 ఏదైనా సమూహాన్ని ప్రభావితం చేసినప్పటికీ, మీరు పెద్దవారైతే, మీ తీవ్రమైన వ్యాధి ప్రమాదం ఎక్కువగా ఉంటుంది. U.S. లో నివేదించబడిన 10 మరణాలలో ఎనిమిది మంది 65 సంవత్సరాలు లేదా అంతకంటే ఎక్కువ వయస్సు గల పెద్దలలో ఉన్నారు; 85 సంవత్సరాలు లేదా అంతకంటే ఎక్కువ వయస్సు ఉన్నవారిలో మరణ ప్రమాదం ఎక్కువగా ఉంది. వృద్ధుల రోగనిరోధక వ్యవస్థ వయస్సుతో బలహీనపడుతుంది, అంటువ్యాధులతో పోరాడటం కష్టమవుతుంది. అలాగే, పెద్దవారికి సాధారణంగా దీర్ఘకాలిక వ్యాధులు ఉంటాయి, ఇవి Covid-19 నుండి తీవ్రమైన అనారోగ్య ప్రమాదాన్ని పెంచుతాయి.</string>
+    <string name="orphanspinner9">U.S. లో Covid-19 యొక్క అనేక కేసులు నర్సింగ్ హోమ్స్ లేదా దీర్ఘకాలిక సంరక్షణ సౌకర్యాలలో నివసిస్తున్న వృద్ధులలో సంభవించాయి
+Take N తీసుకోవలసిన చర్యలు
+సంక్రమణ నివారణ కోసం మీ సౌకర్యం సూచనలను జాగ్రత్తగా పాటించండి.
+అనారోగ్యంగా అనిపిస్తే వెంటనే సిబ్బందికి తెలియజేయండి.
+And N మిమ్మల్ని మరియు మీ ప్రియమైన వారిని రక్షించడానికి మీ నర్సింగ్ హోమ్ వద్ద లేదా దీర్ఘకాలిక సంరక్షణ సౌకర్యం వద్ద తీసుకుంటున్న చర్యల గురించి మీ సంరక్షకులను అడగండి, సందర్శకులను వారు ఎలా పరిమితం చేస్తున్నారో సహా.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+Nursing N నర్సింగ్ హోమ్‌ల యొక్క వర్గ స్వభావం మరియు దీర్ఘకాలిక సంరక్షణ సౌకర్యాలు, మరియు జనాభా (సాధారణంగా వృద్ధులు తరచుగా అంతర్లీన వైద్య పరిస్థితులతో), నర్సింగ్‌హోమ్‌లలో నివసించేవారిని Covid-19 నుండి సంక్రమణ మరియు తీవ్రమైన అనారోగ్యానికి గురిచేస్తుంది.</string>
+    <string name="orphanspinner10">గుండె ఆగిపోవడం, కొరోనరీ ఆర్టరీ డిసీజ్, పుట్టుకతో వచ్చే గుండె జబ్బులు, కార్డియోమయోపతీలు మరియు పల్మనరీ హైపర్‌టెన్షన్ వంటి తీవ్రమైన గుండె పరిస్థితులు Covid-19 నుండి తీవ్రమైన అనారోగ్యానికి ప్రజలను ఎక్కువ ప్రమాదంలో పడేస్తాయి.
+Take N తీసుకోవలసిన చర్యలు
+Your N సూచించిన విధంగానే మీ Ation షధాలను తీసుకోండి. గుండె ఆగిపోవడం లేదా అధిక రక్తపోటు వంటి సూచనల కోసం మీ ఆరోగ్య సంరక్షణ ప్రదాత సూచించిన యాంజియోటెన్సిన్ కన్వర్టింగ్ ఎంజైమ్ ఇన్హిబిటర్స్ (Ace-I) లేదా యాంజియోటెన్సిన్- Ii రిసెప్టర్ బ్లాకర్స్ (Arb) ను కొనసాగించండి. ప్రస్తుత క్లినికల్ మార్గదర్శకాల ద్వారా ఇది సిఫార్సు చేయబడింది.
+Heart N మీ గుండె జబ్బుల మందులు (అధిక కొలెస్ట్రాల్ మరియు అధిక రక్తపోటుకు చికిత్స చేసేవి) మీకు కనీసం రెండు వారాల సరఫరా ఉందని నిర్ధారించుకోండి.
+Hyp N రక్తపోటు ఉన్నవారు వారి రక్తపోటును నిర్వహించడం మరియు నియంత్రించడం కొనసాగించాలి మరియు వారి Ation షధాలను నిర్దేశించిన విధంగా తీసుకోవాలి.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+Ov Ncovid-19, ఫ్లూ వంటి ఇతర వైరల్ అనారోగ్యాల మాదిరిగా, శ్వాసకోశ వ్యవస్థను దెబ్బతీస్తుంది మరియు మీ గుండె పనిచేయడం కష్టతరం చేస్తుంది. గుండె ఆగిపోవడం మరియు ఇతర తీవ్రమైన గుండె పరిస్థితులతో ఉన్నవారికి ఇది Covid-19 లక్షణాల తీవ్రతకు దారితీస్తుంది.</string>
+    <string name="orphanspinner11">తీవ్రమైన Es బకాయం, 40 లేదా అంతకంటే ఎక్కువ బాడీ మాస్ ఇండెక్స్ (Bmi) గా నిర్వచించబడింది, Covid-19 నుండి వచ్చే సమస్యలకు ప్రజలను ఎక్కువ ప్రమాదం కలిగిస్తుంది.
+ Take N తీసుకోవలసిన చర్యలు
+\ N సూచించినట్లుగా ఏదైనా అంతర్లీన ఆరోగ్య పరిస్థితుల కోసం మీ Ations షధాలను తీసుకోండి.
+\ N మీకు ఎందుకు ఎక్కువ ప్రమాదం ఉంది
+తీవ్రమైన N బకాయం తీవ్రమైన శ్వాసకోశ సిండ్రోమ్ (Ards) అని పిలువబడే తీవ్రమైన శ్వాస సమస్య ప్రమాదాన్ని పెంచుతుంది, ఇది Covid-19 యొక్క ప్రధాన సమస్య మరియు తీవ్రమైన అనారోగ్య రోగులకు శ్వాసకోశ సహాయాన్ని అందించే వైద్యుడి సామర్థ్యంతో ఇబ్బందులను కలిగిస్తుంది. తీవ్రమైన Es బకాయంతో నివసించే ప్రజలు బహుళ తీవ్రమైన దీర్ఘకాలిక వ్యాధులు మరియు అంతర్లీన ఆరోగ్య పరిస్థితులను కలిగి ఉంటారు, ఇవి Covid-19 నుండి తీవ్రమైన అనారోగ్య ప్రమాదాన్ని పెంచుతాయి.</string>
+    <string name="view_more">మరింత చూడండి&gt;</string>
+    <string name="what_you_can_do">మీరు ఏమి చేయగలరు</string>
+    <string name="stay_home_and_avoid_close_contact_especially_if_you_are_at_higher_risk_of_severe_illness_or_if_you_may_have_issues_getting_assistance_if_you_get_sick">ఇంట్లోనే ఉండి, సన్నిహిత సంబంధాన్ని నివారించండి, ప్రత్యేకించి మీకు తీవ్రమైన అనారోగ్యం ఎక్కువగా ఉంటే లేదా మీకు అనారోగ్యం వస్తే సహాయం పొందడంలో సమస్యలు ఉంటే.</string>
+    <string name="do_160_160_help">సహాయం చేయండి</string>
+    <string name="need_160_160_help">సహాయం కావాలి</string>
+    <string name="type_of_help">సహాయం రకం</string>
+    <string name="cash">క్యాష్</string>
+    <string name="enter_type_of_help">సహాయం రకాన్ని నమోదు చేయండి</string>
+    <string name="date_and_time">తేదీ మరియు సమయం</string>
+    <string name="click_to_call">(కాల్ చేయడానికి క్లిక్ చేయండి)</string>
+    <string name="helprequest">సహాయ అభ్యర్థనను తొలగించండి</string>
+    <string name="add_160_160_help_160_160_request">సహాయం అభ్యర్థన జోడించండి</string>
+    <string name="supply_material">సరఫరా పదార్థం</string>
+    <string name="material_request">పదార్థ సరఫరాను అభ్యర్థించండి</string>
+    <string name="material_supply_request">మెటీరియల్ సరఫరా అభ్యర్థన</string>
+    <string name="foodsupply">Covid-19 మీ Lung పిరితిత్తులు మరియు వాయుమార్గాలను ప్రభావితం చేసే కొత్త అనారోగ్యం. ఇది కరోనావైరస్ అనే వైరస్ వల్ల వస్తుంది.
+Or N మీరు లేదా మీ ఇంటిలో ఎవరికైనా కరోనావైరస్ లక్షణాలు ఉంటే మీరు స్వీయ-ఒంటరిగా ఉండాలి:
+37.8C (100F) కంటే ఎక్కువ ఉష్ణోగ్రత
+Or Nor, కొత్త మరియు నిరంతర దగ్గు - దీని అర్థం గంటకు మించి దగ్గు, లేదా 24 గంటల్లో 3 లేదా అంతకంటే ఎక్కువ దగ్గు ఎపిసోడ్లు (మీకు సాధారణంగా దగ్గు ఉంటే, ఇది సాధారణం కంటే అధ్వాన్నంగా ఉండవచ్చు)
+Or Nor, అనోస్మియా - ఇది మీ సాధారణ వాసన యొక్క నష్టం లేదా మార్పు. రెండు దగ్గరి సంబంధం ఉన్నందున ఇది మీ అభిరుచిని కూడా ప్రభావితం చేస్తుంది</string>
+    <string name="home_isolation_of_very_mild_pre_symptomatic_covid_19_cases">హోమ్ చాలా తేలికపాటి / పూర్వ-రోగలక్షణ Covid-19 కేసుల ఐసోలేషన్</string>
+    <string name="revised_guidelines_for_home_isolation_of_very_mild_pre_symptomatic_covid_19_cases">చాలా తేలికపాటి / పూర్వ-రోగలక్షణ Covid-19 కేసుల ఇంటి వేరుచేయడానికి సవరించిన మార్గదర్శకాలు</string>
+    <string name="counselling">కౌన్సెలింగ్</string>
+    <string name="material_collection">మెటీరియల్ సేకరణ</string>
+    <string name="isolationfoodsupply">వివిక్త ఆహార సరఫరా</string>
+    <string name="orphans_and_vulnerable">అనాథలు మరియు దుర్బలత్వం</string>
+    <string name="general">జనరల్</string>
+    <string name="_10_tips_to_help_if_you_are_worried_about_coronavirus">మీరు కరోనావైరస్ గురించి ఆందోళన చెందుతుంటే 10 చిట్కాలు సహాయపడతాయి</string>
+    <string name="apply_for_counselling">కౌన్సెలింగ్ కోసం దరఖాస్తు చేసుకోండి</string>
+    <string name="minding_our_minds_during_the_covid_19">Covid-19 సమయంలో మన మనస్సులను చూసుకోవడం</string>
+    <string name="nav_header_desc">నావిగేషన్ హెడర్</string>
+    <string name="listview">జాబితా వీక్షణ</string>
+    <string name="locate">గుర్తించండి</string>
+    <string name="distributed">డిస్ట్రిబ్యూటెడ్</string>
+    <string name="add">చేర్చు</string>
+    <string name="scheduled">షెడ్యూల్డ్</string>
+    <string name="phone">ఫోన్</string>
+    <string name="food">ఆహార</string>
+    <string name="relief_material">రిలీఫ్ మెటీరియల్</string>
+    <string name="type_of_material">పదార్థం రకం</string>
+    <string name="schedule">షెడ్యూల్</string>
+    <string name="enter_date_and_time">తేదీ మరియు సమయాన్ని నమోదు చేయండి</string>
+    <string name="application">అప్లికేషన్</string>
+    <string name="start_counselling">కౌన్సెలింగ్ ప్రారంభించండి</string>
+    <string name="applications">అప్లికేషన్స్</string>
+    <string name="tap_to_refresh_list">జాబితాను రిఫ్రెష్ చేయడానికి నొక్కండి</string>
+    <string name="voice_call">వాయిస్ కాల్</string>
+    <string name="vedio_call">విడియో కాల్</string>
+    <string name="info">సమాచారం</string>
+    <string name="i_am_seeking_mental_health_support_offered_by_covid_19_relief">నేను Covid-19 Relief అందించే మానసిక ఆరోగ్య సహాయాన్ని కోరుతున్నాను</string>
+    <string name="type_your_message_here">మీ సందేశాన్ని ఇక్కడ టైప్ చేయండి</string>
+    <string name="ongoing">కొనసాగుతున్న</string>
+    <string name="start_date">ప్రారంబపు తేది</string>
+    <string name="due_date">గడువు తేది</string>
+    <string name="work_details">పని వివరాలు</string>
+    <string name="title">శీర్షిక</string>
+    <string name="description">వివరణ</string>
+    <string name="priority">ప్రాధాన్యత</string>
+    <string name="normal">సాధారణ</string>
+    <string name="high_priority">అధిక ప్రాధాన్యత</string>
+    <string name="contact_details">సంప్రదింపు వివరాలు</string>
+    <string name="place_of_work">పని చేసే చోటు</string>
+    <string name="team_details">జట్టు వివరాలు</string>
+    <string name="role">పాత్ర</string>
+    <string name="add_member">సభ్యుడిని జోడించండి</string>
+    <string name="leader">లీడర్</string>
+    <string name="stop_work">పనిని ఆపు</string>
+    <string name="work">పని</string>
+    <string name="comments">వ్యాఖ్యలు</string>
+    <string name="search_place">శోధన స్థలం</string>
+    <string name="indian_helpline">భారతీయ హెల్ప్‌లైన్:</string>
+    <string name="indian_government_and_ministry_of_health_amp_family_welfare_has_provided_the_following_helpline_numbers_of_states">భారత ప్రభుత్వం మరియు ఆరోగ్య మరియు కుటుంబ సంక్షేమ మంత్రిత్వ శాఖ ఈ క్రింది హెల్ప్‌లైన్ సంఖ్యలను అందించాయి.</string>
+    <string name="national_helpline_number">జాతీయ హెల్ప్‌లైన్ సంఖ్య:</string>
+    <string name="central_helpline_number">కేంద్ర హెల్ప్‌లైన్ సంఖ్య:</string>
+    <string name="central_helpline_email">సెంట్రల్ హెల్ప్‌లైన్ ఇమెయిల్:</string>
+    <string name="mygov_whatsapp_number">మైగోవ్ వాట్సాప్ నంబర్:</string>
+    <string name="states_helpline_number">రాష్ట్రాల హెల్ప్‌లైన్ సంఖ్య</string>
+    <string name="andhrapradesh">ఆంధ్రప్రదేశ్</string>
+    <string name="arunachalpradesh">అరుణాచల్ ప్రదేశ్</string>
+    <string name="assam">అస్సాం</string>
+    <string name="Bihar">స్ప్రింగ్</string>
+    <string name="Chhattisgarh">ఛత్తీస్గఢ్</string>
+    <string name="Goa">గోవా</string>
+    <string name="Gujarat">గుజరాత్</string>
+    <string name="Haryana">హర్యానా</string>
+    <string name="Himachalpradesh">హిమాచల్ ప్రదేశ్</string>
+    <string name="Jharkhand">జార్ఖండ్</string>
+    <string name="Karnataka">కర్ణాటక</string>
+    <string name="Kerala">కేరళ</string>
+    <string name="Madhyapradesh">మధ్యప్రదేశ్</string>
+    <string name="Maharashtra">మహారాష్ట్ర</string>
+    <string name="Manipur">మణిపూర్</string>
+    <string name="Meghalaya">మేఘాలయ</string>
+    <string name="Mizoram">మిజోరం</string>
+    <string name="Nagaland">నాగాలాండ్</string>
+    <string name="Odisha">ఒడిషా</string>
+    <string name="Punjab">పంజాబ్</string>
+    <string name="Rajasthan">రాజస్థాన్</string>
+    <string name="Sikkim">సిక్కిం</string>
+    <string name="Tamilnadu">తమిళనాడు</string>
+    <string name="Telangana">తెలంగాణ</string>
+    <string name="Tripura">త్రిపుర</string>
+    <string name="Uttarpradesh">ఉత్తర ప్రదేశ్</string>
+    <string name="Uttarakhand">ఉత్తరాఖండ్</string>
+    <string name="Westbengal">పశ్చిమ బెంగాల్</string>
+    <string name="AndamanandNicobarIsland">అండమాన్ మరియు నికోబార్ ద్వీపం</string>
+    <string name="Chandigarh">చండీగఢ్</string>
+    <string name="DadraNagarHaveliDamanandDiu">దాద్రా నగర్ హవేలి, డామన్ &amp; డియు</string>
+    <string name="Delhi">ఢిల్లీ</string>
+    <string name="JammuandKashmir">జమ్మూ కాశ్మీర్</string>
+    <string name="Ladakh">లడఖ్</string>
+    <string name="Lakshadweep">లక్షద్వీప్</string>
+    <string name="Puducherry">పుదుచ్చేరి</string>
+    <string name="map_view">మ్యాప్ వీక్షణ</string>
+    <string name="health_care">ఆరోగ్య సంరక్షణ</string>
+    <string name="no_new_notifications">క్రొత్త నోటిఫికేషన్లు లేవు!</string>
+    <string name="you_will_be_notified_with_alerts_and_latest_updates_over_here">మీకు ఇక్కడ హెచ్చరికలు మరియు తాజా నవీకరణలతో తెలియజేయబడుతుంది</string>
+    <string name="clear_notifications">నోటిఫికేషన్‌లను క్లియర్ చేయండి</string>
+    <string name="useful_resources">ఉపయోగకరమైన వనరులు</string>
+    <string name="donate_via_pm_cares_website">PM కేర్స్ వెబ్‌సైట్ ద్వారా విరాళం ఇవ్వండి</string>
+    <string name="see_icmr_approved_labs">ICMR ఆమోదించబడిన ల్యాబ్‌లు చూడండి</string>
+    <string name="laboratory_with_covid_19_testing_facilty">Covid-19 పరీక్షా సౌకర్యంతో ప్రయోగశాల</string>
+    <string name="let_s_fight_corona">కరోనాతో పోరాడండి</string>
+    <string name="wash_your_hands_frequently">మీ చేతులను తరచుగా కడగాలి</string>
+    <string name="maintain_social_distancing">సామాజిక దూరాన్ని నిర్వహించండి</string>
+    <string name="respiratory_practice">శ్వాసకోశ పరిశుభ్రత పాటించండి</string>
+    <string name="eyes_nose_mouth">కళ్ళు, ముక్కు &amp; నోరు తాకడం మానుకోండి</string>
+    <string name="stay_informed">సమాచారం ఇవ్వండి</string>
+    <string name="heed_to_precautionary_measures">ముందు జాగ్రత్త చర్యలకు శ్రద్ధ వహించండి</string>
+    <string name="vedios">వీడియో</string>
+    <string name="symptoms">లక్షణాలు</string>
+    <string name="spread_and_preventions">వ్యాప్తి మరియు నివారణ</string>
+    <string name="personalhygiene">వ్యక్తిగత శుభ్రత</string>
+    <string name="do_s_and_don_ts">చేయదగినవి మరియు చేయకూడనివి</string>
+    <string name="avoid_spreading">వ్యాప్తి చెందకుండా ఉండండి</string>
+    <string name="media">మీడియా</string>
+    <string name="public_advice">ప్రజా సలహా</string>
+    <string name="adjust_settings_for_covid_19_relief">Covid-19 Relief కోసం సెట్టింగులను సర్దుబాటు చేయండి</string>
+    <string name="type_a_message">సందేశాన్ని టైప్ చేయండి</string>
+    <string name="my_questions">నా ప్రశ్నలు</string>
+    <string name="leave_your_comment">మీ వ్యాఖ్యను వదిలివేయండి...</string>
+    <string name="menu_home">హోమ్</string>
+    <string name="education">చదువు</string>
+    <string name="skills">నైపుణ్యాలు</string>
+    <string name="disaster_management">విపత్తూ నిర్వహణ</string>
+    <string name="alarm_label">అలారం లేబుల్</string>
+    <string name="label">లేబుల్</string>
+    <string name="delete_after_goes_off">ఆగిపోయిన తర్వాత తొలగించండి</string>
+    <string name="repeat">రిపీట్</string>
+    <string name="no_posts_to_view">వీక్షించడానికి పోస్ట్‌లు లేవు</string>
+    <string name="no_alarm_to_view">వీక్షించడానికి అలారం లేదు</string>
+    <string name="docounselling">కౌన్సెలింగ్ చేయండి</string>
+    <string name="takecounselling">కౌన్సెలింగ్ తీసుకోండి</string>
+    <string name="do_verification">ధృవీకరణ చేయండి</string>
+    <string name="allpermissiongranted">అన్ని అనుమతులు మంజూరు చేయబడ్డాయి.</string>
+    <string name="next">తరువాత</string>
+    <string name="skip">స్కిప్</string>
+    <string name="get_started">ప్రారంభించడానికి</string>
+    <string name="choose_selected">ఎంచుకున్నదాన్ని ఎంచుకోండి</string>
+    <string name="youhavetobesafe">మీరు సురక్షితంగా ఉండాలి!\n</string>
+    <string name="Totalassessed">మొత్తం అంచనా : </string>
+    <string name="FoundSick">అనారోగ్యం దొరికింది : </string>
+    <string name="Within1KMradius">\n1 కి.మీ వ్యాసార్థంలో</string>
+    <string name="youaresafe">మీరు సురక్షితం!\n</string>
+    <string name="no_requests_to_view">వీక్షించడానికి అభ్యర్థనలు లేవు</string>
+    <string name="permissionsrequired">అనువర్తనం సాధారణంగా పనిచేయడానికి అన్ని అనుమతులు అవసరం.</string>
+
+</resources>

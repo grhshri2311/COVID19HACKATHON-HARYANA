@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".Media">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/covid19image"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vedios"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:elevation="5dp"
+                        android:layout_margin="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/advice1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                            <ImageView
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:padding="5dp"
+                                android:src="@drawable/playicon"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:elevation="5dp"
+                        android:layout_margin="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/advice2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                            <ImageView
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:padding="5dp"
+                                android:src="@drawable/playicon"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:elevation="5dp"
+                        android:layout_margin="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/advice3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                            <ImageView
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:padding="5dp"
+                                android:src="@drawable/playicon"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:elevation="5dp"
+                        android:layout_margin="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/advice4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                            <ImageView
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:padding="5dp"
+                                android:src="@drawable/playicon"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:elevation="5dp"
+                        android:layout_margin="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/advice5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                            <ImageView
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_centerInParent="true"
+                                android:layout_centerHorizontal="true"
+                                android:padding="5dp"
+                                android:src="@drawable/playicon"
+                                android:adjustViewBounds="true"
+                                android:contentDescription="TODO" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symptoms"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <ImageView
+            android:id="@+id/symptoms"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spread_and_preventions"
+            android:textColor="#000"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <ImageView
+            android:id="@+id/howspread"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/prevention"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/personalhygiene"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <ImageView
+            android:id="@+id/protectdo"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/do_s_and_don_ts"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <ImageView
+            android:id="@+id/protectdont"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avoid_spreading"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <ImageView
+            android:id="@+id/dontspread"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>

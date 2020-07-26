@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="@string/assistant"
+        android:id="@+id/chatbot"
+        app:showAsAction="always"
+        android:iconTint="#333333"
+        android:icon="@drawable/chatboticon1" />
+
+    <item
+        android:title="@string/translate"
+        android:id="@+id/translate"
+        app:showAsAction="always"
+        android:iconTint="#333333"
+        android:icon="@drawable/ic_baseline_translate_24" />
+
+    <item
+        android:title="@string/share"
+        android:id="@+id/share"
+        app:showAsAction="ifRoom"
+        android:iconTint="#333333"
+        android:icon="@drawable/ic_share_black_24dp" />
+
+
+</menu>

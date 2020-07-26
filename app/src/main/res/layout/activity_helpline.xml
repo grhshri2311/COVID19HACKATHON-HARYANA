@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".helpline">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECAB45"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_close_24"
+                android:layout_centerVertical="true"
+                android:tint="#333333"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#333333"
+                android:padding="10dp"
+                android:text="@string/helpline"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+            <ImageView
+                android:id="@+id/translate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_translate_24"
+                android:layout_alignParentRight="true"
+                android:tint="#333333"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:focusedByDefault="true"
+                android:text="@string/indian_helpline"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="10dp"
+                android:layout_marginRight="70dp"
+                android:text="@string/indian_government_and_ministry_of_health_amp_family_welfare_has_provided_the_following_helpline_numbers_of_states" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="#FFFFFF">
+
+                    <ImageView
+                        android:id="@+id/call"
+                        android:onClick="call1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignBottom="@id/number"
+                        android:src="@drawable/ic_local_phone_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingTop="5dp"
+                        android:text="@string/national_helpline_number" />
+
+                    <TextView
+                        android:id="@+id/number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/label"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="5dp"
+                        android:singleLine="true"
+                        android:text="1075"
+                        android:textColor="@color/intro_title_color"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="#FFFFFF">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:onClick="call2"
+                        android:layout_alignBottom="@id/number1"
+                        android:src="@drawable/ic_local_phone_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/label1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingTop="5dp"
+                        android:text="@string/central_helpline_number" />
+
+                    <TextView
+                        android:id="@+id/number1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_below="@id/label1"
+                        android:text="+91-11-23978043"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/intro_title_color"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="#FFFFFF">
+
+                    <ImageView
+                        android:onClick="call3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignBottom="@id/number2"
+                        android:src="@drawable/ic_local_phone_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/label2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingTop="5dp"
+                        android:text="@string/central_helpline_email" />
+
+                    <TextView
+                        android:id="@+id/number2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@id/label2"
+                        android:text="ncov2019@gmail.com"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/intro_title_color"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:cardElevation="2dp"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:background="#FFFFFF">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:onClick="call4"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignBottom="@id/number3"
+                        android:src="@drawable/ic_local_phone_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/label3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:paddingTop="5dp"
+                        android:text="@string/mygov_whatsapp_number" />
+
+                    <TextView
+                        android:id="@+id/number3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@id/label3"
+                        android:text="+91-90131-51515"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/intro_title_color"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/states_helpline_number" />
+
+            <ListView
+                android:id="@+id/statelist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:focusableInTouchMode="true"
+                android:focusedByDefault="false"
+                android:divider="@null"
+                android:dividerHeight="0dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

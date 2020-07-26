@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe2"
+    tools:context=".profile"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="#2196F3"
+                    android:padding="20dp">
+
+                    <ImageView
+                        android:id="@+id/proimg"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:transitionName="profile"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/profileicon"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:id="@+id/pname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/proimg"
+                        android:fontFamily="@font/roboto_bold"
+                        android:includeFontPadding="false"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/pemail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/pname"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/proimg"
+                        android:includeFontPadding="false"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-100dp"
+                    android:padding="20dp">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="0dp"
+                        android:layout_height="125dp"
+                        android:layout_margin="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:cardBackgroundColor="#2196F3"
+                        app:cardElevation="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:id="@id/ic"
+                                android:layout_height="30dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/collective_intelligence_icon_use"
+                                android:contentDescription="TODO" />
+
+                            <TextView
+                                android:id="@+id/text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:gravity="center"
+                                android:layout_below="@id/ic"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_below="@id/text"
+                                android:layout_centerHorizontal="true"
+                                android:textSize="20sp" />
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="0dp"
+                        android:layout_height="125dp"
+                        android:layout_margin="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:cardBackgroundColor="#2196F3"
+                        app:cardElevation="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:id="@+id/ic"
+                                android:layout_height="30dp"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/collective_intelligence_icon_use"
+                                android:contentDescription="TODO" />
+
+                            <TextView
+                                android:id="@+id/text2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/ic"
+                                android:gravity="center"
+                                android:layout_centerInParent="true"
+                                android:text="Total"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/text3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/text2"
+                                android:gravity="center"
+                                android:layout_centerHorizontal="true"
+                                android:textSize="20sp" />
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="Full name">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_text_format_black_24dp"
+                            android:drawablePadding="10dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="Email">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_email_black_24dp"
+                            android:drawablePadding="10dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="Phone">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_phone_in_talk_black_24dp"
+                            android:drawablePadding="10dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:hint="Role">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/role"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_assignment_ind_black_24dp"
+                            android:drawablePadding="10dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

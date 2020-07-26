@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".SelfAssess">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:indeterminate="true"
+            android:indeterminateTint="#1D77BF"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            />
+
+        <ImageButton
+            android:id="@+id/sound"
+            android:layout_below="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_volume_off_black_24dp"
+            android:layout_margin="5dp"
+            android:background="#00000000" />
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/list"
+            android:layout_above="@id/bottom"
+            android:divider="#fff"
+            android:background="@drawable/background"
+            android:layout_below="@+id/sound"
+            android:scrollbars="none"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp" />
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/yes"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#FFE9E9"
+                android:textColor="@color/RED"
+                android:text="@string/yes" />
+
+            <Button
+                android:id="@+id/no"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#EAFFD2"
+                android:layout_toRightOf="@+id/yes"
+                android:textColor="#3D6E3F"
+                android:text="@string/no" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

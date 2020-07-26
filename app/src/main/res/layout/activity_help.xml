@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:focusedByDefault="true"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/need_help"
+                android:textColor="@color/RED"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/respond"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#EFFFEF"
+                android:layout_toLeftOf="@id/reject"
+                android:layout_toRightOf="@id/textView32"
+                android:layout_centerVertical="true"
+                android:textColor="#4CAF50"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="right"
+                android:fontFamily="@font/roboto"
+                android:text="@string/respond" />
+
+            <Button
+                android:id="@+id/reject"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#FFF0EF"
+                android:layout_centerVertical="true"
+                android:textColor="#F44336"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="right"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/reject" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/role"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="TextView" />
+
+        <WebView
+            android:id="@+id/webv"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:focusable="false"
+            android:layout_marginTop="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </LinearLayout>
+
+</ScrollView>

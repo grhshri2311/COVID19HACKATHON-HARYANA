@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/icon2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:transitionName="logo_image"
+                android:src="@drawable/collective_intelligence_icon_use"
+                android:contentDescription="TODO" />
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginTop="10dp"
+                android:text="@string/welcome_back_nstay_safe_from_covid_19"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:transitionName="logo_text" />
+
+            <TextView
+                android:id="@+id/signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/sign_in_to_continue"
+                android:layout_marginTop="5dp"
+                android:transitionName="logo_text1"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email"
+                    android:layout_marginTop="10dp"
+                    android:focusableInTouchMode="true"
+                    android:focusedByDefault="false"
+                    android:hint="@string/mobile"
+                    android:transitionName="email"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:focusableInTouchMode="true"
+                        android:focusedByDefault="false"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/password"
+                    android:focusableInTouchMode="true"
+                    android:focusedByDefault="false"
+                    android:hint="@string/password"
+                    android:transitionName="password"
+                    app:passwordToggleEnabled="true"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusableInTouchMode="true"
+                        android:focusedByDefault="false"
+                        android:inputType="textPassword" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:elevation="0dp"
+                    android:id="@+id/fp"
+                    android:text="@string/forget_password_reset_password" />
+
+                <Button
+                    android:id="@+id/post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/go"
+                    android:background="#000"
+                    android:textColor="#fff"
+                    android:transitionName="go"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp" />
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:elevation="0dp"
+                    android:text="@string/new_user_sign_up"
+                    android:transitionName="switch"
+                    android:textColor="#000" />
+
+                <ImageView
+                    android:id="@+id/language"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="#00000000"
+                    android:adjustViewBounds="true"
+                    android:elevation="10dp"
+                    android:padding="10dp"
+                    android:paddingHorizontal="10dp"
+                    android:src="@drawable/ic_baseline_translate_24"
+                    android:transitionName="switch"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/gotoRegister"
+                    android:contentDescription="TODO" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

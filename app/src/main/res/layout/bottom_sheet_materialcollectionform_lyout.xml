@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:id="@+id/sv"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="90dp"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/logo"
+                android:text="@string/relief_material"
+                android:textSize="20dp"
+                android:textColor="#2196F3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerVertical="true"
+                app:autoSizeMaxTextSize="50dp"
+                app:autoSizeMinTextSize="12sp"
+                app:autoSizeStepGranularity="2sp"
+                app:autoSizeTextType="uniform"
+                android:textAllCaps="true"
+                android:fontFamily="@font/roboto_bold" />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:src="@drawable/distributeicon" />
+
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:focusableInTouchMode="true">
+
+            <androidx.cardview.widget.CardView
+                style="@style/centreLocatorCardDesign"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusableInTouchMode="false"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/full_name">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_person_black_24dp"
+                            android:drawablePadding="16dp"
+                            android:inputType="textPersonName" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:focusableInTouchMode="true"
+                        android:hint="@string/phone">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/mobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                            android:drawablePadding="16dp"
+                            android:editable="false"
+                            android:inputType="phone" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radio">
+
+                        <RadioGroup
+                            android:id="@+id/radioGroup"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/type_of_material"
+                                android:textSize="18sp" />
+
+                            <RadioButton
+                                android:layout_marginTop="10dp"
+                                android:id="@+id/radioButton1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/food"
+                                android:textSize="18sp" />
+
+                            <RadioButton
+                                android:id="@+id/radioButton2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/other"
+                                android:textSize="18sp" />
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/fixedtimelayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:visibility="invisible"
+                                android:gravity="top|start"
+                                android:hint="@string/enter_type_of_material"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                                <EditText
+                                    android:id="@+id/fixedtime"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="top|start"
+                                    android:drawableLeft="@drawable/collectionicon"
+                                    android:drawablePadding="20dp"
+                                    android:drawableTint="#706D6D"
+                                    android:inputType="text"
+                                    android:backgroundTint="#00000000"
+                                    style="fill" />
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                        </RadioGroup>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/doblayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/available_date_and_time"
+                        android:layout_marginTop="10dp"
+                        android:focusableInTouchMode="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/dob"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:focusableInTouchMode="true"
+                            android:inputType="datetime"
+                            android:drawablePadding="20dp"
+                            android:drawableLeft="@drawable/ic_baseline_date_range_24"
+                            android:clickable="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/centre_button1"
+                        android:drawablePadding="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/select_your_location"
+                        android:textColor="#000" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#D6D1D1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/upload_photo_of_material" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/photo"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginRight="20dp"
+                            android:padding="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/ic_baseline_cloud_upload_24" />
+
+                        <Button
+                            android:id="@+id/profile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/centre_button1"
+                            android:drawablePadding="20dp"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:text="@string/upload_photo"
+                            android:textColor="#000" />
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/btnSend"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/centre_button"
+                        android:text="@string/submit"
+                        android:textColor="@color/whiteTextColor" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</ScrollView>

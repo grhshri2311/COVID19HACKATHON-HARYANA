@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.gprs.haryana">
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <dist:module dist:instant="true" />
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/collective_intelligence_icon_use"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/collective_intelligence_icon_use"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.gprs.haryana.Quora"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.Media"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.SelectVolunteer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.AssignWork"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SelectLocation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.Isolation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.OrphanAndVulnerable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.ToDoHome"
+            android:label="@string/title_activity_to_do_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.WorkAssignHome"
+            android:label="@string/title_activity_work_assign_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.MaterialCollection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.DoCounselling"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.Counselling"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.CounsellingChat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.VerifyIdentitymonitor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.IdentityVerification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.IdentityRegistrationForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.SelfAssess"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.Scanner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.QRcode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.bio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.publichealthcare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.unorganizedsectors"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.course"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.logouthome"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.MSME"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.Labsfortestingandresults"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.pdfViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.Chatbot"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </activity> <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.gprs.haryana.help"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.firstreply"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.firstaidguidance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.Medicalshops"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.firstresponder"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="androidx.media.session.MediaButtonReceiver" />
+
+        <activity
+            android:name="com.gprs.haryana.alarmremember"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.Alarm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.notification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.youtube"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.gprs.haryana.stepstofollow"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.epass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.intro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.internetalert"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.gprs.haryana.VictimAlertForegroundNotification"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="TODO"
+            android:process=":geoFencing" />
+
+        <activity
+            android:name="com.gprs.haryana.Detailed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.news"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.foundvictim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.victimalert"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.mystatus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.helpline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.donate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.forgotpassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.visualize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.cases_report"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.gprs.haryana.Restarter"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="VictimAlert" />
+                <action android:name="Alarm" />
+                <action android:name="Help" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.gprs.haryana.HelpneededBroadcastReceiver" />
+        <receiver
+            android:name="com.gprs.haryana.InternetBroadcastReciever"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.INPUT_METHOD_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.gprs.haryana.YourLocationBroadcastReciever" />
+
+        <service
+            android:name="com.gprs.haryana.AlarmForegroundNotification"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="TODO"
+            android:process=":Alarm" />
+
+        <receiver android:name="com.gprs.haryana.MyNotificationBroadcastReceiver" />
+
+        <service
+            android:name="com.gprs.haryana.MyService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="TODO" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.gprs.haryana.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gprs.haryana.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

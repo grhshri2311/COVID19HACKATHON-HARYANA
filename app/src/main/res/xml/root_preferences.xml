@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/biometric">
+
+        <SwitchPreferenceCompat
+            app:key="finger"
+            app:summaryOff="Biometric is turned Off"
+            app:summaryOn="Biometric is turned ON"
+            app:defaultValue="false"
+            app:title="Add Fingerprint on Startup" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/notification">
+
+        <SwitchPreferenceCompat
+            app:key="notification"
+            app:defaultValue="true"
+            app:title="Turn On Notification" />
+
+        <SwitchPreferenceCompat
+            app:dependency="notification"
+            app:key="notify"
+            app:defaultValue="true"
+            app:summaryOff="You won't get any notification"
+            app:summaryOn="Instant notification is turned ON"
+            app:title="Get Instant notification" />
+
+        <SwitchPreferenceCompat
+            app:dependency="notification"
+            app:key="updates"
+            app:defaultValue="true"
+            app:summaryOff="You won't receive daily updates on COVID-19"
+            app:summaryOn="You will receive daily updates on COVID-19"
+            app:title="Get daily updates" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,495 @@
+<resources xmlns:ns0="http://schemas.android.com/tools">
+    <string name="app_name">Covid19Relief</string>
+    <string name="title_activity_maps">नकाशा</string>
+    <string name="sign_in_to_continue">सुरू ठेवण्यासाठी साइन इन करा</string>
+    <string name="password">संकेतशब्द</string>
+    <string name="forget_password_reset_password">संकेतशब्द / रीसेट संकेतशब्द विसरलात?</string>
+    <string name="go">जा</string>
+    <string name="new_user_sign_up">नवीन वापरकर्ता? साइन अप करा</string>
+    <string name="sign_up_to_start_your_journey">आपला प्रवास सुरू करण्यासाठी साइन अप करा</string>
+    <string name="mobile">मोबाईल</string>
+    <string name="full_name">पूर्ण नाव</string>
+    <string name="select_your_role">आपली भूमिका निवडा</string>
+    <string name="aldready_have_an_account_login">आधीपासूनच एक खाते आहे? लॉगइन</string>
+    <string name="monitors">मॉनिटर्स</string>
+    <string name="volunteers">स्वयंसेवक</string>
+    <string name="covid19_relief">कोविड 19 मदत</string>
+    <string name="stay_home_stay_safe" translatable="false" ns0:ignore="ExtraTranslation">Haryana</string>
+    <string name="my_status">माझी स्थिती</string>
+    <string name="share">सामायिक करा</string>
+    <string name="logout">बाहेर पडणे</string>
+    <string name="setting">सेटिंग्ज</string>
+
+    <string name="current_status">वर्तमान स्थिती</string>
+    <string name="forgot_password">संकेतशब्द विसरलात?</string>
+    <string name="reset_your_password">आपला संकेतशब्द पुनर्प्रस्थापित करा</string>
+    <string name="new_password">नवीन संकेतशब्द</string>
+    <string name="confirm_password">पासवर्डची पुष्टी करा</string>
+    <string name="enter_mobile_no">मोबाइल नंबर प्रविष्ट करा</string>
+    <string name="reset">रीसेट करा</string>
+    <string name="updates">कोविड अद्यतने</string>
+    <string name="cases_report">प्रकरणांचा अहवाल</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="mapping">मॅपिंग</string>
+    <string name="labour">श्रम</string>
+    <string name="healthworker">आरोग्य कर्मचारी</string>
+    <string name="workers">क्षेत्र कामगार</string>
+    <string name="donate">दान करा</string>
+    <string name="helpline">हेल्पलाइन</string>
+    <string name="notification">सूचना</string>
+    <string name="view_in_map">नकाशामध्ये पहा</string>
+    <string name="to_do">करण्यासाठी</string>
+    <string name="scan">जिओ कुंपण</string>
+    <string name="intro1">आपल्यातील प्रत्येकाची क्षमता आहे की भारतात कोरोना विषाणूचा साथीचा प्रसार रोखण्यास मदत करा \ N आपण कोविड -१ Positive पॉझिटिव्ह चाचणी घेतलेल्या एखाद्या व्यक्तीबरोबर वाटचाल केली तर आपल्याला माहिती ठेवण्यास आवडेल काय?</string>
+    <string name="intro2">कोविड -१ R संबंधित ब्लूटूथ आणि स्थानाद्वारे सामाजिक आलेखाचा मागोवा घेतो, कोविड -१ Of चा शिकार झालेल्या एखाद्याशी आपला संवाद. \ N</string>
+    <string name="intro3">अ‍ॅपमधील स्कॅन ऑप्शनचा वापर आपण एखाद्याच्या जवळ आला असल्यास, अगदी नकळत, कोविड -१ Of चे बळी आढळल्यास सतर्कता मिळविण्यासाठी वापरले जाऊ शकते.</string>
+    <string name="intro4">Covid-19-Relief हा एक मोबाइल अनुप्रयोग आहे जो कोविड -१ Against विरूद्ध लढा देण्यासाठी आवश्यक आरोग्य आणि विविध सेवा भारतीय लोकांशी जोडण्यासाठी आणि समन्वय साधण्यासाठी विकसित केला आहे. कोव्हीड -१ Risks च्या जोखमी, सर्वोत्तम पद्धती आणि संबंधित अद्यतनांबाबत अ‍ॅपच्या वापरकर्त्यांना कृतीशीलतेने संपर्क साधून आणि त्यांना माहिती देण्यासाठी विविध सेवा आणि क्षेत्रांची मदत करण्यासाठी आणि समन्वय साधण्यासाठी एक समुदाय तयार करण्याचे Theपचे उद्दीष्ट आहे.</string>
+    <string name="medical_shops">वैद्यकीय दुकाने</string>
+    <string name="epass">ईपास आणि शासकीय सेवा</string>
+    <string name="stranded_migrant">अडकलेले परप्रवासी</string>
+
+
+    <string name="pay_using_upi">यूपीआय वापरुन पैसे द्या</string>
+    <string name="hospital_appointment">रुग्णालयात नियुक्ती</string>
+    <string name="lab_test">प्रयोगशाळा चाचणी</string>
+    <string name="order_medicine">ऑर्डर मेडिसिन</string>
+    <string name="quora">कोरा</string>
+    <string name="notify">सूचना</string>
+    <string name="select_catagory">श्रेणी निवडा</string>
+    <string name="assign">नियुक्त करा</string>
+    <string name="please_turn_on_internet_to_stay_updated">कृपया अद्यतनित राहण्यासाठी इंटरनेट चालू करा</string>
+    <string name="go_back_and_pull_down_to_refresh">रीफ्रेश करण्यासाठी मागे जा आणि खाली खेचा</string>
+    <string name="close">बंद</string>
+    <string name="alert">सतर्क!</string>
+    <string name="found_new_victim_in_your_surrounding">आपल्या आजूबाजूला नवीन बळी सापडला</string>
+    <string name="stay_away_from_the_place">ठिकाणाहून दूर रहा!</string>
+    <string name="alarm_manager">अलार्म व्यवस्थापक</string>
+    <string name="hospital_nlab_test_nmedicine">नेमणुका / प्रवेश</string>
+    <string name="first_responder">प्रथम प्रतिसादकर्ता</string>
+    <string name="be_ready_to_contribute">त्वरित मदत मिळवा</string>
+    <string name="be_the_first_responder">प्रथम प्रतिसाद द्या</string>
+    <string name="alert_nearby">जवळपासचा इशारा</string>
+    <string name="dial_108">108 डायल करा</string>
+    <string name="dial_100">100 डायल करा</string>
+    <string name="dial_101">101 डायल करा</string>
+    <string name="nearby_hospitals">जवळपास रुग्णालये</string>
+    <string name="first_aid_guidance">प्रथमोपचार मार्गदर्शन</string>
+
+    <string name="share_with">सह सामायिक करा</string>
+
+    <string name="translate">भाषांतर करा</string>
+    <string name="assistant">सहाय्यक</string>
+    <string name="support">सहाय्यक सहाय्यक</string>
+    <string name="chatbotintro">सहाय्यक व्हॉईस कमांडद्वारे किंवा मजकूर गप्पांद्वारे किंवा दोन्हीद्वारे मानवी संभाषणाचे अनुकरण करतात. हे नेव्हिगेशनद्वारे आणि आपल्या प्रश्नांची उत्तरे देऊन आपली मदत करते.</string>
+    <string name="whatsapp_queries">व्हाट्सएप क्वेरी</string>
+    <string name="join_in_our_communtiy">आमच्या समुदायात सामील व्हा</string>
+    <string name="labs_for_test">चाचणीसाठी लॅब</string>
+    <string name="action_on_covid_19_relief_for_msme_sector">एमएसएमई सेक्टरसाठी कोविड -१ Rel रिलीफवर कारवाई</string>
+    <string name="looking_for_products_and_service_to_sell_on_gem_sign_up_now">Gem वर विक्री करण्यासाठी उत्पादने आणि सेवा शोधत आहात, आत्ताच साइन अप करा!</string>
+    <string name="hospital_near_me">माझ्या जवळचे हॉस्पिटल</string>
+    <string name="alarm">गजर</string>
+    <string name="select_volunteer">स्वयंसेवक निवडा</string>
+    <string name="active">सक्रिय</string>
+    <string name="confirmed">पुष्टी</string>
+    <string name="death">मृत्यू</string>
+    <string name="recovered">पुनर्प्राप्त</string>
+    <string name="visualise">पहा</string>
+    <string name="got_help">मदत मिळाली!</string>
+    <string name="need_help">मदत हवी आहे !</string>
+    <string name="respond">प्रतिसाद द्या</string>
+    <string name="stay_home_save_lives_help_stop_coronavirus_stay_home_keep_safe_distance_wash_hands_often_cover_your_cough_sick_call_the_helpline">राहू द्या. कोरोनव्हायरस थांबविण्यात मदत करा घरी रहा सुरक्षित अंतर ठेवा हात खोकला आजारी पडतात का? हेल्पलाइनवर कॉल करा</string>
+    <string name="msme_covid_19_related_products">एमएसएमई कोविड 19 संबंधित उत्पादने</string>
+    <string name="stay_protected">संरक्षित रहा</string>
+    <string name="you_will_be_alerted_when_you_getting_closer_to_covid_victim_even_when_the_app_is_minimised">अ‍ॅप कमीतकमी नसतानाही आपण कोविड पीडित व्यक्तीशी जवळीक साधता तेव्हा आपल्याला सतर्क केले जाईल</string>
+    <string name="starting_scan">स्कॅन प्रारंभ करीत आहे ...</string>
+    <string name="stop">थांबा</string>
+    <string name="post_your_queries_here">आपल्या क्वेरी येथे पोस्ट करा</string>
+    <string name="post">पोस्ट</string>
+    <string name="register_course">कोर्स नोंदणी करा</string>
+    <string name="publiccare">सार्वजनिक आरोग्य सेवा स्थान</string>
+    <string name="msme_products">MSME उत्पादने</string>
+    <string name="sectorworkers">असंघटित क्षेत्रातील कामगार</string>
+    <string name="course">ऑनलाईन कोर्स</string>
+    <string name="email_optional">ईमेल (वैकल्पिक)</string>
+    <string name="title_activity_settings">सेटिंग्जअॅक्टिव्हिटी</string>
+
+    <string name="important_links">महत्वाचे दुवे</string>
+    <string name="biometric">बायोमेट्रिक</string>
+    <string name="verifyfail">कॉड सत्यापित करा, पुन्हा प्रयत्न करा</string>
+    <string name="verifysuccess">सत्यापित</string>
+    <string name="or">किंवा</string>
+    <string name="scan_below_qr_to_share">सामायिक करण्यासाठी Qr खाली स्कॅन करा</string>
+    <string name="use_password">संकेतशब्द वापरा</string>
+    <string name="touch_sensor">सेन्सर ला स्पर्श करा</string>
+    <string name="verify_your_identity">आपली ओळख सत्यापित करा</string>
+    <string name="confirm_your_fingerprint_so_covid_19_relief_can_verify_it_s_you">आपल्या फिंगरप्रिंटची पुष्टी करा जेणेकरून कोविड -१ R El नातेसंबंध तो आपणच असल्याचे सत्यापित करू शकता.</string>
+    <string name="it_has_not_been_generated_by_covid_19_relief">ते कोविड -१ R रिलिफद्वारे तयार केलेले नाही</string>
+    <string name="invalid_qr_code">अवैध क्यूआर कोड</string>
+    <string name="generate_qr_code">क्यूआर कोड व्युत्पन्न करा</string>
+    <string name="scan_qr_code">क्यूआर कोड स्कॅन करा</string>
+    <string name="generate_scan_qr">क्यूआर व्युत्पन्न / स्कॅन करा</string>
+    <string name="a_lot_of_features_like_voice_assistant_qr_scanner_reader_settings_can_be_found_here">व्हॉईस असिस्टंट, क्यूआर स्कॅनर / रीडर, सेटिंग्ज यासारख्या बरीच वैशिष्ट्ये येथे मिळू शकतात</string>
+    <string name="sign_in_sign_up">साइन इन / साइन इन करा</string>
+    <string name="reject">नाकारणे</string>
+    <string name="verify_your_mobile">आपला मोबाइल सत्यापित करा</string>
+    <string name="title_activity_work_assign_home">Workassignhome</string>
+    <string name="to_160_160_do">करण्यासाठी</string>
+    <string name="done">पूर्ण झाले</string>
+    <string name="title_activity_to_do_home">तोडो स्तुती</string>
+    <string name="address">पत्ता</string>
+    <string name="male">नर</string>
+    <string name="gender">लिंग</string>
+    <string name="female">स्त्री</string>
+    <string name="add_alarm">गजर जोडा</string>
+    <string name="click_to_turn_off">बंद करण्यासाठी व्हॉल्यूम बटण दाबा</string>
+    <string name="submit">प्रस्तुत करणे</string>
+    <string name="orphan">अनाथ</string>
+    <string name="counsellor">सल्लागार</string>
+    <string name="date_of_birth">जन्म तारीख</string>
+    <string name="email">ईमेल</string>
+    <string name="apply_here">येथे अर्ज करा</string>
+    <string name="try_again">पुन्हा प्रयत्न करा</string>
+    <string name="submit_your_proof_of_identity_for_verification_before_you_start_your_service">आपण आपली सेवा प्रारंभ करण्यापूर्वी सत्यापनासाठी आपला ओळखीचा पुरावा सबमिट करा</string>
+    <string name="your_form_is_under_processing">आपल्या फॉर्मवर प्रक्रिया चालू आहे!</string>
+    <string name="please_wait">कृपया थांबा</string>
+    <string name="your_identity_is_verified_nyou_can_start_providing_your_services">आपली ओळख सत्यापित केली आहे! You N आपण आपल्या सेवा प्रदान करणे प्रारंभ करू शकता!</string>
+    <string name="verification">पडताळणी</string>
+    <string name="details">तपशील</string>
+    <string name="approve">मंजूर</string>
+    <string name="requests">विनंत्या</string>
+    <string name="welcome_back_nstay_safe_from_covid_19">परत आपले स्वागत आहे  कोविड -१ From पासून सुरक्षित रहा</string>
+    <string name="change_number">नंबर बदला</string>
+    <string name="proof_of_identity">ओळखीचा पुरावा :</string>
+    <string name="yes">होय</string>
+    <string name="no">नाही</string>
+    <string name="selfassess1">आपल्याला श्वास घेण्यात किंवा इतर गंभीर लक्षणांचा त्रास होत असल्यास 011-23978046 किंवा 1075 वर कॉल करा</string>
+    <string name="selfassess2">आपण खालीलपैकी कोणत्याही लक्षणांचा अनुभव घेत आहात?
+१) श्वास घेण्यास तीव्र अडचण (उदाहरणार्थ, प्रत्येक श्वासासाठी संघर्ष करणे, एकाच शब्दात बोलणे)
+२) छातीत तीव्र वेदना
+)) जागे होणे खूप कठीण आहे
+4) गोंधळलेला वाटणे
+5) गमावले</string>
+    <string name="selfassess3">आत्म-मूल्यांकन निकाल
+कृपया 1075 वर कॉल करा, + 91-11-23978046 किंवा Ncov2019@Gmail.Com वर ईमेल करा किंवा आपल्या जवळच्या आपत्कालीन विभागात थेट जा.</string>
+    <string name="selfassess4">आपण खालीलपैकी कोणत्याही लक्षणे (किंवा या लक्षणांचे संयोजन) अनुभवत आहात?
+1) स्नायू वेदना
+२) थकवा
+3) डोकेदुखी
+4) घसा खवखवणे
+5) वाहणारे नाक
+लहान मुलांमधील लक्षणे देखील विशिष्ट नसतात (उदाहरणार्थ, सुस्तपणा, कमकुवत आहार).</string>
+    <string name="selfassess5">आपण गेल्या 14 दिवसांत भारताबाहेर प्रवास केला आहे?</string>
+    <string name="selfassess6">कोविड -१ Transmission ट्रान्समिशनचा धोका कमी करण्यासाठी सराव नवीन विंडोजोकियल अंतरावर उघडतो.
+
+आपण नवीन विंडो सेल्फ-वेगळ्या मध्ये देखील उघडले पाहिजे जर आपण:
+
+* 70 च्या वर आहेत
+* इम्युनोकोम्प्रोमाइज्ड आहेत (उदाहरणार्थ एचआयव्ही / एड्स असल्यास, प्राप्त करीत आहेत
+* इम्युनोसप्रेशन थेरपी किंवा कर्करोगाचा उपचार किंवा प्रत्यारोपणासाठी)
+* गेल्या 14 दिवसांत प्रवासातून भारतात परत आले आहेत
+* श्वसन लक्षणे असलेल्या एखाद्याशी संपर्क साधला आहे</string>
+    <string name="selfassess7">आपण करावे:
+
+* फक्त आपले घर सोडा किंवा आवश्यक कारणास्तव इतर लोकांना पहा आणि जेथे शक्य असेल तेथे फोनवर किंवा ऑनलाइन सेवा मिळवा किंवा मित्र, कुटुंब किंवा शेजार्‍यांकडून मदत घ्या. नवीन विंडो सेल्फ-अलगावमध्ये ओपनबद्दल अधिक जाणून घ्या.
+* लक्षणे सुरू झाल्यानंतर आपल्या आरोग्यावर लक्ष ठेवा. नवीन विंडो सेल्फ-मॉनिटरिंगमध्ये ओपनविषयी अधिक जाणून घ्या.
+* आपल्या प्राथमिक काळजी प्रदात्यास कॉल करु नका.</string>
+    <string name="selfassess8">एकतर संपर्क साधा:
+
+व्हर्च्युअल मूल्यांकनसाठी आपला प्राथमिक काळजी प्रदाता (उदाहरणार्थ फॅमिली डॉक्टर)
+कृपया टोल फ्री वर कॉल करा: 1075 किंवा + 91-11-23978046 आणि कोव्हीड -१ Emergency आणीबाणी मदतनीस बोलण्यासाठी
+आपण करावे:
+
+केवळ आपले घर सोडा किंवा आवश्यक कारणासाठी इतर लोकांना पहा आणि जेथे शक्य असेल तेथे फोनवर किंवा ऑनलाइन सेवा मिळवा किंवा मित्र, कुटुंब किंवा शेजार्‍यांकडून मदत घ्या. नवीन विंडो सेल्फ-अलगावमध्ये ओपनबद्दल अधिक जाणून घ्या.</string>
+    <string name="selfassess9">आपण खालीलपैकी कोणत्याही लक्षणे (किंवा या लक्षणांचे संयोजन) अनुभवत आहात?
+1) ताप
+२) नवीन खोकला
+)) श्वास घेण्यास त्रास (उदाहरणार्थ, प्रत्येक श्वासासाठी संघर्ष करणे, १० सेकंदांपेक्षा जास्त काळ श्वास घेऊ शकत नाही)</string>
+    <string name="selfassess10">स्व-मूल्यांकन परिणाम:
+आपल्याकडे कोविड -१ Unlikely असण्याची शक्यता नाही.</string>
+    <string name="selfassess11">ज्याच्याशी आपण जवळच्या संपर्कात आहात त्याच्याकडे कोविड -१ Have आहे (उदाहरणार्थ, आपल्या घरातील किंवा कामाच्या ठिकाणी कोणी)?</string>
+    <string name="selfassess12">आत्म-मूल्यांकन निकाल
+कृपया फोनवर कोविड -१ For चे नैदानिक ​​मूल्यांकन घ्या.</string>
+    <string name="selfassess13">नुकत्याच भारताबाहेर प्रवास केलेला श्वासोच्छवासाच्या लक्षणांमुळे आजारी असलेल्या व्यक्तीशी (उदाहरणार्थ ताप, खोकला किंवा श्वास घेण्यात अडचण आहे) अशा व्यक्तीशी आपण जवळचा संपर्क साधत आहात काय?</string>
+    <string name="selfassess14">आत्म-मूल्यांकन निकाल
+आपल्याकडे कोविड -१ Have असण्याची शक्यता नाही परंतु आपण लक्षणमुक्त होईपर्यंत आपण स्वत: ला घरात वेगळे केले पाहिजे.</string>
+    <string name="identity_verification">ओळख पडताळणी</string>
+    <string name="passport_size_photo">पासपोर्ट आकाराचा फोटो</string>
+    <string name="upload_photo">फोटो अपलोड करा</string>
+    <string name="available_date_and_time">उपलब्ध तारीख आणि वेळ</string>
+    <string name="select_your_location">आपले स्थान निवडा</string>
+    <string name="upload_photo_of_material">साहित्याचा फोटो अपलोड करा</string>
+    <string name="select">निवडा</string>
+    <string name="in_distribution">वितरणात</string>
+    <string name="stop_distribution">वितरण थांबवा</string>
+    <string name="enter_type_of_material">सामग्रीचा प्रकार प्रविष्ट करा</string>
+    <string name="other">इतर</string>
+    <string name="orphanmodel1">कोविड -१ Often० वर्षे किंवा फुफ्फुस किंवा हृदयरोग, मधुमेह किंवा त्यांच्या रोगप्रतिकारक शक्तीवर परिणाम करणारी परिस्थिती यासारख्या आरोग्याच्या स्थितीत लोक अधिक गंभीर असतात.</string>
+    <string name="orphanmodel2">आपणास गंभीर Covid-19 चा उच्च धोका आहे?</string>
+    <string name="orphanmodel3">आपण वय असलेले किंवा मूलभूत आरोग्याच्या स्थितीमुळे गंभीर कोविड -१ Of चा धोका असणारी अशी व्यक्ती असल्यास, स्वतःचे रक्षण करणे खरोखर महत्वाचे आहे.</string>
+    <string name="orphanmodel4">आपणास गंभीर Covid-19 चा धोका असल्यास:</string>
+    <string name="covid_19_vulnerable_and_high_risk_groups">कोविड -१:: असुरक्षित आणि उच्च जोखीम गट</string>
+    <string name="covid_19_is_often_more_severe_in_people_who_are_older_than_60_years_or_who_have_health_conditions_like_lung_or_heart_disease_diabetes_or_conditions_that_affect_their_immune_system_nif_you_re_at_high_risk_know_what_to_do_and_take_the_right_actions_now_to_protect_yourself_nif_you_re_not_at_high_risk_do_your_part_to_prevent_the_spread_of_coronavirus_to_those_who_are">कोविड -१ Often Often० वर्षांपेक्षा जास्त वयाची माणसे सहसा गंभीर असतात ज्यांची आरोग्याची परिस्थिती जसे की फुफ्फुस किंवा हृदयरोग, मधुमेह किंवा त्यांच्या प्रतिरक्षा प्रणालीवर परिणाम होणारी परिस्थिती. \ N जर तुम्हाला जास्त धोका असेल तर काय करावे हे जाणून घ्या आणि स्वतःचे रक्षण करण्यासाठी आत्ताच योग्य कृती करा. \ N आपणास जास्त धोका नसल्यास, कोरोनाव्हायरसचा प्रसार होण्यापासून रोखण्यासाठी आपली भूमिका घ्या.</string>
+    <string name="actions_you_can_take_based_on_your_conditions_and_other_risk_factors">आपल्या अटी आणि इतर जोखीम घटकांवर आधारित आपण घेऊ शकता अशा क्रिया</string>
+    <string name="asthma">दमा</string>
+    <string name="dialisis">तीव्र मूत्रपिंडाचा रोग डायलिसिसद्वारे उपचार केला जात आहे</string>
+    <string name="lungdisease">तीव्र फुफ्फुसाचा आजार</string>
+    <string name="diabetes">मधुमेह</string>
+    <string name="haemeoglobindisease">हिमोग्लोबिन डिसऑर्डर</string>
+    <string name="Immunocompromised">इम्यूनोकॉमप्रोमाइज्ड</string>
+    <string name="liverdisease">यकृत रोग</string>
+    <string name="olderpeople">65 वर्षे व त्याहून अधिक वयाचे लोक</string>
+    <string name="nursinghom">नर्सिंग होममधील लोक किंवा दीर्घ-काळ काळजी सुविधा</string>
+    <string name="heartcondition">गंभीर हृदयाची स्थिती</string>
+    <string name="obesity">तीव्र लठ्ठपणा</string>
+    <string name="orphanspinner1">मध्यम ते गंभीर दम्याने कोविड -१ From पासून लोकांना गंभीर आजाराचा धोका जास्त असू शकतो. \ N
+करण्याच्या क्रिया \ N
+आपल्या दमा कृती योजनेचे अनुसरण करा.. N
+आपला दमा नियंत्रित ठेवा.. N
+त्यामध्ये स्टिरॉइड्स असलेल्या कोणत्याही इनहेलर्ससह आपली सध्याची औषधे सुरू ठेवा (“स्टिरॉइड्स” कोर्टिकोस्टेरॉईड्ससाठी आणखी एक शब्द आहे). \ N
+आपले इनहेलर कसे वापरावे ते जाणून घ्या.. N
+आपल्या दम्याचा ट्रिगर टाळा.. N
+शक्य असल्यास, आपल्या घरातील एखादा दुसरा सदस्य घ्या ज्याला दम नाही आणि आपल्यासाठी आपले घर निर्जंतुकीकरण करा. जेव्हा ते साफसफाईची आणि जंतुनाशक उत्पादने वापरतात, तेव्हा त्यांना घ्या: \ N
+दमा असलेले लोक खोलीत नसल्याचे सुनिश्चित करा.. N
+दम्याचा हल्ला होऊ शकतो अशा जंतुनाशकांचा कमीत कमी वापर करा.. N
+खिडक्या किंवा दारे उघडा आणि घराबाहेर हवा वाहणारा चाहता वापरा. ​​\ N
+उत्पादनाच्या लेबलवरील सूचनांचे नेहमीच अनुसरण करा.. N
+साफसफाईच्या पृष्ठभागावर उत्पादनाच्या थेट फवारण्याऐवजी स्वच्छता कापड किंवा कागदाच्या टॉवेलवर फवारणी किंवा ओतणे (उत्पादनाचे लेबल परवानगी देत ​​असल्यास). \ N
+आपल्याला जास्त धोका का असू शकतो \ N
+Covid-19 चा परिणाम आपल्या श्वसनमार्गावर (नाक, घसा, फुफ्फुस) प्रभावित होऊ शकतो, दम्याचा अटॅक येऊ शकतो आणि न्यूमोनिया आणि गंभीर आजार होऊ शकतो.</string>
+    <string name="orphanspinner2">डायलिसिसद्वारे दीर्घकालीन आजाराचा उपचार केल्यास कोविड -१ From पासून एखाद्या व्यक्तीला गंभीर आजाराचा धोका वाढू शकतो.
+. N कारवाई करणे
+. N आपण डायलिसिसवर असाल तर आपण आपल्या उपचारांना गमावू नये.
+Sick N आपणास आजारी वाटत असल्यास किंवा काळजी असल्यास आपले डायलिसिस क्लिनिक आणि आपल्या आरोग्य सेवा प्रदात्याशी संपर्क साधा.
+Your N केसीईआर 3-दिवस आपत्कालीन आहार योजना पीडीएफ आयकॉनपीडीएफ आयकॉन [पीडीएफ - 8 पृष्ठे] अनुसरण करण्यासाठी आपल्याकडे पुरेसे अन्न असेल तर आपण आपले सामान्य उपचार वेळापत्रक राखण्यास असमर्थ ठरल्यास डायलिसिस रूग्णांसाठी बाह्य आयकॉन एक्सटर्नल चिन्ह.
+. N आपणास जास्त धोका असू शकतो
+; N रोगप्रतिकारक शक्ती कमकुवत झाल्यामुळे डायलिसिस रूग्णांना संसर्ग आणि गंभीर आजार होण्याची अधिक शक्यता असते; मूत्रपिंडाच्या विफलतेचे व्यवस्थापन करण्यासाठी उपचार आणि कार्यपद्धती; आणि मधुमेह सारख्या सहसंबंधी परिस्थिती</string>
+    <string name="orphanspinner3">तीव्र फुफ्फुसाचा रोग, जसे की क्रॉनिक अड्रक्ट्रिक पल्मोनरी डिजीज (सीओपीडी) (एम्फिसीमा आणि क्रॉनिक ब्रॉन्कायटीससह), इडिओपॅथिक पल्मोनरी फायब्रोसिस आणि सिस्टिक फाइब्रोसिस या लोकांना कोविड -१ From पासून गंभीर आजाराचा धोका जास्त असू शकतो.
+. N कारवाई करणे
+. N स्टेरॉइड्स असलेल्या (“स्टिरॉइड्स” कॉर्टिकोस्टिरॉईड्सचा आणखी एक शब्द आहे) यासह आपली सद्य औषधे घेत रहा.
+. N आपली लक्षणे अधिक वाईट करणार्‍या ट्रिगर.
+. N आपणास जास्त धोका असू शकतो
+Viral N इतर विषाणूजन्य श्वसन संसर्गाच्या डेटाच्या आधारे, कोविड -१ मध्ये फुफ्फुसांच्या तीव्र आजारांमुळे भितीदायक आजार उद्भवू शकतात.</string>
+    <string name="orphanspinner4">टाइप 1, टाइप 2, किंवा गर्भधारणेसह मधुमेह, लोकांना कोविड -१ From पासून गंभीर आजाराचा धोका असू शकतो.
+. N कारवाई करणे
+. N नेहमीप्रमाणे आपल्या मधुमेहाच्या गोळ्या आणि इन्सुलिन घेणे सुरू ठेवा.
+. N दर चार तासांनी आपल्या रक्तातील साखर शोधून काढा आणि निकालांचा मागोवा ठेवा.
+. N आपल्यास मधुमेहाच्या गोळ्या आणि मधुमेहावरील रामबाण उपाय कमीत कमी दोन आठवड्यांचा पुरवठा असल्याची खात्री करा.
+. N मधुमेह असलेल्या लोकांसाठी आजारी असलेल्या दिशानिर्देशांचे अनुसरण करा.
+. N आपणास जास्त धोका असू शकतो
+. N मधुमेह असलेल्या लोकांमध्ये ज्याच्या रक्तातील साखरेची पातळी नेहमीच त्यांच्या लक्ष्यापेक्षा जास्त असते मधुमेहाशी संबंधित आरोग्याच्या समस्या होण्याची शक्यता जास्त असते. त्या आरोग्यविषयक समस्यांमुळे कोविड -१ Overcome वर मात करणे कठीण होऊ शकते.</string>
+    <string name="orphanspinner5">सिकल सेल रोग (एससीडी) आणि थॅलेसीमियासारख्या हिमोग्लोबिन विकारांमुळे कोविड -१ From पासून लोकांना गंभीर आजाराचा धोका जास्त असू शकतो.
+. N कारवाई करणे
+\ N आपल्या आरोग्य सेवा प्रदात्यास टेलिमेडिसिन किंवा रिमोट हेल्थकेअर भेटींबद्दल विचारा आणि आपत्कालीन विभागात कधी जायचे ते जाणून घ्या.
+\ N आपल्या डिसऑर्डरसाठी (हायड्रॉक्स्यूरिया, चेलेशन थेरपी, रक्त संक्रमण, आणि वेदना व्यवस्थापनासाठी लिहून ठेवलेल्या औषधांचा समावेश) आणि आपल्यास लागणार्‍या इतर आरोग्याची स्थिती (जसे की मधुमेह, उच्च रक्तदाब आणि संधिवात) साठी आपल्या आरोग्य सेवा प्रदात्यासह कार्य करा. .
+. N संभाव्य ट्रिगर्स टाळून वासो-एव्हुलसिव्ह भाग किंवा वेदनांच्या संकटापासून बचाव करण्याचा प्रयत्न करा.
+Healthy N आपल्याला निरोगी राहण्यास मदत करण्यासाठी टिप्सकरिता एससीडी मार्गदर्शकासह आमच्या निरोगी जीवनाचा किंवा थॅलेसीमिया मार्गदर्शकासह आमच्या निरोगी जीवनाचा आढावा घ्या.
+Care N एससीडी आणि थॅलेसीमियाची काळजी आणि ज्ञान आणि जागरूकता वाढविण्यात मदत करण्यासाठी एससीडी संसाधने आणि थॅलेसीमिया संसाधने शोधा.
+. N निरोगी रक्तदात्यांच्या आवश्यकतेबद्दल मित्र आणि कुटूंबास जाणून घ्या.
+. N आपणास जास्त धोका असू शकतो
+M N हिमोग्लोबिन डिसऑर्डर सह जगणे गंभीर बहु-अवयव गुंतागुंत होऊ शकते आणि मूलभूत वैद्यकीय परिस्थिती (जसे की हृदय रोग, यकृत रोग, मधुमेह, लोह ओव्हरलोड, मूत्रपिंडाचा रोग, विषाणूचा संसर्ग किंवा दुर्बल प्रतिरक्षा प्रणाली) तीव्रतेचा धोका वाढवू शकतो. कोविड -१ Illness पासून आजार</string>
+    <string name="orphanspinner6">कर्करोगाचा उपचार, अस्थिमज्जा किंवा अवयव प्रत्यारोपण, प्रतिकारशक्तीची कमतरता, एचआयव्ही कमी सीडी 4 पेशीसह किंवा एचआयव्ही उपचारांवर नसलेली एचआयव्ही आणि कोर्टिकोस्टेरॉईडचा दीर्घकाळ वापर यासह बर्‍याच अटी आणि उपचारांमुळे एखाद्या व्यक्तीस कमकुवत रोगप्रतिकारक शक्ती (इम्यूनोकॉम्प्रोमिज्ड) होऊ शकते. इतर रोगप्रतिकार कमकुवत औषधे. जे लोक इम्युनोकॉमप्रॉमिड केलेले आहेत
+. N कारवाई करणे
+. N आपण रोगप्रतिकारक असल्यास, कोणतीही शिफारस केलेली औषधे किंवा उपचार सुरू ठेवा आणि आपल्या आरोग्य सेवा प्रदात्याच्या सल्ल्याचे अनुसरण करा.
+. N आपल्याला आपल्या स्थितीबद्दल चिंता असल्यास किंवा आजारी पडल्यास आपल्या आरोग्य सेवा प्रदात्यास कॉल करा.
+. N आपणास जास्त धोका असू शकतो
+. N दुर्बल प्रतिरक्षा प्रणालीतील लोकांमध्ये कोविड -१ Like सारख्या विषाणूंसह संक्रामक रोगांशी लढण्याची क्षमता कमी झाली आहे. सीओव्हीआयडी -१ Causes कारणीभूत असलेल्या विषाणूबद्दल ज्ञान मर्यादित आहे, परंतु समान विषाणूंवर आधारित, अशी चिंता आहे की इम्यूनो कॉम्प्रोमाइज्ड रूग्ण इतर कोविड -१ Patients रुग्णांपेक्षा जास्त काळ संसर्गजन्य राहू शकतात.</string>
+    <string name="orphanspinner7">सिरोसिससह गंभीर यकृत रोग, कोविड -१ From पासून गंभीर आजाराचा धोका वाढू शकतो.
+. N कारवाई करणे
+. N आपली औषधे लिहून द्या.
+. N आपणास जास्त धोका असू शकतो
+. N कोविड -१ By E Caused By पासून उद्भवणारे आजारपण आणि कोविड -१ Of च्या काही गंभीर परिणामांवर उपचार करण्यासाठी वापरल्या जाणार्‍या औषधांमुळे यकृतावर ताण येऊ शकतो, विशेषतः यकृताच्या अंतर्भूत समस्यांमुळे. गंभीर यकृत रोगाने ग्रस्त असलेल्या लोकांमध्ये रोगप्रतिकारक शक्ती कमकुवत होऊ शकते, ज्यामुळे शरीर कोविड -१ Fightशी लढण्यास कमी सक्षम होते.</string>
+    <string name="orphanspinner8">वृद्ध प्रौढ, 65 वर्ष आणि त्याहून अधिक वयाचे गंभीर रोग आणि कोविड -१ From पासून मृत्यू होण्याचा धोका जास्त असतो.
+. N कारवाई करणे
+. N कोणत्याही अंतर्निहित आरोग्याच्या स्थितीत औषधे लिहून द्या.
+. N आपल्या आरोग्य सेवा प्रदात्याचा सल्ला घ्या.
+. N आपल्या आरोग्याच्या स्थिती आणि सद्य उपचारांचा सारांश देणारी एक काळजी योजना विकसित करा.
+Check N ही चेकलिस्ट वापरुन दीर्घकाळ घरी रहाण्यासाठी स्वत: ला तयार करा.
+. N आपणास जास्त धोका असू शकतो
+. N तरीही कोविड -१ चा परिणाम कोणत्याही गटावर होऊ शकतो, तुम्ही जेवढे मोठे आहात तितकेच गंभीर आजार होण्याचा धोका जास्त आहे. अमेरिकेत झालेल्या 10 मृत्यूंपैकी आठ मृत्यू 65 वर्षे किंवा त्याहून अधिक वयाच्या प्रौढांमध्ये झाले आहेत; 85 वर्ष किंवा त्याहून अधिक वयाच्या लोकांपैकी मृत्यूचा धोका सर्वाधिक आहे. वयस्कर प्रौढांची रोगप्रतिकारक शक्ती वयात कमकुवत होते, त्यामुळे संक्रमणास तोंड देणे कठीण होते. तसेच, प्रौढ व्यक्तींमध्ये सामान्यत: जुनाट आजार असतात ज्यामुळे कोविड -१ From पासून गंभीर आजाराचा धोका वाढू शकतो.</string>
+    <string name="orphanspinner9">अमेरिकेत कोविड -१ Of ची बरीच प्रकरणे नर्सिंग होममध्ये राहणा Older्या किंवा प्रौढ व्यक्तींमध्ये किंवा दीर्घकालीन काळजी सुविधांमध्ये आढळली आहेत.
+. N कारवाई करणे
+\ N संसर्ग प्रतिबंधासाठी आपल्या सुविधेच्या सूचनांचे काळजीपूर्वक अनुसरण करा.
+Sick N आपणास आजारी वाटत असल्यास ताबडतोब कर्मचार्‍यांना सूचित करा.
+\ N आपल्या आणि आपल्या प्रियजनांच्या संरक्षणासाठी नर्सिंग होममध्ये किंवा दीर्घकालीन काळजी घेणा-या सुविधा घेत असलेल्या कृतींबद्दल आपल्या काळजीवाहकांना विचारा, तसेच ते आणि कसे पर्यटकांना मर्यादित करत आहेत यासह.
+. N आपणास जास्त धोका असू शकतो
+Nursing N नर्सिंग होम आणि दीर्घकालीन काळजी सुविधांचे सांप्रदायिक स्वरूप आणि लोकसंख्या (सामान्यत: वृद्ध प्रौढ बहुतेकदा मूलभूत वैद्यकीय परिस्थितींसह) सेवा देतात, नर्सिंग होममध्ये राहणा Those्यांना त्यांना कोविड -१ From पासून संसर्ग आणि गंभीर आजाराचा धोका असतो.</string>
+    <string name="orphanspinner10">हृदयाची विफलता, कोरोनरी आर्टरी रोग, जन्मजात हृदय रोग, हृदय व रक्तवाहिन्यासंबंधी आणि फुफ्फुसाचा उच्च रक्तदाब यासह गंभीर हृदयाच्या स्थितीमुळे कोविड -१ From पासून लोकांना गंभीर आजाराचा धोका जास्त असू शकतो.
+. N कारवाई करणे
+. N ठरविल्याप्रमाणे आपली औषधे घ्या. हृदयविकाराचा झटका किंवा उच्च रक्तदाब यासारख्या सूचनांसाठी आपल्या आरोग्य सेवा प्रदात्याने लिहून दिलेले एंजिओटेंसीन रूपांतरण करणारे एन्झाइम इनहिबिटरस (एसीई -१) किंवा एंजियोटेंसीन -२ रिसेप्टर ब्लॉकर्स (एआरबी) सुरू ठेवा. सध्याच्या क्लिनिकल मार्गदर्शक तत्त्वांद्वारे याची शिफारस केली जाते.
+. N याची खात्री करुन घ्या की आपल्याकडे हृदयविकाराच्या औषधांचा किमान दोन आठवड्यांचा पुरवठा आहे (जसे की उच्च कोलेस्ट्रॉल आणि उच्च रक्तदाबांवर उपचार करा.)
+. N उच्चरक्तदाब असलेल्या लोकांनी त्यांचे रक्तदाब व्यवस्थापित करणे आणि नियंत्रित करणे सुरू ठेवावे आणि निर्देशानुसार औषधे घ्यावीत.
+. N आपणास जास्त धोका असू शकतो
+Covid-19, फ्लूसारख्या इतर विषाणूजन्य आजारांप्रमाणेच श्वसनसंस्थेस हानी पोहोचू शकते आणि आपल्या हृदयाचे कार्य करणे कठीण बनवते. हृदयाची कमतरता आणि हृदयाच्या इतर गंभीर परिस्थिती असलेल्या लोकांमध्ये यामुळे कोविड -१ Symptoms Symptoms ची लक्षणे वाढू शकतात.</string>
+    <string name="orphanspinner11">40 किंवा त्यापेक्षा अधिकचे बॉडी मास इंडेक्स (बीएमआय) म्हणून परिभाषित गंभीर लठ्ठपणा, लोकांना कोविड -१ From पासून गुंतागुंत होण्याचा धोका पत्करतो.
+ . N कारवाई करणे
+. N कोणत्याही अंतर्निहित आरोग्याच्या स्थितीत औषधे लिहून द्या.
+. N आपणास जास्त धोका असू शकतो
+. N काही काळ लठ्ठपणा तीव्र श्वासोच्छवासाचा त्रास सिंड्रोम (एआरडीएस) नावाच्या गंभीर श्वासोच्छवासाच्या समस्येचा धोका वाढवतो, जो कोविड -१ Of ची एक मोठी गुंतागुंत आहे आणि गंभीर आजारी रूग्णांना श्वसनास आधार देण्याच्या डॉक्टरांच्या क्षमतेस अडचणी निर्माण करू शकतो. गंभीर लठ्ठपणा असलेले लोक अनेक गंभीर क्रॉनिक आजार आणि मूलभूत आरोग्याची परिस्थिती असू शकतात ज्यामुळे कोविड -१ From पासून गंभीर आजाराचा धोका वाढू शकतो.</string>
+    <string name="view_more">अधिक पहा&gt;</string>
+    <string name="what_you_can_do">आपण काय करू शकता</string>
+    <string name="stay_home_and_avoid_close_contact_especially_if_you_are_at_higher_risk_of_severe_illness_or_if_you_may_have_issues_getting_assistance_if_you_get_sick">घरी रहा आणि जवळचा संपर्क टाळा, खासकरून जर तुम्हाला गंभीर आजाराचा धोका असेल किंवा आजारी पडल्यास तुम्हाला मदत मिळण्यास अडचण येऊ शकते.</string>
+    <string name="do_160_160_help">मदत करा</string>
+    <string name="need_160_160_help">मदत हवी आहे</string>
+    <string name="type_of_help">मदतीचा प्रकार</string>
+    <string name="cash">रोख</string>
+    <string name="enter_type_of_help">मदतीचा प्रकार प्रविष्ट करा</string>
+    <string name="date_and_time">तारीख आणि वेळ</string>
+    <string name="click_to_call">(कॉल करण्यासाठी क्लिक करा)</string>
+    <string name="helprequest">मदत विनंती काढा</string>
+    <string name="add_160_160_help_160_160_request">मदत विनंती जोडा</string>
+    <string name="supply_material">पुरवठा साहित्य</string>
+    <string name="material_request">साहित्य पुरवठा विनंती</string>
+    <string name="material_supply_request">साहित्य पुरवठा विनंती</string>
+    <string name="foodsupply">कोविड -१ हा एक नवीन आजार आहे जो आपल्या फुफ्फुसांवर आणि वायुमार्गावर परिणाम करू शकतो. हे कोरोनाव्हायरस नावाच्या विषाणूमुळे झाले आहे.
+You N आपण किंवा आपल्या घरात कोणासही कोरोव्हायरस लक्षणे आढळल्यास आपण स्वत: ला वेगळे केले पाहिजे:
+37 नाही तापमान 37.8 से अधिक (100 फॅ)
+Or नूर, एक नवीन आणि सतत खोकला - याचा अर्थ असा आहे की एका तासापेक्षा जास्त खोकला किंवा २ 24 तासांत 3 किंवा जास्त खोकला भाग (जर आपल्याला सहसा खोकला असेल तर तो नेहमीपेक्षा वाईटही असू शकतो).
+. नॉर, एनोस्मिया - हे गंध कमी होणे किंवा आपल्या सामान्य वासाच्या अर्थाने होणारा बदल आहे. हे आपल्या चवीच्या भावनांवर देखील परिणाम करू शकते कारण दोघांचा जवळचा संबंध आहे</string>
+    <string name="home_isolation_of_very_mild_pre_symptomatic_covid_19_cases">अत्यंत सौम्य / प्री-लक्षणात्मक कोविड -१ Cases प्रकरणांचा होम अलगाव</string>
+    <string name="revised_guidelines_for_home_isolation_of_very_mild_pre_symptomatic_covid_19_cases">अत्यंत सौम्य / प्री-लक्षणात्मक कोविड -१ Cases प्रकरणांच्या होम अलगावसाठी सुधारित मार्गदर्शक सूचना</string>
+    <string name="counselling">समुपदेशन</string>
+    <string name="material_collection">साहित्य संग्रह</string>
+    <string name="isolationfoodsupply">अलगाव अन्न पुरवठा</string>
+    <string name="orphans_and_vulnerable">अनाथ आणि असह्य</string>
+    <string name="general">सामान्य</string>
+    <string name="_10_tips_to_help_if_you_are_worried_about_coronavirus">आपण कोरोनाव्हायरसबद्दल चिंता करत असल्यास मदत करण्यासाठी 10 टिपा</string>
+    <string name="apply_for_counselling">समुपदेशनासाठी अर्ज करा</string>
+    <string name="minding_our_minds_during_the_covid_19">कोविड -१ During दरम्यान आपल्या मनाची आठवण ठेवणे</string>
+    <string name="nav_header_desc">नेव्हिगेशन शीर्षलेख</string>
+    <string name="listview">यादी दृश्य</string>
+    <string name="locate">शोधून काढणे</string>
+    <string name="distributed">वितरित</string>
+    <string name="add">जोडा</string>
+    <string name="scheduled">अनुसूचित</string>
+    <string name="phone">फोन</string>
+    <string name="food">अन्न</string>
+    <string name="relief_material">मदत साहित्य</string>
+    <string name="type_of_material">साहित्याचा प्रकार</string>
+    <string name="schedule">वेळापत्रक</string>
+    <string name="enter_date_and_time">तारीख आणि वेळ प्रविष्ट करा</string>
+    <string name="application">अर्ज</string>
+    <string name="start_counselling">समुपदेशन प्रारंभ करा</string>
+    <string name="applications">अनुप्रयोग</string>
+    <string name="tap_to_refresh_list">सूची रीफ्रेश करण्यासाठी टॅप करा</string>
+    <string name="voice_call">आवाज कॉल</string>
+    <string name="vedio_call">व्हिडिओ कॉल</string>
+    <string name="info">माहिती</string>
+    <string name="i_am_seeking_mental_health_support_offered_by_covid_19_relief">मी Covid-19 Relief द्वारा देऊ केलेले मानसिक आरोग्य समर्थन शोधत आहे</string>
+    <string name="type_your_message_here">आपला संदेश येथे टाइप करा</string>
+    <string name="ongoing">चालू आहे</string>
+    <string name="start_date">प्रारंभ तारीख</string>
+    <string name="due_date">देय तारीख</string>
+    <string name="work_details">कामाचा तपशील</string>
+    <string name="title">शीर्षक</string>
+    <string name="description">वर्णन</string>
+    <string name="priority">प्राधान्य</string>
+    <string name="normal">सामान्य</string>
+    <string name="high_priority">उच्च प्राधान्य</string>
+    <string name="contact_details">संपर्काची माहिती</string>
+    <string name="place_of_work">कामाचे ठिकाण</string>
+    <string name="team_details">कार्यसंघ तपशील</string>
+    <string name="role">भूमिका</string>
+    <string name="add_member">सभासद जोडा</string>
+    <string name="leader">नेता</string>
+    <string name="stop_work">काम थांबवा</string>
+    <string name="work">काम</string>
+    <string name="comments">टिप्पण्या</string>
+    <string name="search_place">शोधण्याचे ठिकाण</string>
+    <string name="indian_helpline">भारतीय हेल्पलाईन:</string>
+    <string name="indian_government_and_ministry_of_health_amp_family_welfare_has_provided_the_following_helpline_numbers_of_states">भारत सरकार आणि आरोग्य व कुटुंब कल्याण मंत्रालयाने खालील राज्यांची हेल्पलाइन क्रमांक प्रदान केले आहेत.</string>
+    <string name="national_helpline_number">राष्ट्रीय हेल्पलाईन क्रमांक:</string>
+    <string name="central_helpline_number">केंद्रीय हेल्पलाइन क्रमांक:</string>
+    <string name="central_helpline_email">केंद्रीय हेल्पलाइन ईमेल:</string>
+    <string name="mygov_whatsapp_number">मायगोव्ह व्हॉट्सअ‍ॅप नंबर:</string>
+    <string name="states_helpline_number">राज्ये हेल्पलाइन क्रमांक</string>
+    <string name="andhrapradesh">आंध्र प्रदेश</string>
+    <string name="arunachalpradesh">अरुणाचल प्रदेश</string>
+    <string name="assam">आसाम</string>
+    <string name="Bihar">बिहार</string>
+    <string name="Chhattisgarh">छत्तीसगड</string>
+    <string name="Goa">गोवा</string>
+    <string name="Gujarat">गुजरात</string>
+    <string name="Haryana">हरियाणा</string>
+    <string name="Himachalpradesh">हिमाचल प्रदेश</string>
+    <string name="Jharkhand">झारखंड</string>
+    <string name="Karnataka">कर्नाटक</string>
+    <string name="Kerala">केरळा</string>
+    <string name="Madhyapradesh">मध्य प्रदेश</string>
+    <string name="Maharashtra">महाराष्ट्र</string>
+    <string name="Manipur">मणिपूर</string>
+    <string name="Meghalaya">मेघालय</string>
+    <string name="Mizoram">मिझोरम</string>
+    <string name="Nagaland">नागालँड</string>
+    <string name="Odisha">ओडिशा</string>
+    <string name="Punjab">पंजाब</string>
+    <string name="Rajasthan">राजस्थान</string>
+    <string name="Sikkim">सिक्किम</string>
+    <string name="Tamilnadu">तामिळनाडू</string>
+    <string name="Telangana">तेलंगणा</string>
+    <string name="Tripura">त्रिपुरा</string>
+    <string name="Uttarpradesh">उत्तर प्रदेश</string>
+    <string name="Uttarakhand">उत्तराखंड</string>
+    <string name="Westbengal">पश्चिम बंगाल</string>
+    <string name="AndamanandNicobarIsland">अंदमान निकोबार बेट</string>
+    <string name="Chandigarh">चंदीगड</string>
+    <string name="DadraNagarHaveliDamanandDiu">दादरा नगर हवेली, दमण आणि दीव</string>
+    <string name="Delhi">दिल्ली</string>
+    <string name="JammuandKashmir">जम्मू आणि काश्मीर</string>
+    <string name="Ladakh">लडाख</string>
+    <string name="Lakshadweep">लक्षद्वीप</string>
+    <string name="Puducherry">पुडुचेरी</string>
+    <string name="map_view">नकाशा दृश्य</string>
+    <string name="health_care">आरोग्य सेवा</string>
+    <string name="no_new_notifications">नवीन सूचना नाहीत!</string>
+    <string name="you_will_be_notified_with_alerts_and_latest_updates_over_here">आपल्याला येथे अलर्ट आणि नवीनतम अद्यतनांसह सूचित केले जाईल</string>
+    <string name="clear_notifications">सूचना साफ करा</string>
+    <string name="useful_resources">उपयुक्त संसाधने</string>
+    <string name="donate_via_pm_cares_website">पंतप्रधान केअर वेबसाइटमार्फत देणगी द्या</string>
+    <string name="see_icmr_approved_labs">आयसीएमआर मंजूर लॅब पहा &gt;</string>
+    <string name="laboratory_with_covid_19_testing_facilty">कोविड -१ Test चाचणी सुविधेसह प्रयोगशाळा</string>
+    <string name="let_s_fight_corona">च्या फायट कोरोना होऊ द्या</string>
+    <string name="wash_your_hands_frequently">आपले हात वारंवार धुवा</string>
+    <string name="maintain_social_distancing">सामाजिक अंतर राखणे</string>
+    <string name="respiratory_practice">श्वसन स्वच्छतेचा सराव करा</string>
+    <string name="eyes_nose_mouth">डोळे, नाक तोंड स्पर्श करणे टाळा</string>
+    <string name="stay_informed">माहिती ठेवा</string>
+    <string name="heed_to_precautionary_measures">सावधगिरीच्या उपायांवर लक्ष द्या</string>
+    <string name="vedios">वेदिओस</string>
+    <string name="symptoms">लक्षणे</string>
+    <string name="spread_and_preventions">प्रसार आणि प्रतिबंध</string>
+    <string name="personalhygiene">वैयक्तिक स्वच्छता</string>
+    <string name="do_s_and_don_ts">काय करावे आणि काय करू नये</string>
+    <string name="avoid_spreading">प्रसार टाळा</string>
+    <string name="media">माध्यम</string>
+    <string name="public_advice">सार्वजनिक सल्ला</string>
+    <string name="adjust_settings_for_covid_19_relief">Covid-19 Relief साठी सेटिंग्ज समायोजित करा</string>
+    <string name="type_a_message">एक संदेश टाइप करा</string>
+    <string name="my_questions">माझे प्रश्न</string>
+    <string name="leave_your_comment">आपली टिप्पणी द्या ...</string>
+    <string name="menu_home">मुख्यपृष्ठ</string>
+    <string name="education">शिक्षण</string>
+    <string name="skills">कौशल्य</string>
+    <string name="disaster_management">आपत्ती व्यवस्थापन</string>
+    <string name="alarm_label">अलार्म लेबल</string>
+    <string name="label">लेबल</string>
+    <string name="delete_after_goes_off">बंद झाल्यानंतर हटवा</string>
+    <string name="repeat">पुन्हा करा</string>
+    <string name="no_posts_to_view">पाहण्यासाठी कोणतीही पोस्ट नाहीत</string>
+    <string name="no_alarm_to_view">पाहण्याचा अलार्म नाही</string>
+    <string name="docounselling">समुपदेशन करा</string>
+    <string name="takecounselling">समुपदेशन घ्या</string>
+    <string name="do_verification">सत्यापन करा</string>
+    <string name="allpermissiongranted">सर्व परवानग्या मंजूर आहेत.</string>
+    <string name="next">पुढे</string>
+    <string name="skip">वगळा</string>
+    <string name="get_started">सुरु करूया</string>
+    <string name="choose_selected">निवडलेले निवडा</string>
+    <string name="youhavetobesafe">आपण सुरक्षित असणे आवश्यक आहे !\n</string>
+    <string name="Totalassessed">एकूण मूल्यांकन : </string>
+    <string name="FoundSick">आजारी आढळले : </string>
+    <string name="Within1KMradius">\n1 किलोमीटरच्या परिघात</string>
+    <string name="youaresafe">तू सुरक्षित आहेस !\n</string>
+    <string name="no_requests_to_view">पाहण्यासाठी विनंत्या नाहीत</string>
+    <string name="permissionsrequired">अ‍ॅपला सामान्यपणे कार्य करण्यासाठी सर्व परवानग्या आवश्यक आहेत.</string>
+
+</resources>

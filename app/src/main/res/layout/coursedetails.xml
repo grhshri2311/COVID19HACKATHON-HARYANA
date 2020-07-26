@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/their"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:scrollbars="none"
+    android:layout_margin="20dp"
+    android:clipToPadding="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imglayout"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="5dp"
+            app:cardCornerRadius="100dp"
+            android:layout_margin="20dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="TODO" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/imglayout"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/ins"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/instructor"
+                android:drawablePadding="10dp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/rupee"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawablePadding="10dp"
+                android:paddingBottom="4dp"
+                android:text="" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/l3"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:background="#3F51B5"
+            android:text="@string/register_course"
+            android:textColor="#fff" />
+    </RelativeLayout>
+</ScrollView>

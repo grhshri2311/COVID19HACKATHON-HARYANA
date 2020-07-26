@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gemalto.jp2:jp2-android:1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6e84d53c8c488ec5e018752bb7a5e98/jetified-jp2-android-1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6e84d53c8c488ec5e018752bb7a5e98/jetified-jp2-android-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6e84d53c8c488ec5e018752bb7a5e98/jetified-jp2-android-1.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gemalto.jp2/jp2-android/1.0/cf6001d5904c4cbb895be178c1d1e2d739776804/jp2-android-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gemalto.jp2/jp2-android/1.0/ab513fb0a330b64ba4fd08df7163585b368d29e3/jp2-android-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

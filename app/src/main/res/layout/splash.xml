@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:orientation="vertical"
+    android:background="@drawable/hackathonsplash">
+
+    <TextView
+        android:id="@+id/statename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:text="@string/stay_home_stay_safe"
+        android:textAlignment="center"
+        android:textColor="#860F08"
+        android:textSize="20sp"
+        android:transitionName="logo_text1"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/uniqueId" />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="@string/covid19_relief"
+        android:textAlignment="center"
+        android:textColor="#860F08"
+        android:textSize="30sp"
+        android:transitionName="logo_text"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/statename" />
+
+    <TextView
+        android:id="@+id/uniqueId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="2020-04-10083"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/myname" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="SHRIRAM G"
+        android:textColor="#000000"
+        android:layout_above="@id/version"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="VersionCode 10"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

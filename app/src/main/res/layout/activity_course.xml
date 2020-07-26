@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".course">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/lan"
+            android:queryHint="Search course" />
+
+        <ToggleButton
+            android:id="@+id/lan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textviewbackground1"
+            android:text="ToggleButton"
+            android:textOn="Hindi"
+            android:textOff="English"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_margin="10dp"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+
+
+
+
